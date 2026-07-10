@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v1",
-  "generated_at": "2026-07-10T22:57:01.246981+02:00",
+  "generated_at": "2026-07-10T22:58:05.060325+02:00",
   "browser_refresh_seconds": 60,
   "portfolio": {
     "account_type": "demo",
@@ -19,8 +19,8 @@
     ]
   },
   "freshness": {
-    "exposure_at": "2026-07-10T22:57:01.246981+02:00",
-    "process_at": "2026-07-10T22:57:00.2040357+02:00",
+    "exposure_at": "2026-07-10T22:58:05.060325+02:00",
+    "process_at": "2026-07-10T22:58:04.1399294+02:00",
     "performance_export_at": "2026-07-09T10:48:50.4994183+02:00"
   },
   "bots": [
@@ -32,7 +32,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-10T19:53:09.0570184+02:00",
-      "latest_activity_age_seconds": 11030.1,
+      "latest_activity_age_seconds": 11094.2,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "paul",
@@ -75,8 +75,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-10T22:56:57.7144524+02:00",
-      "latest_activity_age_seconds": 1.7,
+      "latest_activity_at": "2026-07-10T22:57:58.1380982+02:00",
+      "latest_activity_age_seconds": 5.4,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "gold",
@@ -120,7 +120,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-10T22:55:02.2927868+02:00",
-      "latest_activity_age_seconds": 117.3,
+      "latest_activity_age_seconds": 181.4,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "xau",
@@ -164,7 +164,7 @@
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-09T10:48:49.4263619+02:00",
-      "latest_activity_age_seconds": 130090.5,
+      "latest_activity_age_seconds": 130154.5,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "btc",
@@ -3106,6 +3106,40 @@
         "breakeven_deals": 0
       }
     ]
+  },
+  "research": {
+    "generated_at": "2026-07-10T20:48:03.650935+00:00",
+    "items": [
+      {
+        "bot_id": "paul",
+        "title": "Scout basket measurement",
+        "state": "WAITING FOR MAPPING",
+        "detail": "620 shadow rows; baseline reconciled; hypothetical PnL is DATA_MISSING.",
+        "data_quality": "mapping_gap"
+      },
+      {
+        "bot_id": "gold",
+        "title": "Exit outcome mapping",
+        "state": "MAPPING GAP",
+        "detail": "84 signal/order chains; realized close-deal PnL is DATA_MISSING.",
+        "data_quality": "mapping_gap"
+      },
+      {
+        "bot_id": "btc",
+        "title": "Cap semantics",
+        "state": "MAPPING GAP",
+        "detail": "324 placements; 304 fully cancelled; basket PnL mapping remains incomplete.",
+        "data_quality": "mapping_gap"
+      },
+      {
+        "bot_id": "xau",
+        "title": "Guard-preserving paper shadow",
+        "state": "PAPER MONITORING",
+        "detail": "3 strict episodes; 3 outcomes remain DATA_MISSING.",
+        "data_quality": "outcome_gap"
+      }
+    ],
+    "counterfactual_pnl_published": false
   },
   "warnings": [
     {
