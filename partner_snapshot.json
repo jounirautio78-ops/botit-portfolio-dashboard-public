@@ -1,12 +1,12 @@
 {
   "schema_version": "botit-partner-snapshot-v1",
-  "generated_at": "2026-07-13T09:14:27.298235+02:00",
+  "generated_at": "2026-07-13T09:28:48.495194+02:00",
   "browser_refresh_seconds": 60,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 99251.45,
-    "equity": 99280.19,
+    "equity": 99266.03,
     "open_positions": 6,
     "unmapped_positions": 0,
     "xau_net_exposure": -0.06,
@@ -19,8 +19,8 @@
     ]
   },
   "freshness": {
-    "exposure_at": "2026-07-13T09:14:27.298235+02:00",
-    "process_at": "2026-07-13T09:14:25.8117667+02:00",
+    "exposure_at": "2026-07-13T09:28:48.495194+02:00",
+    "process_at": "2026-07-13T09:28:47.0114350+02:00",
     "performance_export_at": "2026-07-09T10:48:50.4994183+02:00"
   },
   "bots": [
@@ -32,7 +32,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-13T09:08:39.8880381+02:00",
-      "latest_activity_age_seconds": 344.6,
+      "latest_activity_age_seconds": 1205.8,
       "exposure_net_volume": null,
       "latest_daily": {
         "bot_id": "paul",
@@ -75,8 +75,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-13T09:14:22.7283277+02:00",
-      "latest_activity_age_seconds": 2.1,
+      "latest_activity_at": "2026-07-13T09:28:36.1083115+02:00",
+      "latest_activity_age_seconds": 10.0,
       "exposure_net_volume": null,
       "latest_daily": {
         "bot_id": "gold",
@@ -119,8 +119,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-13T09:10:06.1762708+02:00",
-      "latest_activity_age_seconds": 258.9,
+      "latest_activity_at": "2026-07-13T09:25:09.4582593+02:00",
+      "latest_activity_age_seconds": 216.9,
       "exposure_net_volume": null,
       "latest_daily": {
         "bot_id": "xau",
@@ -164,7 +164,7 @@
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-09T10:48:49.4263619+02:00",
-      "latest_activity_age_seconds": 339936.1,
+      "latest_activity_age_seconds": 340797.3,
       "exposure_net_volume": null,
       "latest_daily": {
         "bot_id": "btc",
@@ -3108,13 +3108,13 @@
     ]
   },
   "research": {
-    "generated_at": "2026-07-10T20:48:03.650935+00:00",
+    "generated_at": "2026-07-13T07:24:04.142222+00:00",
     "items": [
       {
         "bot_id": "paul",
         "title": "Scout basket measurement",
         "state": "WAITING FOR MAPPING",
-        "detail": "620 shadow rows; baseline reconciled; hypothetical PnL is DATA_MISSING.",
+        "detail": "632 shadow rows; baseline reconciled; hypothetical PnL is DATA_MISSING.",
         "data_quality": "mapping_gap"
       },
       {
