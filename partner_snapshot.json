@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v2",
-  "generated_at": "2026-07-15T21:17:49.294354+02:00",
+  "generated_at": "2026-07-15T21:18:55.279293+02:00",
   "browser_refresh_seconds": 60,
   "portfolio": {
     "account_type": "demo",
@@ -19,8 +19,8 @@
     ]
   },
   "freshness": {
-    "exposure_at": "2026-07-15T21:17:49.294354+02:00",
-    "process_at": "2026-07-15T21:17:47.8175373+02:00",
+    "exposure_at": "2026-07-15T21:18:55.279293+02:00",
+    "process_at": "2026-07-15T21:18:53.8659413+02:00",
     "performance_export_at": "2026-07-14T14:26:24.2507355+02:00"
   },
   "bots": [
@@ -32,7 +32,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-15T20:00:08.6761891+02:00",
-      "latest_activity_age_seconds": 4657.8,
+      "latest_activity_age_seconds": 4723.9,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "paul",
@@ -75,8 +75,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-15T21:17:38.1941271+02:00",
-      "latest_activity_age_seconds": 8.6,
+      "latest_activity_at": "2026-07-15T21:18:49.0731209+02:00",
+      "latest_activity_age_seconds": 3.8,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "gold",
@@ -120,7 +120,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-15T21:15:09.1766776+02:00",
-      "latest_activity_age_seconds": 157.9,
+      "latest_activity_age_seconds": 223.9,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "xau",
@@ -164,7 +164,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-15T17:56:59.1216401+02:00",
-      "latest_activity_age_seconds": 12048.4,
+      "latest_activity_age_seconds": 12114.4,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "btc",
@@ -3319,7 +3319,7 @@
   },
   "measurement": {
     "status": "collecting",
-    "generated_at": "2026-07-15T18:19:07.742004+00:00",
+    "generated_at": "2026-07-15T19:19:12.335172+00:00",
     "measurement_started_at": "2026-07-14T14:59:06.014210+00:00",
     "elapsed_calendar_days": 1,
     "minimum_calendar_days": 14,
@@ -3342,7 +3342,7 @@
         "negative_outcome_count": 2,
         "recovery_damage_ratio": null,
         "data_quality": "ok",
-        "source_generated_at": "2026-07-15T18:19:08.960426+00:00"
+        "source_generated_at": "2026-07-15T19:19:12.477565+00:00"
       },
       {
         "bot_id": "paul",
@@ -3358,7 +3358,7 @@
         "negative_outcome_count": 0,
         "recovery_damage_ratio": null,
         "data_quality": "ok",
-        "source_generated_at": "2026-07-15T18:19:10+00:00"
+        "source_generated_at": "2026-07-15T19:19:12+00:00"
       },
       {
         "bot_id": "gold",
@@ -3406,7 +3406,7 @@
         "negative_outcome_count": 3,
         "recovery_damage_ratio": null,
         "data_quality": "reconstructed_close_path",
-        "source_generated_at": "2026-07-15T16:01:04.199990+00:00"
+        "source_generated_at": "2026-07-15T19:19:13.367466+00:00"
       }
     ],
     "candidate_gates": [
@@ -3464,12 +3464,12 @@
     "paul_telegram_shadow": {
       "status": "ok",
       "telegram_available": true,
-      "last_checked_at": "2026-07-15T17:54:36Z",
-      "scheduler_status": "DATA_MISSING",
-      "scheduler_finished_at": "DATA_MISSING",
-      "normalized_message_count": 115,
-      "observation_row_count": 110,
-      "duplicate_signal_count": 5,
+      "last_checked_at": "2026-07-15T19:14:16Z",
+      "scheduler_status": "completed",
+      "scheduler_finished_at": "2026-07-15T19:13:11.5217595+00:00",
+      "normalized_message_count": 143,
+      "observation_row_count": 137,
+      "duplicate_signal_count": 6,
       "wait_instruction_observation_count": 3,
       "data_quality": "ok",
       "mode": "observation_only"
