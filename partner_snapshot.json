@@ -1,12 +1,12 @@
 {
   "schema_version": "botit-partner-snapshot-v2",
-  "generated_at": "2026-07-14T18:06:11.215319+02:00",
+  "generated_at": "2026-07-15T20:07:03.513064+02:00",
   "browser_refresh_seconds": 60,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
-    "balance": 99349.54,
-    "equity": 99349.54,
+    "balance": 97198.33,
+    "equity": 97198.33,
     "open_positions": 0,
     "unmapped_positions": 0,
     "xau_net_exposure": 0.0,
@@ -19,8 +19,8 @@
     ]
   },
   "freshness": {
-    "exposure_at": "2026-07-14T18:06:11.215319+02:00",
-    "process_at": "2026-07-14T18:06:09.8212532+02:00",
+    "exposure_at": "2026-07-15T20:07:03.513064+02:00",
+    "process_at": "2026-07-15T20:05:54.9229429+02:00",
     "performance_export_at": "2026-07-14T14:26:24.2507355+02:00"
   },
   "bots": [
@@ -31,8 +31,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-14T18:05:10.2483997+02:00",
-      "latest_activity_age_seconds": 57.8,
+      "latest_activity_at": "2026-07-15T20:00:08.6761891+02:00",
+      "latest_activity_age_seconds": 344.7,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "paul",
@@ -75,8 +75,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-14T18:06:01.9051079+02:00",
-      "latest_activity_age_seconds": 6.5,
+      "latest_activity_at": "2026-07-15T20:05:52.8712320+02:00",
+      "latest_activity_age_seconds": 0.9,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "gold",
@@ -119,8 +119,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-14T18:05:02.7250429+02:00",
-      "latest_activity_age_seconds": 65.9,
+      "latest_activity_at": "2026-07-15T20:05:04.3295889+02:00",
+      "latest_activity_age_seconds": 49.8,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "xau",
@@ -161,10 +161,10 @@
       "name": "BTC Paul Demo",
       "symbol": "BTCUSD",
       "status": "session_complete",
-      "process_tree_status": "warning_wrapper_visible_python_missing",
+      "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-14T14:26:18.1225724+02:00",
-      "latest_activity_age_seconds": 13191.0,
+      "latest_activity_at": "2026-07-15T17:56:59.1216401+02:00",
+      "latest_activity_age_seconds": 7735.4,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "btc",
@@ -3319,9 +3319,9 @@
   },
   "measurement": {
     "status": "collecting",
-    "generated_at": "2026-07-14T16:02:22.343663+00:00",
+    "generated_at": "2026-07-15T17:13:59.467173+00:00",
     "measurement_started_at": "2026-07-14T14:59:06.014210+00:00",
-    "elapsed_calendar_days": 0,
+    "elapsed_calendar_days": 1,
     "minimum_calendar_days": 14,
     "observed_iso_week_count": 1,
     "minimum_iso_weeks": 2,
@@ -3342,23 +3342,23 @@
         "negative_outcome_count": 2,
         "recovery_damage_ratio": null,
         "data_quality": "ok",
-        "source_generated_at": "2026-07-14T16:02:23.096009+00:00"
+        "source_generated_at": "2026-07-15T17:13:59.613917+00:00"
       },
       {
         "bot_id": "paul",
         "candidate_id": "paul_be_tsl_runner_state_vs_broker",
         "label": "BE / TSL / runner broker-state verification",
         "state": "monitoring",
-        "sample_count": 0,
+        "sample_count": 3,
         "baseline_sample_count": 0,
-        "new_sample_count": 0,
+        "new_sample_count": 3,
         "tagged_net_pnl": null,
         "pnl_basis": "DATA_MISSING",
-        "positive_outcome_count": 0,
+        "positive_outcome_count": 3,
         "negative_outcome_count": 0,
         "recovery_damage_ratio": null,
-        "data_quality": "ok",
-        "source_generated_at": "2026-07-14T16:02:23+00:00"
+        "data_quality": "partial",
+        "source_generated_at": "2026-07-15T17:13:59+00:00"
       },
       {
         "bot_id": "gold",
@@ -3390,7 +3390,7 @@
         "negative_outcome_count": 9,
         "recovery_damage_ratio": 0.0,
         "data_quality": "ok",
-        "source_generated_at": "2026-07-14T13:47:45.510007+00:00"
+        "source_generated_at": "2026-07-15T16:01:03.546645+00:00"
       },
       {
         "bot_id": "xau",
@@ -3406,7 +3406,7 @@
         "negative_outcome_count": 3,
         "recovery_damage_ratio": null,
         "data_quality": "reconstructed_close_path",
-        "source_generated_at": "2026-07-14T16:02:24.513173+00:00"
+        "source_generated_at": "2026-07-15T16:01:04.199990+00:00"
       }
     ],
     "candidate_gates": [
@@ -3424,10 +3424,10 @@
         "bot_id": "paul",
         "candidate_id": "paul_be_tsl_runner_state_vs_broker",
         "status": "collecting",
-        "new_sample_count": 0,
+        "new_sample_count": 3,
         "minimum_new_sample_count": 2,
         "time_ready": false,
-        "sample_ready": false,
+        "sample_ready": true,
         "evidence_complete": true
       },
       {
@@ -3464,12 +3464,12 @@
     "paul_telegram_shadow": {
       "status": "ok",
       "telegram_available": true,
-      "last_checked_at": "2026-07-14T14:05:53Z",
-      "scheduler_status": "completed",
-      "scheduler_finished_at": "2026-07-14T15:53:13.5753577+00:00",
-      "normalized_message_count": 46,
-      "observation_row_count": 45,
-      "duplicate_signal_count": 1,
+      "last_checked_at": "2026-07-15T16:49:01Z",
+      "scheduler_status": "DATA_MISSING",
+      "scheduler_finished_at": "DATA_MISSING",
+      "normalized_message_count": 107,
+      "observation_row_count": 102,
+      "duplicate_signal_count": 5,
       "wait_instruction_observation_count": 3,
       "data_quality": "ok",
       "mode": "observation_only"
