@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-16T12:57:24.349745+02:00",
+  "generated_at": "2026-07-16T12:58:31.095409+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 97699.74,
-    "equity": 97610.54,
-    "floating_pnl": -89.2,
+    "equity": 97626.26,
+    "floating_pnl": -73.48,
     "open_positions": 4,
     "unmapped_positions": 0,
     "xau_net_exposure": -0.28,
@@ -18,28 +18,28 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "overall_status": "fresh",
-    "exposure_at": "2026-07-16T12:57:24.349745+02:00",
-    "process_at": "2026-07-16T12:57:23.2504585+02:00",
+    "overall_status": "stale",
+    "exposure_at": "2026-07-16T12:58:31.095409+02:00",
+    "process_at": "2026-07-16T12:58:29.5911735+02:00",
     "performance_export_at": "2026-07-16T12:56:19.0537724+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-16T10:57:24.349745+00:00",
-        "age_seconds": 62.3,
+        "source_at": "2026-07-16T10:58:31.095409+00:00",
+        "age_seconds": 761.2,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
-        "source_at": "2026-07-16T10:57:23.250458+00:00",
-        "age_seconds": 63.4,
+        "source_at": "2026-07-16T10:58:29.591173+00:00",
+        "age_seconds": 762.7,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-16T10:56:19.053772+00:00",
-        "age_seconds": 127.6,
+        "age_seconds": 893.2,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -52,9 +52,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-16T12:56:07.3079429+02:00",
-      "latest_activity_age_seconds": 74.8,
+      "latest_activity_age_seconds": 141.0,
       "exposure_net_volume": -0.28,
-      "floating_pnl": -89.2,
+      "floating_pnl": -73.48,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-16",
@@ -65,11 +65,11 @@
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.49,
-        "closed_deals": 7,
+        "volume": 0.84,
+        "closed_deals": 12,
         "winning_deals": 2,
         "losing_deals": 0,
-        "breakeven_deals": 5
+        "breakeven_deals": 10
       },
       "latest_weekly": {
         "bot_id": "paul",
@@ -81,11 +81,11 @@
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 3.43,
-        "closed_deals": 85,
+        "volume": 3.78,
+        "closed_deals": 90,
         "winning_deals": 19,
         "losing_deals": 18,
-        "breakeven_deals": 48
+        "breakeven_deals": 53
       },
       "data_status": "ok"
     },
@@ -96,8 +96,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T12:57:16.0187340+02:00",
-      "latest_activity_age_seconds": 6.4,
+      "latest_activity_at": "2026-07-16T12:58:26.7135276+02:00",
+      "latest_activity_age_seconds": 2.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -142,7 +142,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-16T12:56:13.9012741+02:00",
-      "latest_activity_age_seconds": 68.8,
+      "latest_activity_age_seconds": 135.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -187,7 +187,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-16T12:56:18.4738589+02:00",
-      "latest_activity_age_seconds": 64.5,
+      "latest_activity_age_seconds": 130.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -231,14 +231,14 @@
       "name": "Paul Telegram Shadow v1",
       "category": "observation",
       "symbol": "XAUUSD.s",
-      "status": "ok",
+      "status": "stale",
       "mode": "observation_only",
       "latest_activity_at": "2026-07-16T10:04:06Z",
       "freshness": {
         "source_at": "2026-07-16T10:04:06+00:00",
-        "age_seconds": 3260.6,
+        "age_seconds": 4026.3,
         "sla_seconds": 3600,
-        "status": "fresh"
+        "status": "stale"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 152222.8,
+        "age_seconds": 152988.5,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 79432.4,
+        "age_seconds": 80198.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 2749018.0,
+        "age_seconds": 2749783.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -331,11 +331,11 @@
         "commission": 0.0,
         "swap": -4.24,
         "fee": 0.0,
-        "volume": 14.68,
-        "closed_deals": 1210,
+        "volume": 15.03,
+        "closed_deals": 1215,
         "winning_deals": 392,
         "losing_deals": 353,
-        "breakeven_deals": 465,
+        "breakeven_deals": 470,
         "first_period": "2026-05-01",
         "last_period": "2026-07-16"
       },
@@ -585,11 +585,11 @@
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 4.99,
-        "closed_deals": 241,
+        "volume": 5.34,
+        "closed_deals": 246,
         "winning_deals": 58,
         "losing_deals": 56,
-        "breakeven_deals": 127,
+        "breakeven_deals": 132,
         "first_period": "2026-07-01",
         "last_period": "2026-07-16"
       },
@@ -1231,11 +1231,11 @@
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 3.43,
-        "closed_deals": 85,
+        "volume": 3.78,
+        "closed_deals": 90,
         "winning_deals": 19,
         "losing_deals": 18,
-        "breakeven_deals": 48
+        "breakeven_deals": 53
       },
       {
         "bot_id": "xau",
@@ -3505,11 +3505,11 @@
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.49,
-        "closed_deals": 7,
+        "volume": 0.84,
+        "closed_deals": 12,
         "winning_deals": 2,
         "losing_deals": 0,
-        "breakeven_deals": 5
+        "breakeven_deals": 10
       }
     ]
   },
@@ -3693,15 +3693,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 61,
+    "sample_count": 62,
     "observed_equity_high_water": 97635.66,
-    "current_equity_drawdown": 25.12,
-    "current_equity_drawdown_pct": 0.025728
+    "current_equity_drawdown": 9.4,
+    "current_equity_drawdown_pct": 0.009628
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-16T12:57:24.349745+02:00",
-    "last_successful_publication_at": "2026-07-16T10:57:48.749502+00:00",
+    "last_successful_build_at": "2026-07-16T12:58:31.095409+02:00",
+    "last_successful_publication_at": "2026-07-16T10:58:33.026009+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -3898,8 +3898,24 @@
   },
   "warnings": [
     {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Performance data is stale against its reporting SLA."
+    },
+    {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
+    },
+    {
+      "severity": "warning",
+      "message": "Paul Telegram Shadow v1 status is stale."
     },
     {
       "severity": "warning",
