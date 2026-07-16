@@ -25,21 +25,21 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-16T15:38:32.534521+00:00",
-        "age_seconds": 309.3,
+        "age_seconds": 400.2,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-16T15:38:30.462867+00:00",
-        "age_seconds": 311.4,
+        "age_seconds": 402.2,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-16T15:35:08.671952+00:00",
-        "age_seconds": 513.2,
+        "age_seconds": 604.0,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -236,7 +236,7 @@
       "latest_activity_at": "2026-07-16T15:14:01Z",
       "freshness": {
         "source_at": "2026-07-16T15:14:01+00:00",
-        "age_seconds": 1780.9,
+        "age_seconds": 1871.7,
         "sla_seconds": 3600,
         "status": "fresh"
       },
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 169338.1,
+        "age_seconds": 169428.9,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 96547.6,
+        "age_seconds": 96638.5,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 2766133.2,
+        "age_seconds": 2766224.1,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3717,7 +3717,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-16T17:38:32.534521+02:00",
-    "last_successful_publication_at": "2026-07-16T15:42:41.579015+00:00",
+    "last_successful_publication_at": "2026-07-16T15:44:12.404797+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -3920,6 +3920,10 @@
     {
       "severity": "warning",
       "message": "Process data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Performance data is stale against its reporting SLA."
     },
     {
       "severity": "info",
