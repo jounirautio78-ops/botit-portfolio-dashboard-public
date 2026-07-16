@@ -1,15 +1,15 @@
 {
   "schema_version": "botit-partner-snapshot-v2",
-  "generated_at": "2026-07-16T09:23:08.908655+02:00",
+  "generated_at": "2026-07-16T09:24:19.127596+02:00",
   "browser_refresh_seconds": 60,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 96317.98,
-    "equity": 96486.03,
-    "open_positions": 5,
+    "equity": 95845.28,
+    "open_positions": 6,
     "unmapped_positions": 0,
-    "xau_net_exposure": -0.35,
+    "xau_net_exposure": -5.33,
     "btc_net_exposure": 0.0,
     "current_week_period": "2026-W29",
     "current_week_known_pnl": -2047.97,
@@ -17,8 +17,8 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "exposure_at": "2026-07-16T09:23:08.908655+02:00",
-    "process_at": "2026-07-16T09:23:07.1337867+02:00",
+    "exposure_at": "2026-07-16T09:24:19.127596+02:00",
+    "process_at": "2026-07-16T09:24:16.6452232+02:00",
     "performance_export_at": "2026-07-16T09:22:01.0384402+02:00"
   },
   "bots": [
@@ -30,7 +30,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-16T09:21:46.4770157+02:00",
-      "latest_activity_age_seconds": 79.0,
+      "latest_activity_age_seconds": 148.2,
       "exposure_net_volume": -0.35,
       "latest_daily": {
         "bot_id": "paul",
@@ -73,9 +73,9 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T09:22:56.7486165+02:00",
-      "latest_activity_age_seconds": 9.1,
-      "exposure_net_volume": 0.0,
+      "latest_activity_at": "2026-07-16T09:24:08.0577755+02:00",
+      "latest_activity_age_seconds": 7.0,
+      "exposure_net_volume": -4.98,
       "latest_daily": {
         "bot_id": "gold",
         "period": "2026-07-15",
@@ -118,7 +118,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-16T09:21:54.3864338+02:00",
-      "latest_activity_age_seconds": 71.7,
+      "latest_activity_age_seconds": 141.1,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "xau",
@@ -162,7 +162,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-16T09:21:59.8386956+02:00",
-      "latest_activity_age_seconds": 66.8,
+      "latest_activity_age_seconds": 136.2,
       "exposure_net_volume": 0.0,
       "latest_daily": {
         "bot_id": "btc",
