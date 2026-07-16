@@ -1,12 +1,12 @@
 {
   "schema_version": "botit-partner-snapshot-v2",
-  "generated_at": "2026-07-16T10:34:00.6708622+02:00",
+  "generated_at": "2026-07-16T10:35:19.057257+02:00",
   "browser_refresh_seconds": 60,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 97699.74,
-    "equity": 97548.74,
+    "equity": 97557.38,
     "open_positions": 4,
     "unmapped_positions": 0,
     "xau_net_exposure": -0.28,
@@ -17,9 +17,9 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "exposure_at": "2026-07-16T10:33:52.065737+02:00",
-    "process_at": "2026-07-16T10:33:50.7580539+02:00",
-    "performance_export_at": "2026-07-16T10:34:00.6708622+02:00"
+    "exposure_at": "2026-07-16T10:35:19.057257+02:00",
+    "process_at": "2026-07-16T10:35:16.9327195+02:00",
+    "performance_export_at": "2026-07-16T10:34:10.5963835+02:00"
   },
   "bots": [
     {
@@ -29,9 +29,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T10:27:58.7092214+02:00",
-      "latest_activity_age_seconds": 350.9,
+      "latest_activity_at": "2026-07-16T10:33:56.1036351+02:00",
+      "latest_activity_age_seconds": 79.0,
       "exposure_net_volume": -0.28,
+      "floating_pnl": -142.36,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-15",
@@ -73,9 +74,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T10:33:43.8235631+02:00",
-      "latest_activity_age_seconds": 6.1,
+      "latest_activity_at": "2026-07-16T10:35:14.9923283+02:00",
+      "latest_activity_age_seconds": 0.6,
       "exposure_net_volume": 0.0,
+      "floating_pnl": 0.0,
       "latest_daily": {
         "bot_id": "gold",
         "period": "2026-07-15",
@@ -117,9 +119,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T10:30:01.4503857+02:00",
-      "latest_activity_age_seconds": 228.7,
+      "latest_activity_at": "2026-07-16T10:35:02.7551762+02:00",
+      "latest_activity_age_seconds": 13.3,
       "exposure_net_volume": 0.0,
+      "floating_pnl": 0.0,
       "latest_daily": {
         "bot_id": "xau",
         "period": "2026-07-13",
@@ -161,9 +164,10 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T10:28:12.1559697+02:00",
-      "latest_activity_age_seconds": 338.4,
+      "latest_activity_at": "2026-07-16T10:34:10.1740186+02:00",
+      "latest_activity_age_seconds": 66.4,
       "exposure_net_volume": 0.0,
+      "floating_pnl": 0.0,
       "latest_daily": {
         "bot_id": "btc",
         "period": "2026-07-15",
@@ -3556,7 +3560,19 @@
   "warnings": [
     {
       "severity": "info",
-      "message": "BTC finite session completed normally; no current-week closed-deal row is available."
+      "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
+    },
+    {
+      "severity": "warning",
+      "message": "Paul Telegram Demo Copier status is stale."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1 status is stale."
+    },
+    {
+      "severity": "warning",
+      "message": "RSI MTF Pullback Shadow v1 status is stale."
     }
   ],
   "safety": {
