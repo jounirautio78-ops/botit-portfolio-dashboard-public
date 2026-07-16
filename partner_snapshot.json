@@ -1,47 +1,47 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-16T13:41:55.868636+02:00",
+  "generated_at": "2026-07-16T15:46:30.9464334+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
-    "balance": 97748.86,
-    "equity": 97693.48,
-    "floating_pnl": -55.38,
-    "open_positions": 6,
+    "balance": 98338.14,
+    "equity": 98592.84,
+    "floating_pnl": 254.7,
+    "open_positions": 2,
     "unmapped_positions": 0,
-    "xau_net_exposure": -0.42,
+    "xau_net_exposure": -0.14,
     "btc_net_exposure": 0.0,
     "current_week_period": "2026-W29",
-    "current_week_known_pnl": -2070.87,
+    "current_week_known_pnl": -1562.5,
     "current_week_status": "partial",
     "current_week_missing_bots": [
-      "gold"
+      "xau"
     ]
   },
   "freshness": {
-    "overall_status": "stale",
-    "exposure_at": "2026-07-16T13:41:55.868636+02:00",
-    "process_at": "2026-07-16T13:41:54.4812447+02:00",
-    "performance_export_at": "2026-07-16T13:37:29.9643485+02:00",
+    "overall_status": "fresh",
+    "exposure_at": "2026-07-16T15:46:27.954799+02:00",
+    "process_at": "2026-07-16T15:46:26.0593656+02:00",
+    "performance_export_at": "2026-07-16T15:46:30.9464334+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-16T11:41:55.868636+00:00",
-        "age_seconds": 7411.4,
+        "source_at": "2026-07-16T13:46:27.954799+00:00",
+        "age_seconds": 8.8,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-16T11:41:54.481244+00:00",
-        "age_seconds": 7412.8,
+        "source_at": "2026-07-16T13:46:26.059365+00:00",
+        "age_seconds": 10.7,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-16T11:37:29.964348+00:00",
-        "age_seconds": 7677.3,
+        "source_at": "2026-07-16T13:46:30.946433+00:00",
+        "age_seconds": 5.9,
         "sla_seconds": 600,
-        "status": "stale"
+        "status": "fresh"
       }
     }
   },
@@ -53,11 +53,26 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T13:37:15.9746046+02:00",
-      "latest_activity_age_seconds": 277.2,
-      "exposure_net_volume": -0.42,
-      "floating_pnl": -55.38,
-      "latest_daily": null,
+      "latest_activity_at": "2026-07-16T15:40:29.0264598+02:00",
+      "latest_activity_age_seconds": 355.3,
+      "exposure_net_volume": -0.14,
+      "floating_pnl": 254.7,
+      "latest_daily": {
+        "bot_id": "paul",
+        "period": "2026-07-16",
+        "currency": "CAD",
+        "net_profit": 64.4,
+        "gross_profit": 98.32,
+        "gross_loss": -33.92,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.98,
+        "closed_deals": 14,
+        "winning_deals": 2,
+        "losing_deals": 2,
+        "breakeven_deals": 10
+      },
       "latest_weekly": {
         "bot_id": "paul",
         "period": "2026-W29",
@@ -74,7 +89,7 @@
         "losing_deals": 20,
         "breakeven_deals": 53
       },
-      "data_status": "DATA_MISSING"
+      "data_status": "ok"
     },
     {
       "id": "gold",
@@ -83,8 +98,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T13:41:47.7389734+02:00",
-      "latest_activity_age_seconds": 5.7,
+      "latest_activity_at": "2026-07-16T15:46:22.8113732+02:00",
+      "latest_activity_age_seconds": 2.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -103,8 +118,23 @@
         "losing_deals": 1,
         "breakeven_deals": 0
       },
-      "latest_weekly": null,
-      "data_status": "DATA_MISSING"
+      "latest_weekly": {
+        "bot_id": "gold",
+        "period": "2026-W29",
+        "currency": "CAD",
+        "net_profit": 524.31,
+        "gross_profit": 2444.84,
+        "gross_loss": -1920.53,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 39.12,
+        "closed_deals": 21,
+        "winning_deals": 16,
+        "losing_deals": 5,
+        "breakeven_deals": 0
+      },
+      "data_status": "ok"
     },
     {
       "id": "xau",
@@ -113,43 +143,13 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T13:40:09.3937810+02:00",
-      "latest_activity_age_seconds": 104.3,
+      "latest_activity_at": "2026-07-16T15:45:10.4934531+02:00",
+      "latest_activity_age_seconds": 74.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
-      "latest_daily": {
-        "bot_id": "xau",
-        "period": "2026-07-13",
-        "currency": "CAD",
-        "net_profit": 15.94,
-        "gross_profit": 15.94,
-        "gross_loss": 0.0,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
-        "losing_deals": 0,
-        "breakeven_deals": 0
-      },
-      "latest_weekly": {
-        "bot_id": "xau",
-        "period": "2026-W29",
-        "currency": "CAD",
-        "net_profit": 15.94,
-        "gross_profit": 15.94,
-        "gross_loss": 0.0,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
-        "losing_deals": 0,
-        "breakeven_deals": 0
-      },
-      "data_status": "ok"
+      "latest_daily": null,
+      "latest_weekly": null,
+      "data_status": "DATA_MISSING"
     },
     {
       "id": "btc",
@@ -158,8 +158,8 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-16T13:37:28.9850374+02:00",
-      "latest_activity_age_seconds": 265.2,
+      "latest_activity_at": "2026-07-16T15:40:41.5489318+02:00",
+      "latest_activity_age_seconds": 344.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -208,7 +208,7 @@
       "latest_activity_at": "2026-07-16T10:04:06Z",
       "freshness": {
         "source_at": "2026-07-16T10:04:06+00:00",
-        "age_seconds": 13281.3,
+        "age_seconds": 13350.8,
         "sla_seconds": 3600,
         "status": "stale"
       },
@@ -231,7 +231,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 162243.5,
+        "age_seconds": 162313.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -254,7 +254,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 89453.0,
+        "age_seconds": 89522.5,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -277,7 +277,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 2759038.6,
+        "age_seconds": 2759108.1,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -293,6 +293,24 @@
   ],
   "performance": {
     "all_history": [
+      {
+        "bot_id": "paul",
+        "period": "ALL_HISTORY",
+        "currency": "CAD",
+        "net_profit": -787.8,
+        "gross_profit": 6972.71,
+        "gross_loss": -7756.27,
+        "commission": 0.0,
+        "swap": -4.24,
+        "fee": 0.0,
+        "volume": 15.17,
+        "closed_deals": 1217,
+        "winning_deals": 392,
+        "losing_deals": 355,
+        "breakeven_deals": 470,
+        "first_period": "2026-05-01",
+        "last_period": "2026-07-16"
+      },
       {
         "bot_id": "gold",
         "period": "ALL_HISTORY",
@@ -310,24 +328,6 @@
         "breakeven_deals": 0,
         "first_period": "2026-05-04",
         "last_period": "2026-07-16"
-      },
-      {
-        "bot_id": "xau",
-        "period": "ALL_HISTORY",
-        "currency": "CAD",
-        "net_profit": -234.06,
-        "gross_profit": 395.56,
-        "gross_loss": -629.62,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 1.48,
-        "closed_deals": 39,
-        "winning_deals": 21,
-        "losing_deals": 18,
-        "breakeven_deals": 0,
-        "first_period": "2026-05-12",
-        "last_period": "2026-07-13"
       },
       {
         "bot_id": "btc",
@@ -386,22 +386,22 @@
         "last_period": "2026-05-29"
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05",
         "currency": "CAD",
-        "net_profit": -243.02,
-        "gross_profit": 291.88,
-        "gross_loss": -534.9,
+        "net_profit": -58.56,
+        "gross_profit": 3214.08,
+        "gross_loss": -3265.62,
         "commission": 0.0,
-        "swap": 0.0,
+        "swap": -7.02,
         "fee": 0.0,
-        "volume": 1.23,
-        "closed_deals": 14,
-        "winning_deals": 8,
-        "losing_deals": 6,
-        "breakeven_deals": 0,
-        "first_period": "2026-05-12",
-        "last_period": "2026-05-28"
+        "volume": 6.41,
+        "closed_deals": 641,
+        "winning_deals": 205,
+        "losing_deals": 213,
+        "breakeven_deals": 223,
+        "first_period": "2026-05-01",
+        "last_period": "2026-05-29"
       },
       {
         "bot_id": "btc",
@@ -440,20 +440,20 @@
         "last_period": "2026-06-30"
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06",
         "currency": "CAD",
-        "net_profit": -39.41,
-        "gross_profit": 47.66,
-        "gross_loss": -87.07,
+        "net_profit": 835.05,
+        "gross_profit": 2535.21,
+        "gross_loss": -1702.94,
         "commission": 0.0,
-        "swap": 0.0,
+        "swap": 2.78,
         "fee": 0.0,
-        "volume": 0.18,
-        "closed_deals": 18,
-        "winning_deals": 7,
-        "losing_deals": 11,
-        "breakeven_deals": 0,
+        "volume": 3.28,
+        "closed_deals": 328,
+        "winning_deals": 129,
+        "losing_deals": 84,
+        "breakeven_deals": 115,
         "first_period": "2026-06-01",
         "last_period": "2026-06-30"
       },
@@ -494,22 +494,22 @@
         "last_period": "2026-07-16"
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-07",
         "currency": "CAD",
-        "net_profit": 48.37,
-        "gross_profit": 56.02,
-        "gross_loss": -7.65,
+        "net_profit": -1564.29,
+        "gross_profit": 1223.42,
+        "gross_loss": -2787.71,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.07,
-        "closed_deals": 7,
-        "winning_deals": 6,
-        "losing_deals": 1,
-        "breakeven_deals": 0,
+        "volume": 5.48,
+        "closed_deals": 248,
+        "winning_deals": 58,
+        "losing_deals": 58,
+        "breakeven_deals": 132,
         "first_period": "2026-07-01",
-        "last_period": "2026-07-13"
+        "last_period": "2026-07-16"
       }
     ],
     "weekly": [
@@ -546,6 +546,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "gold",
+        "period": "2026-W19",
+        "currency": "CAD",
+        "net_profit": 8.78,
+        "gross_profit": 24.28,
+        "gross_loss": -15.5,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.23,
+        "closed_deals": 23,
+        "winning_deals": 19,
+        "losing_deals": 4,
+        "breakeven_deals": 0
+      },
+      {
         "bot_id": "paul",
         "period": "2026-W19",
         "currency": "CAD",
@@ -578,6 +594,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "gold",
+        "period": "2026-W20",
+        "currency": "CAD",
+        "net_profit": 14.53,
+        "gross_profit": 44.98,
+        "gross_loss": -30.45,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.51,
+        "closed_deals": 51,
+        "winning_deals": 42,
+        "losing_deals": 9,
+        "breakeven_deals": 0
+      },
+      {
         "bot_id": "paul",
         "period": "2026-W20",
         "currency": "CAD",
@@ -594,19 +626,19 @@
         "breakeven_deals": 57
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W20",
+        "bot_id": "gold",
+        "period": "2026-W21",
         "currency": "CAD",
-        "net_profit": -264.65,
-        "gross_profit": 251.89,
-        "gross_loss": -516.54,
+        "net_profit": -26.67,
+        "gross_profit": 15.97,
+        "gross_loss": -42.64,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 1.16,
-        "closed_deals": 7,
-        "winning_deals": 3,
-        "losing_deals": 4,
+        "volume": 0.28,
+        "closed_deals": 28,
+        "winning_deals": 14,
+        "losing_deals": 14,
         "breakeven_deals": 0
       },
       {
@@ -626,19 +658,19 @@
         "breakeven_deals": 53
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W21",
+        "bot_id": "gold",
+        "period": "2026-W22",
         "currency": "CAD",
-        "net_profit": 24.47,
-        "gross_profit": 32.24,
-        "gross_loss": -7.77,
+        "net_profit": 21.17,
+        "gross_profit": 44.02,
+        "gross_loss": -22.85,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.05,
-        "closed_deals": 5,
-        "winning_deals": 4,
-        "losing_deals": 1,
+        "volume": 0.28,
+        "closed_deals": 28,
+        "winning_deals": 18,
+        "losing_deals": 10,
         "breakeven_deals": 0
       },
       {
@@ -658,22 +690,6 @@
         "breakeven_deals": 35
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W22",
-        "currency": "CAD",
-        "net_profit": -2.84,
-        "gross_profit": 7.75,
-        "gross_loss": -10.59,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 1,
-        "losing_deals": 1,
-        "breakeven_deals": 0
-      },
-      {
         "bot_id": "btc",
         "period": "2026-W23",
         "currency": "CAD",
@@ -687,6 +703,22 @@
         "closed_deals": 18,
         "winning_deals": 6,
         "losing_deals": 12,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "gold",
+        "period": "2026-W23",
+        "currency": "CAD",
+        "net_profit": 7.99,
+        "gross_profit": 29.6,
+        "gross_loss": -21.61,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 17,
+        "losing_deals": 7,
         "breakeven_deals": 0
       },
       {
@@ -706,22 +738,6 @@
         "breakeven_deals": 28
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W23",
-        "currency": "CAD",
-        "net_profit": -0.48,
-        "gross_profit": 6.1,
-        "gross_loss": -6.58,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 1,
-        "losing_deals": 1,
-        "breakeven_deals": 0
-      },
-      {
         "bot_id": "btc",
         "period": "2026-W24",
         "currency": "CAD",
@@ -735,6 +751,22 @@
         "closed_deals": 18,
         "winning_deals": 0,
         "losing_deals": 18,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "gold",
+        "period": "2026-W24",
+        "currency": "CAD",
+        "net_profit": -20.58,
+        "gross_profit": 29.96,
+        "gross_loss": -50.54,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.35,
+        "closed_deals": 35,
+        "winning_deals": 26,
+        "losing_deals": 9,
         "breakeven_deals": 0
       },
       {
@@ -754,19 +786,19 @@
         "breakeven_deals": 38
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W24",
+        "bot_id": "gold",
+        "period": "2026-W25",
         "currency": "CAD",
-        "net_profit": -24.53,
-        "gross_profit": 21.73,
-        "gross_loss": -46.26,
+        "net_profit": -0.44,
+        "gross_profit": 25.17,
+        "gross_loss": -25.61,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.07,
-        "closed_deals": 7,
-        "winning_deals": 2,
-        "losing_deals": 5,
+        "volume": 0.33,
+        "closed_deals": 33,
+        "winning_deals": 23,
+        "losing_deals": 10,
         "breakeven_deals": 0
       },
       {
@@ -786,22 +818,6 @@
         "breakeven_deals": 4
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W25",
-        "currency": "CAD",
-        "net_profit": 9.04,
-        "gross_profit": 9.04,
-        "gross_loss": 0.0,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
-        "losing_deals": 0,
-        "breakeven_deals": 0
-      },
-      {
         "bot_id": "btc",
         "period": "2026-W26",
         "currency": "CAD",
@@ -815,6 +831,22 @@
         "closed_deals": 18,
         "winning_deals": 0,
         "losing_deals": 18,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "gold",
+        "period": "2026-W26",
+        "currency": "CAD",
+        "net_profit": -19.48,
+        "gross_profit": 31.91,
+        "gross_loss": -51.39,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.32,
+        "closed_deals": 32,
+        "winning_deals": 20,
+        "losing_deals": 12,
         "breakeven_deals": 0
       },
       {
@@ -834,22 +866,6 @@
         "breakeven_deals": 40
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W26",
-        "currency": "CAD",
-        "net_profit": -24.13,
-        "gross_profit": 0.0,
-        "gross_loss": -24.13,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.04,
-        "closed_deals": 4,
-        "winning_deals": 0,
-        "losing_deals": 4,
-        "breakeven_deals": 0
-      },
-      {
         "bot_id": "btc",
         "period": "2026-W27",
         "currency": "CAD",
@@ -863,6 +879,22 @@
         "closed_deals": 12,
         "winning_deals": 0,
         "losing_deals": 12,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "gold",
+        "period": "2026-W27",
+        "currency": "CAD",
+        "net_profit": -17.86,
+        "gross_profit": 22.73,
+        "gross_loss": -40.59,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.36,
+        "closed_deals": 36,
+        "winning_deals": 23,
+        "losing_deals": 13,
         "breakeven_deals": 0
       },
       {
@@ -882,19 +914,19 @@
         "breakeven_deals": 32
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W27",
+        "bot_id": "gold",
+        "period": "2026-W28",
         "currency": "CAD",
-        "net_profit": 10.95,
-        "gross_profit": 28.7,
-        "gross_loss": -17.75,
+        "net_profit": -4.51,
+        "gross_profit": 26.41,
+        "gross_loss": -30.92,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.05,
-        "closed_deals": 5,
-        "winning_deals": 3,
-        "losing_deals": 2,
+        "volume": 0.4,
+        "closed_deals": 40,
+        "winning_deals": 29,
+        "losing_deals": 11,
         "breakeven_deals": 0
       },
       {
@@ -914,22 +946,6 @@
         "breakeven_deals": 52
       },
       {
-        "bot_id": "xau",
-        "period": "2026-W28",
-        "currency": "CAD",
-        "net_profit": 22.17,
-        "gross_profit": 22.17,
-        "gross_loss": 0.0,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.03,
-        "closed_deals": 3,
-        "winning_deals": 3,
-        "losing_deals": 0,
-        "breakeven_deals": 0
-      },
-      {
         "bot_id": "btc",
         "period": "2026-W29",
         "currency": "CAD",
@@ -943,6 +959,22 @@
         "closed_deals": 6,
         "winning_deals": 0,
         "losing_deals": 6,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "gold",
+        "period": "2026-W29",
+        "currency": "CAD",
+        "net_profit": 524.31,
+        "gross_profit": 2444.84,
+        "gross_loss": -1920.53,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 39.12,
+        "closed_deals": 21,
+        "winning_deals": 16,
+        "losing_deals": 5,
         "breakeven_deals": 0
       },
       {
@@ -960,25 +992,25 @@
         "winning_deals": 19,
         "losing_deals": 20,
         "breakeven_deals": 53
-      },
-      {
-        "bot_id": "xau",
-        "period": "2026-W29",
-        "currency": "CAD",
-        "net_profit": 15.94,
-        "gross_profit": 15.94,
-        "gross_loss": 0.0,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
-        "losing_deals": 0,
-        "breakeven_deals": 0
       }
     ],
     "daily": [
+      {
+        "bot_id": "paul",
+        "period": "2026-05-01",
+        "currency": "CAD",
+        "net_profit": -12.44,
+        "gross_profit": 3.13,
+        "gross_loss": -15.57,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 2,
+        "losing_deals": 6,
+        "breakeven_deals": 4
+      },
       {
         "bot_id": "gold",
         "period": "2026-05-04",
@@ -993,6 +1025,22 @@
         "closed_deals": 3,
         "winning_deals": 3,
         "losing_deals": 0,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-05-04",
+        "currency": "CAD",
+        "net_profit": 29.21,
+        "gross_profit": 65.21,
+        "gross_loss": -36.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 8,
+        "losing_deals": 10,
         "breakeven_deals": 0
       },
       {
@@ -1012,6 +1060,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-05",
+        "currency": "CAD",
+        "net_profit": -21.4,
+        "gross_profit": 62.9,
+        "gross_loss": -84.3,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.6,
+        "closed_deals": 60,
+        "winning_deals": 17,
+        "losing_deals": 35,
+        "breakeven_deals": 8
+      },
+      {
         "bot_id": "gold",
         "period": "2026-05-06",
         "currency": "CAD",
@@ -1028,6 +1092,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-06",
+        "currency": "CAD",
+        "net_profit": 131.79,
+        "gross_profit": 628.53,
+        "gross_loss": -489.96,
+        "commission": 0.0,
+        "swap": -6.78,
+        "fee": 0.0,
+        "volume": 0.54,
+        "closed_deals": 54,
+        "winning_deals": 23,
+        "losing_deals": 24,
+        "breakeven_deals": 7
+      },
+      {
         "bot_id": "gold",
         "period": "2026-05-07",
         "currency": "CAD",
@@ -1042,6 +1122,22 @@
         "winning_deals": 6,
         "losing_deals": 3,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-05-07",
+        "currency": "CAD",
+        "net_profit": -206.8,
+        "gross_profit": 292.66,
+        "gross_loss": -499.46,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.72,
+        "closed_deals": 72,
+        "winning_deals": 20,
+        "losing_deals": 27,
+        "breakeven_deals": 25
       },
       {
         "bot_id": "btc",
@@ -1074,6 +1170,22 @@
         "winning_deals": 1,
         "losing_deals": 0,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-05-08",
+        "currency": "CAD",
+        "net_profit": -127.45,
+        "gross_profit": 250.91,
+        "gross_loss": -378.36,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.72,
+        "closed_deals": 72,
+        "winning_deals": 20,
+        "losing_deals": 18,
+        "breakeven_deals": 34
       },
       {
         "bot_id": "btc",
@@ -1140,6 +1252,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-11",
+        "currency": "CAD",
+        "net_profit": 205.57,
+        "gross_profit": 449.47,
+        "gross_loss": -246.0,
+        "commission": 0.0,
+        "swap": 2.1,
+        "fee": 0.0,
+        "volume": 0.51,
+        "closed_deals": 51,
+        "winning_deals": 22,
+        "losing_deals": 12,
+        "breakeven_deals": 17
+      },
+      {
         "bot_id": "gold",
         "period": "2026-05-12",
         "currency": "CAD",
@@ -1156,20 +1284,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-12",
         "currency": "CAD",
-        "net_profit": -261.48,
-        "gross_profit": 239.54,
-        "gross_loss": -501.02,
+        "net_profit": 171.97,
+        "gross_profit": 174.31,
+        "gross_loss": 0.0,
         "commission": 0.0,
-        "swap": 0.0,
+        "swap": -2.34,
         "fee": 0.0,
-        "volume": 1.12,
-        "closed_deals": 3,
-        "winning_deals": 1,
-        "losing_deals": 2,
-        "breakeven_deals": 0
+        "volume": 0.26,
+        "closed_deals": 26,
+        "winning_deals": 10,
+        "losing_deals": 0,
+        "breakeven_deals": 16
       },
       {
         "bot_id": "gold",
@@ -1188,6 +1316,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-13",
+        "currency": "CAD",
+        "net_profit": 18.09,
+        "gross_profit": 141.45,
+        "gross_loss": -123.36,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 9,
+        "losing_deals": 6,
+        "breakeven_deals": 9
+      },
+      {
         "bot_id": "gold",
         "period": "2026-05-14",
         "currency": "CAD",
@@ -1204,20 +1348,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-14",
         "currency": "CAD",
-        "net_profit": -10.1,
-        "gross_profit": 0.0,
-        "gross_loss": -10.1,
+        "net_profit": 131.39,
+        "gross_profit": 131.39,
+        "gross_loss": 0.0,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 0,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 9,
+        "losing_deals": 0,
+        "breakeven_deals": 15
       },
       {
         "bot_id": "gold",
@@ -1236,19 +1380,19 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-15",
         "currency": "CAD",
-        "net_profit": 6.93,
-        "gross_profit": 12.35,
-        "gross_loss": -5.42,
+        "net_profit": 12.77,
+        "gross_profit": 136.43,
+        "gross_loss": -123.66,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.03,
-        "closed_deals": 3,
-        "winning_deals": 2,
-        "losing_deals": 1,
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 6,
+        "losing_deals": 6,
         "breakeven_deals": 0
       },
       {
@@ -1268,6 +1412,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-18",
+        "currency": "CAD",
+        "net_profit": -370.98,
+        "gross_profit": 0.0,
+        "gross_loss": -370.98,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 0,
+        "losing_deals": 18,
+        "breakeven_deals": 0
+      },
+      {
         "bot_id": "gold",
         "period": "2026-05-19",
         "currency": "CAD",
@@ -1284,20 +1444,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-19",
         "currency": "CAD",
-        "net_profit": 14.29,
-        "gross_profit": 22.06,
-        "gross_loss": -7.77,
+        "net_profit": -233.75,
+        "gross_profit": 13.75,
+        "gross_loss": -247.5,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.03,
-        "closed_deals": 3,
+        "volume": 0.24,
+        "closed_deals": 24,
         "winning_deals": 2,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "losing_deals": 12,
+        "breakeven_deals": 10
       },
       {
         "bot_id": "gold",
@@ -1316,20 +1476,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-20",
         "currency": "CAD",
-        "net_profit": 5.4,
-        "gross_profit": 5.4,
+        "net_profit": 27.52,
+        "gross_profit": 27.52,
         "gross_loss": 0.0,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 1,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 4,
         "losing_deals": 0,
-        "breakeven_deals": 0
+        "breakeven_deals": 20
       },
       {
         "bot_id": "gold",
@@ -1348,20 +1508,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-21",
         "currency": "CAD",
-        "net_profit": 4.78,
-        "gross_profit": 4.78,
-        "gross_loss": 0.0,
+        "net_profit": -110.86,
+        "gross_profit": 137.0,
+        "gross_loss": -247.86,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 1,
-        "losing_deals": 0,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 7,
+        "losing_deals": 12,
+        "breakeven_deals": 5
       },
       {
         "bot_id": "gold",
@@ -1380,6 +1540,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-22",
+        "currency": "CAD",
+        "net_profit": 62.08,
+        "gross_profit": 62.08,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 6,
+        "losing_deals": 0,
+        "breakeven_deals": 18
+      },
+      {
         "bot_id": "gold",
         "period": "2026-05-25",
         "currency": "CAD",
@@ -1394,6 +1570,22 @@
         "winning_deals": 3,
         "losing_deals": 3,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-05-25",
+        "currency": "CAD",
+        "net_profit": -169.24,
+        "gross_profit": 13.81,
+        "gross_loss": -183.05,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 2,
+        "losing_deals": 10,
+        "breakeven_deals": 6
       },
       {
         "bot_id": "gold",
@@ -1412,6 +1604,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-26",
+        "currency": "CAD",
+        "net_profit": 171.21,
+        "gross_profit": 171.21,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 11,
+        "losing_deals": 0,
+        "breakeven_deals": 13
+      },
+      {
         "bot_id": "gold",
         "period": "2026-05-27",
         "currency": "CAD",
@@ -1428,19 +1636,19 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-27",
         "currency": "CAD",
-        "net_profit": 7.75,
-        "gross_profit": 7.75,
-        "gross_loss": 0.0,
+        "net_profit": 31.63,
+        "gross_profit": 156.13,
+        "gross_loss": -124.5,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 1,
-        "losing_deals": 0,
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 6,
+        "losing_deals": 6,
         "breakeven_deals": 0
       },
       {
@@ -1460,20 +1668,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-05-28",
         "currency": "CAD",
-        "net_profit": -10.59,
-        "gross_profit": 0.0,
-        "gross_loss": -10.59,
+        "net_profit": -13.06,
+        "gross_profit": 76.24,
+        "gross_loss": -89.3,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 0,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 7,
+        "losing_deals": 8,
+        "breakeven_deals": 9
       },
       {
         "bot_id": "gold",
@@ -1492,6 +1700,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-05-29",
+        "currency": "CAD",
+        "net_profit": 214.19,
+        "gross_profit": 219.95,
+        "gross_loss": -5.76,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 14,
+        "losing_deals": 3,
+        "breakeven_deals": 7
+      },
+      {
         "bot_id": "gold",
         "period": "2026-06-01",
         "currency": "CAD",
@@ -1508,20 +1732,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-01",
         "currency": "CAD",
-        "net_profit": 6.1,
-        "gross_profit": 6.1,
-        "gross_loss": 0.0,
+        "net_profit": 16.86,
+        "gross_profit": 141.3,
+        "gross_loss": -124.44,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 1,
-        "losing_deals": 0,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 9,
+        "losing_deals": 6,
+        "breakeven_deals": 9
       },
       {
         "bot_id": "gold",
@@ -1540,20 +1764,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-02",
         "currency": "CAD",
-        "net_profit": -6.58,
-        "gross_profit": 0.0,
-        "gross_loss": -6.58,
+        "net_profit": -110.72,
+        "gross_profit": 13.84,
+        "gross_loss": -124.56,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 0,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 2,
+        "losing_deals": 6,
+        "breakeven_deals": 10
       },
       {
         "bot_id": "btc",
@@ -1588,6 +1812,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-06-03",
+        "currency": "CAD",
+        "net_profit": 224.3,
+        "gross_profit": 224.3,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.23,
+        "closed_deals": 23,
+        "winning_deals": 14,
+        "losing_deals": 0,
+        "breakeven_deals": 9
+      },
+      {
         "bot_id": "btc",
         "period": "2026-06-04",
         "currency": "CAD",
@@ -1598,6 +1838,22 @@
         "swap": 0.0,
         "fee": 0.0,
         "volume": 0.24,
+        "closed_deals": 6,
+        "winning_deals": 6,
+        "losing_deals": 0,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-06-04",
+        "currency": "CAD",
+        "net_profit": 105.26,
+        "gross_profit": 104.2,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 1.06,
+        "fee": 0.0,
+        "volume": 0.06,
         "closed_deals": 6,
         "winning_deals": 6,
         "losing_deals": 0,
@@ -1636,6 +1892,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-06-05",
+        "currency": "CAD",
+        "net_profit": 262.24,
+        "gross_profit": 261.3,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.94,
+        "fee": 0.0,
+        "volume": 0.07,
+        "closed_deals": 7,
+        "winning_deals": 6,
+        "losing_deals": 1,
+        "breakeven_deals": 0
+      },
+      {
         "bot_id": "btc",
         "period": "2026-06-08",
         "currency": "CAD",
@@ -1668,20 +1940,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-08",
         "currency": "CAD",
-        "net_profit": -8.53,
-        "gross_profit": 0.0,
-        "gross_loss": -8.53,
+        "net_profit": 55.18,
+        "gross_profit": 180.64,
+        "gross_loss": -125.46,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 0,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 10,
+        "losing_deals": 6,
+        "breakeven_deals": 8
       },
       {
         "bot_id": "gold",
@@ -1700,20 +1972,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-09",
         "currency": "CAD",
-        "net_profit": -13.63,
-        "gross_profit": 0.0,
-        "gross_loss": -13.63,
+        "net_profit": -118.49,
+        "gross_profit": 6.97,
+        "gross_loss": -125.46,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 0,
-        "losing_deals": 2,
-        "breakeven_deals": 0
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 1,
+        "losing_deals": 6,
+        "breakeven_deals": 5
       },
       {
         "bot_id": "gold",
@@ -1730,6 +2002,22 @@
         "winning_deals": 4,
         "losing_deals": 3,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-06-10",
+        "currency": "CAD",
+        "net_profit": -243.89,
+        "gross_profit": 6.97,
+        "gross_loss": -250.86,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 1,
+        "losing_deals": 12,
+        "breakeven_deals": 5
       },
       {
         "bot_id": "btc",
@@ -1764,20 +2052,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-11",
         "currency": "CAD",
-        "net_profit": -2.19,
-        "gross_profit": 11.66,
-        "gross_loss": -13.85,
+        "net_profit": 218.43,
+        "gross_profit": 218.43,
+        "gross_loss": 0.0,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 1,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 14,
+        "losing_deals": 0,
+        "breakeven_deals": 10
       },
       {
         "bot_id": "gold",
@@ -1796,20 +2084,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-12",
         "currency": "CAD",
-        "net_profit": -0.18,
-        "gross_profit": 10.07,
-        "gross_loss": -10.25,
+        "net_profit": 154.08,
+        "gross_profit": 154.08,
+        "gross_loss": 0.0,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 1,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 8,
+        "losing_deals": 0,
+        "breakeven_deals": 10
       },
       {
         "bot_id": "gold",
@@ -1828,6 +2116,38 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-06-15",
+        "currency": "CAD",
+        "net_profit": 15.41,
+        "gross_profit": 141.17,
+        "gross_loss": -125.76,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 8,
+        "losing_deals": 6,
+        "breakeven_deals": 4
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-06-16",
+        "currency": "CAD",
+        "net_profit": -158.0,
+        "gross_profit": 0.0,
+        "gross_loss": -158.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.1,
+        "closed_deals": 10,
+        "winning_deals": 0,
+        "losing_deals": 10,
+        "breakeven_deals": 0
+      },
+      {
         "bot_id": "gold",
         "period": "2026-06-17",
         "currency": "CAD",
@@ -1841,22 +2161,6 @@
         "closed_deals": 7,
         "winning_deals": 2,
         "losing_deals": 5,
-        "breakeven_deals": 0
-      },
-      {
-        "bot_id": "xau",
-        "period": "2026-06-17",
-        "currency": "CAD",
-        "net_profit": 9.04,
-        "gross_profit": 9.04,
-        "gross_loss": 0.0,
-        "commission": 0.0,
-        "swap": 0.0,
-        "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
-        "losing_deals": 0,
         "breakeven_deals": 0
       },
       {
@@ -1908,20 +2212,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-22",
         "currency": "CAD",
-        "net_profit": -10.76,
-        "gross_profit": 0.0,
-        "gross_loss": -10.76,
+        "net_profit": -63.69,
+        "gross_profit": 63.75,
+        "gross_loss": -127.44,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 0,
-        "losing_deals": 2,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 6,
+        "losing_deals": 6,
+        "breakeven_deals": 12
       },
       {
         "bot_id": "btc",
@@ -1956,6 +2260,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-06-23",
+        "currency": "CAD",
+        "net_profit": -83.97,
+        "gross_profit": 73.11,
+        "gross_loss": -157.08,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 6,
+        "losing_deals": 7,
+        "breakeven_deals": 5
+      },
+      {
         "bot_id": "btc",
         "period": "2026-06-24",
         "currency": "CAD",
@@ -1988,6 +2308,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-06-24",
+        "currency": "CAD",
+        "net_profit": 95.24,
+        "gross_profit": 223.28,
+        "gross_loss": -128.04,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 8,
+        "losing_deals": 6,
+        "breakeven_deals": 10
+      },
+      {
         "bot_id": "gold",
         "period": "2026-06-25",
         "currency": "CAD",
@@ -2002,6 +2338,22 @@
         "winning_deals": 8,
         "losing_deals": 3,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-06-25",
+        "currency": "CAD",
+        "net_profit": 49.84,
+        "gross_profit": 49.84,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.18,
+        "closed_deals": 18,
+        "winning_deals": 5,
+        "losing_deals": 0,
+        "breakeven_deals": 13
       },
       {
         "bot_id": "gold",
@@ -2020,19 +2372,19 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-26",
         "currency": "CAD",
-        "net_profit": -13.37,
-        "gross_profit": 0.0,
-        "gross_loss": -13.37,
+        "net_profit": 2.43,
+        "gross_profit": 130.17,
+        "gross_loss": -127.74,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 0,
-        "losing_deals": 2,
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 6,
+        "losing_deals": 6,
         "breakeven_deals": 0
       },
       {
@@ -2052,20 +2404,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-29",
         "currency": "CAD",
-        "net_profit": 10.79,
-        "gross_profit": 10.79,
+        "net_profit": 335.7,
+        "gross_profit": 335.7,
         "gross_loss": 0.0,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
+        "volume": 0.22,
+        "closed_deals": 22,
+        "winning_deals": 17,
         "losing_deals": 0,
-        "breakeven_deals": 0
+        "breakeven_deals": 5
       },
       {
         "bot_id": "btc",
@@ -2100,19 +2452,19 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-06-30",
         "currency": "CAD",
-        "net_profit": -10.1,
-        "gross_profit": 0.0,
-        "gross_loss": -10.1,
+        "net_profit": 78.84,
+        "gross_profit": 206.16,
+        "gross_loss": -128.1,
         "commission": 0.0,
-        "swap": 0.0,
+        "swap": 0.78,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 0,
-        "losing_deals": 1,
+        "volume": 0.08,
+        "closed_deals": 8,
+        "winning_deals": 2,
+        "losing_deals": 6,
         "breakeven_deals": 0
       },
       {
@@ -2148,20 +2500,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-07-01",
         "currency": "CAD",
-        "net_profit": 10.26,
-        "gross_profit": 17.91,
-        "gross_loss": -7.65,
+        "net_profit": -106.72,
+        "gross_profit": 21.32,
+        "gross_loss": -128.04,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 1,
-        "losing_deals": 1,
-        "breakeven_deals": 0
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 2,
+        "losing_deals": 6,
+        "breakeven_deals": 4
       },
       {
         "bot_id": "gold",
@@ -2180,6 +2532,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-07-02",
+        "currency": "CAD",
+        "net_profit": -106.56,
+        "gross_profit": 21.3,
+        "gross_loss": -127.86,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 3,
+        "losing_deals": 6,
+        "breakeven_deals": 15
+      },
+      {
         "bot_id": "gold",
         "period": "2026-07-03",
         "currency": "CAD",
@@ -2194,6 +2562,22 @@
         "winning_deals": 3,
         "losing_deals": 1,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-07-03",
+        "currency": "CAD",
+        "net_profit": -212.86,
+        "gross_profit": 42.56,
+        "gross_loss": -255.42,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 4,
+        "losing_deals": 12,
+        "breakeven_deals": 8
       },
       {
         "bot_id": "gold",
@@ -2212,6 +2596,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-07-06",
+        "currency": "CAD",
+        "net_profit": 42.68,
+        "gross_profit": 42.68,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 5,
+        "losing_deals": 0,
+        "breakeven_deals": 19
+      },
+      {
         "bot_id": "gold",
         "period": "2026-07-07",
         "currency": "CAD",
@@ -2228,20 +2628,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-07-07",
         "currency": "CAD",
-        "net_profit": 1.22,
-        "gross_profit": 1.22,
-        "gross_loss": 0.0,
+        "net_profit": -167.55,
+        "gross_profit": 49.74,
+        "gross_loss": -217.29,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.01,
-        "closed_deals": 1,
-        "winning_deals": 1,
-        "losing_deals": 0,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 4,
+        "losing_deals": 8,
+        "breakeven_deals": 12
       },
       {
         "bot_id": "gold",
@@ -2260,20 +2660,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-07-08",
         "currency": "CAD",
-        "net_profit": 20.95,
-        "gross_profit": 20.95,
-        "gross_loss": 0.0,
+        "net_profit": -120.41,
+        "gross_profit": 7.09,
+        "gross_loss": -127.5,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
-        "losing_deals": 0,
-        "breakeven_deals": 0
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 1,
+        "losing_deals": 6,
+        "breakeven_deals": 5
       },
       {
         "bot_id": "gold",
@@ -2292,6 +2692,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-07-09",
+        "currency": "CAD",
+        "net_profit": 28.36,
+        "gross_profit": 28.36,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.12,
+        "closed_deals": 12,
+        "winning_deals": 3,
+        "losing_deals": 0,
+        "breakeven_deals": 9
+      },
+      {
         "bot_id": "gold",
         "period": "2026-07-10",
         "currency": "CAD",
@@ -2306,6 +2722,22 @@
         "winning_deals": 10,
         "losing_deals": 2,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-07-10",
+        "currency": "CAD",
+        "net_profit": 301.82,
+        "gross_profit": 301.82,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 17,
+        "losing_deals": 0,
+        "breakeven_deals": 7
       },
       {
         "bot_id": "gold",
@@ -2324,20 +2756,20 @@
         "breakeven_deals": 0
       },
       {
-        "bot_id": "xau",
+        "bot_id": "paul",
         "period": "2026-07-13",
         "currency": "CAD",
-        "net_profit": 15.94,
-        "gross_profit": 15.94,
-        "gross_loss": 0.0,
+        "net_profit": -105.98,
+        "gross_profit": 21.22,
+        "gross_loss": -127.2,
         "commission": 0.0,
         "swap": 0.0,
         "fee": 0.0,
-        "volume": 0.02,
-        "closed_deals": 2,
-        "winning_deals": 2,
-        "losing_deals": 0,
-        "breakeven_deals": 0
+        "volume": 0.24,
+        "closed_deals": 24,
+        "winning_deals": 3,
+        "losing_deals": 6,
+        "breakeven_deals": 15
       },
       {
         "bot_id": "gold",
@@ -2354,6 +2786,22 @@
         "winning_deals": 5,
         "losing_deals": 1,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-07-14",
+        "currency": "CAD",
+        "net_profit": 244.65,
+        "gross_profit": 244.65,
+        "gross_loss": 0.0,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.6,
+        "closed_deals": 24,
+        "winning_deals": 9,
+        "losing_deals": 0,
+        "breakeven_deals": 15
       },
       {
         "bot_id": "btc",
@@ -2388,6 +2836,22 @@
         "breakeven_deals": 0
       },
       {
+        "bot_id": "paul",
+        "period": "2026-07-15",
+        "currency": "CAD",
+        "net_profit": -1426.12,
+        "gross_profit": 344.36,
+        "gross_loss": -1770.48,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 2.1,
+        "closed_deals": 30,
+        "winning_deals": 5,
+        "losing_deals": 12,
+        "breakeven_deals": 13
+      },
+      {
         "bot_id": "gold",
         "period": "2026-07-16",
         "currency": "CAD",
@@ -2402,6 +2866,22 @@
         "winning_deals": 2,
         "losing_deals": 1,
         "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-07-16",
+        "currency": "CAD",
+        "net_profit": 64.4,
+        "gross_profit": 98.32,
+        "gross_loss": -33.92,
+        "commission": 0.0,
+        "swap": 0.0,
+        "fee": 0.0,
+        "volume": 0.98,
+        "closed_deals": 14,
+        "winning_deals": 2,
+        "losing_deals": 2,
+        "breakeven_deals": 10
       }
     ]
   },
@@ -2411,40 +2891,46 @@
       "bot_id": "portfolio",
       "data_status": "ok",
       "scope": "observed_closed_deal_rows",
-      "net_profit": -847.23,
-      "closed_pnl_high_water": 16.55,
-      "max_drawdown": 1300.79,
-      "current_drawdown": 863.78,
-      "pnl_to_max_drawdown": -0.65132,
-      "profit_factor": 0.795917,
+      "net_profit": -1400.97,
+      "closed_pnl_high_water": 541.33,
+      "max_drawdown": 2443.71,
+      "current_drawdown": 1942.3,
+      "pnl_to_max_drawdown": -0.573296,
+      "profit_factor": 0.876155,
       "best_day": {
         "period": "2026-07-16",
-        "net_profit": 437.01
+        "net_profit": 501.41
       },
       "worst_day": {
         "period": "2026-07-15",
-        "net_profit": -774.33
+        "net_profit": -2200.45
       },
-      "winning_days": 23,
-      "losing_days": 32,
-      "observed_days": 55
+      "winning_days": 31,
+      "losing_days": 26,
+      "observed_days": 57
     },
     "bots": [
       {
         "bot_id": "paul",
-        "data_status": "DATA_MISSING",
+        "data_status": "ok",
         "scope": "observed_closed_deal_rows",
-        "net_profit": null,
-        "closed_pnl_high_water": null,
-        "max_drawdown": null,
-        "current_drawdown": null,
-        "pnl_to_max_drawdown": null,
-        "profit_factor": null,
-        "best_day": null,
-        "worst_day": null,
-        "winning_days": null,
-        "losing_days": null,
-        "observed_days": 0
+        "net_profit": -787.8,
+        "closed_pnl_high_water": 776.49,
+        "max_drawdown": 1628.69,
+        "current_drawdown": 1564.29,
+        "pnl_to_max_drawdown": -0.483702,
+        "profit_factor": 0.898977,
+        "best_day": {
+          "period": "2026-06-29",
+          "net_profit": 335.7
+        },
+        "worst_day": {
+          "period": "2026-07-15",
+          "net_profit": -1426.12
+        },
+        "winning_days": 30,
+        "losing_days": 22,
+        "observed_days": 52
       },
       {
         "bot_id": "gold",
@@ -2470,25 +2956,19 @@
       },
       {
         "bot_id": "xau",
-        "data_status": "ok",
+        "data_status": "DATA_MISSING",
         "scope": "observed_closed_deal_rows",
-        "net_profit": -234.06,
-        "closed_pnl_high_water": 0.0,
-        "max_drawdown": 283.12,
-        "current_drawdown": 234.06,
-        "pnl_to_max_drawdown": -0.826717,
-        "profit_factor": 0.628252,
-        "best_day": {
-          "period": "2026-07-08",
-          "net_profit": 20.95
-        },
-        "worst_day": {
-          "period": "2026-05-12",
-          "net_profit": -261.48
-        },
-        "winning_days": 12,
-        "losing_days": 11,
-        "observed_days": 23
+        "net_profit": null,
+        "closed_pnl_high_water": null,
+        "max_drawdown": null,
+        "current_drawdown": null,
+        "pnl_to_max_drawdown": null,
+        "profit_factor": null,
+        "best_day": null,
+        "worst_day": null,
+        "winning_days": null,
+        "losing_days": null,
+        "observed_days": 0
       },
       {
         "bot_id": "btc",
@@ -2515,79 +2995,79 @@
     ],
     "worst_daily_rows": [
       {
+        "bot_id": "paul",
+        "period": "2026-07-15",
+        "net_profit": -1426.12
+      },
+      {
         "bot_id": "btc",
         "period": "2026-07-15",
         "net_profit": -863.76
       },
       {
-        "bot_id": "xau",
-        "period": "2026-05-12",
-        "net_profit": -261.48
+        "bot_id": "paul",
+        "period": "2026-05-18",
+        "net_profit": -370.98
       },
       {
-        "bot_id": "btc",
-        "period": "2026-06-11",
-        "net_profit": -54.06
+        "bot_id": "paul",
+        "period": "2026-06-10",
+        "net_profit": -243.89
       },
       {
-        "bot_id": "btc",
-        "period": "2026-06-24",
-        "net_profit": -29.52
+        "bot_id": "paul",
+        "period": "2026-05-19",
+        "net_profit": -233.75
       },
       {
-        "bot_id": "btc",
-        "period": "2026-06-05",
-        "net_profit": -29.1
+        "bot_id": "paul",
+        "period": "2026-07-03",
+        "net_profit": -212.86
       },
       {
-        "bot_id": "btc",
-        "period": "2026-07-01",
-        "net_profit": -27.66
+        "bot_id": "paul",
+        "period": "2026-05-07",
+        "net_profit": -206.8
       },
       {
-        "bot_id": "btc",
-        "period": "2026-06-03",
-        "net_profit": -27.6
+        "bot_id": "paul",
+        "period": "2026-05-25",
+        "net_profit": -169.24
       },
       {
-        "bot_id": "btc",
-        "period": "2026-06-23",
-        "net_profit": -27.3
+        "bot_id": "paul",
+        "period": "2026-07-07",
+        "net_profit": -167.55
       },
       {
-        "bot_id": "btc",
-        "period": "2026-06-30",
-        "net_profit": -26.88
+        "bot_id": "paul",
+        "period": "2026-06-16",
+        "net_profit": -158.0
       },
       {
-        "bot_id": "btc",
-        "period": "2026-06-22",
-        "net_profit": -25.32
+        "bot_id": "paul",
+        "period": "2026-05-08",
+        "net_profit": -127.45
       },
       {
-        "bot_id": "btc",
-        "period": "2026-05-11",
-        "net_profit": -24.54
-      },
-      {
-        "bot_id": "btc",
-        "period": "2026-05-09",
-        "net_profit": -24.06
+        "bot_id": "paul",
+        "period": "2026-07-08",
+        "net_profit": -120.41
       }
     ]
   },
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 64,
-    "observed_equity_high_water": 97725.66,
-    "current_equity_drawdown": 32.18,
-    "current_equity_drawdown_pct": 0.032929
+    "sample_count": 65,
+    "observed_equity_high_water": 98592.84,
+    "current_equity_drawdown": 0.0,
+    "current_equity_drawdown_pct": 0.0
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-16T13:41:55.868636+02:00",
-    "last_successful_publication_at": "2026-07-16T13:44:27.037390+00:00",
+    "last_successful_build_at": "2026-07-16T15:46:30.9464334+02:00",
+    "last_successful_publication_at": "2026-07-16T13:45:36.581660+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -2786,18 +3266,6 @@
     {
       "severity": "warning",
       "message": "Current week portfolio PnL is partial because one or more bots have no closed-deal row."
-    },
-    {
-      "severity": "warning",
-      "message": "Exposure data is stale against its reporting SLA."
-    },
-    {
-      "severity": "warning",
-      "message": "Process data is stale against its reporting SLA."
-    },
-    {
-      "severity": "warning",
-      "message": "Performance data is stale against its reporting SLA."
     },
     {
       "severity": "info",
