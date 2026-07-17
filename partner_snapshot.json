@@ -25,19 +25,19 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-17T08:34:43.164041+00:00",
-        "age_seconds": 28.9,
+        "age_seconds": 94.1,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-07-17T08:34:41.402954+00:00",
-        "age_seconds": 30.7,
+        "age_seconds": 95.8,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-17T08:33:36.314311+00:00",
-        "age_seconds": 95.8,
+        "age_seconds": 160.9,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -236,7 +236,7 @@
       "latest_activity_at": "2026-07-16T15:14:01Z",
       "freshness": {
         "source_at": "2026-07-16T15:14:01+00:00",
-        "age_seconds": 62471.1,
+        "age_seconds": 62536.2,
         "sla_seconds": 3600,
         "status": "stale"
       },
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 230028.3,
+        "age_seconds": 230093.4,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 157237.8,
+        "age_seconds": 157303.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 2826823.4,
+        "age_seconds": 2826888.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3733,7 +3733,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-17T10:34:43.164041+02:00",
-    "last_successful_publication_at": "2026-07-17T08:34:11.834733+00:00",
+    "last_successful_publication_at": "2026-07-17T08:35:16.946706+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -3772,9 +3772,9 @@
   },
   "measurement": {
     "status": "collecting",
-    "generated_at": "2026-07-15T19:19:12.335172+00:00",
+    "generated_at": "2026-07-17T08:35:59.051729+00:00",
     "measurement_started_at": "2026-07-14T14:59:06.014210+00:00",
-    "elapsed_calendar_days": 1,
+    "elapsed_calendar_days": 3,
     "minimum_calendar_days": 14,
     "observed_iso_week_count": 1,
     "minimum_iso_weeks": 2,
@@ -3802,16 +3802,16 @@
         "candidate_id": "paul_be_tsl_runner_state_vs_broker",
         "label": "BE / TSL / runner broker-state verification",
         "state": "monitoring",
-        "sample_count": 3,
+        "sample_count": 4,
         "baseline_sample_count": 0,
-        "new_sample_count": 3,
+        "new_sample_count": 4,
         "tagged_net_pnl": null,
         "pnl_basis": "DATA_MISSING",
-        "positive_outcome_count": 3,
+        "positive_outcome_count": 4,
         "negative_outcome_count": 0,
         "recovery_damage_ratio": null,
-        "data_quality": "ok",
-        "source_generated_at": "2026-07-15T19:19:12+00:00"
+        "data_quality": "missing",
+        "source_generated_at": "2026-07-17T08:35:59+00:00"
       },
       {
         "bot_id": "gold",
@@ -3843,7 +3843,7 @@
         "negative_outcome_count": 9,
         "recovery_damage_ratio": 0.0,
         "data_quality": "ok",
-        "source_generated_at": "2026-07-15T16:01:03.546645+00:00"
+        "source_generated_at": "2026-07-17T08:35:59.648403+00:00"
       },
       {
         "bot_id": "xau",
@@ -3877,11 +3877,11 @@
         "bot_id": "paul",
         "candidate_id": "paul_be_tsl_runner_state_vs_broker",
         "status": "collecting",
-        "new_sample_count": 3,
+        "new_sample_count": 4,
         "minimum_new_sample_count": 2,
         "time_ready": false,
         "sample_ready": true,
-        "evidence_complete": true
+        "evidence_complete": false
       },
       {
         "bot_id": "gold",
@@ -3917,11 +3917,11 @@
     "paul_telegram_shadow": {
       "status": "ok",
       "telegram_available": true,
-      "last_checked_at": "2026-07-15T19:14:16Z",
+      "last_checked_at": "2026-07-16T15:14:01Z",
       "scheduler_status": "completed",
-      "scheduler_finished_at": "2026-07-15T19:13:11.5217595+00:00",
-      "normalized_message_count": 143,
-      "observation_row_count": 137,
+      "scheduler_finished_at": "2026-07-17T08:33:12.5808691+00:00",
+      "normalized_message_count": 161,
+      "observation_row_count": 155,
       "duplicate_signal_count": 6,
       "wait_instruction_observation_count": 3,
       "data_quality": "ok",
