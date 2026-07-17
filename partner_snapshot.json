@@ -20,26 +20,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-17T07:48:41.558444+02:00",
     "process_at": "2026-07-17T07:48:40.0574318+02:00",
     "performance_export_at": "2026-07-17T07:47:35.5112714+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-17T05:48:41.558444+00:00",
-        "age_seconds": 37.2,
+        "age_seconds": 177.1,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-17T05:48:40.057431+00:00",
-        "age_seconds": 38.7,
+        "age_seconds": 178.6,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-17T05:47:35.511271+00:00",
-        "age_seconds": 103.2,
+        "age_seconds": 243.1,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -208,7 +208,7 @@
       "latest_activity_at": "2026-07-16T15:14:01Z",
       "freshness": {
         "source_at": "2026-07-16T15:14:01+00:00",
-        "age_seconds": 52517.8,
+        "age_seconds": 52657.6,
         "sla_seconds": 3600,
         "status": "stale"
       },
@@ -231,7 +231,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 220075.0,
+        "age_seconds": 220214.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -254,7 +254,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 147284.5,
+        "age_seconds": 147424.4,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -277,7 +277,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 2816870.1,
+        "age_seconds": 2817010.0,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -2587,7 +2587,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-17T07:48:41.558444+02:00",
-    "last_successful_publication_at": "2026-07-17T05:48:18.433978+00:00",
+    "last_successful_publication_at": "2026-07-17T05:50:38.363648+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -2786,6 +2786,14 @@
     {
       "severity": "warning",
       "message": "Current week portfolio PnL is partial because one or more bots have no closed-deal row."
+    },
+    {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
     },
     {
       "severity": "info",
