@@ -18,26 +18,26 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-17T13:06:32.777617+02:00",
     "process_at": "2026-07-17T13:06:31.1326221+02:00",
     "performance_export_at": "2026-07-17T13:05:27.7832358+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-17T11:06:32.777617+00:00",
-        "age_seconds": 7.1,
+        "age_seconds": 446.5,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-17T11:06:31.132622+00:00",
-        "age_seconds": 8.8,
+        "age_seconds": 448.1,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-17T11:05:27.783235+00:00",
-        "age_seconds": 72.1,
+        "age_seconds": 511.5,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -236,7 +236,7 @@
       "latest_activity_at": "2026-07-16T15:14:01Z",
       "freshness": {
         "source_at": "2026-07-16T15:14:01+00:00",
-        "age_seconds": 71558.9,
+        "age_seconds": 71998.3,
         "sla_seconds": 3600,
         "status": "stale"
       },
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 239116.1,
+        "age_seconds": 239555.5,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 166325.7,
+        "age_seconds": 166765.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 2835911.3,
+        "age_seconds": 2836350.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3733,7 +3733,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-17T13:06:32.777617+02:00",
-    "last_successful_publication_at": "2026-07-17T11:05:39.703806+00:00",
+    "last_successful_publication_at": "2026-07-17T11:06:45.310904+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -3981,6 +3981,14 @@
     }
   },
   "warnings": [
+    {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
+    },
     {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
