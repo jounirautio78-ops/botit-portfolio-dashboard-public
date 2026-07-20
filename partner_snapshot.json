@@ -1,45 +1,49 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-18T09:22:32.771436+02:00",
+  "generated_at": "2026-07-20T09:18:52.549951+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
-    "balance": 97309.52,
-    "equity": 97324.5,
-    "floating_pnl": 22.66,
-    "open_positions": 1,
+    "balance": 97203.65,
+    "equity": 97431.15,
+    "floating_pnl": 227.5,
+    "open_positions": 5,
     "unmapped_positions": 0,
-    "xau_net_exposure": 0.07,
+    "xau_net_exposure": -0.35,
     "btc_net_exposure": 0.0,
-    "current_week_period": "2026-W29",
-    "current_week_known_pnl": -1936.78,
-    "current_week_status": "complete",
-    "current_week_missing_bots": []
+    "current_week_period": "2026-W30",
+    "current_week_known_pnl": -154.91,
+    "current_week_status": "partial",
+    "current_week_missing_bots": [
+      "gold",
+      "xau",
+      "btc"
+    ]
   },
   "freshness": {
-    "overall_status": "stale",
-    "exposure_at": "2026-07-18T09:22:32.771436+02:00",
-    "process_at": "2026-07-18T09:22:31.4563010+02:00",
-    "performance_export_at": "2026-07-18T09:18:08.6296227+02:00",
+    "overall_status": "fresh",
+    "exposure_at": "2026-07-20T09:18:52.549951+02:00",
+    "process_at": "2026-07-20T09:18:50.8612294+02:00",
+    "performance_export_at": "2026-07-20T09:17:45.5919328+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-18T07:22:32.771436+00:00",
-        "age_seconds": 1013.1,
+        "source_at": "2026-07-20T07:18:52.549951+00:00",
+        "age_seconds": 68.3,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-18T07:22:31.456301+00:00",
-        "age_seconds": 1014.4,
+        "source_at": "2026-07-20T07:18:50.861229+00:00",
+        "age_seconds": 70.0,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-18T07:18:08.629622+00:00",
-        "age_seconds": 1277.2,
+        "source_at": "2026-07-20T07:17:45.591932+00:00",
+        "age_seconds": 135.2,
         "sla_seconds": 600,
-        "status": "stale"
+        "status": "fresh"
       }
     }
   },
@@ -51,41 +55,41 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-18T09:17:58.1338588+02:00",
-      "latest_activity_age_seconds": 272.1,
-      "exposure_net_volume": 0.07,
-      "floating_pnl": 22.66,
+      "latest_activity_at": "2026-07-20T09:17:32.8692900+02:00",
+      "latest_activity_age_seconds": 76.5,
+      "exposure_net_volume": -0.35,
+      "floating_pnl": 227.5,
       "latest_daily": {
         "bot_id": "paul",
-        "period": "2026-07-17",
+        "period": "2026-07-20",
         "currency": "CAD",
-        "net_profit": -4167.74,
-        "gross_profit": 307.26,
-        "gross_loss": -4477.9,
+        "net_profit": -154.91,
+        "gross_profit": 0.0,
+        "gross_loss": -147.23,
         "commission": 0.0,
-        "swap": 2.9,
+        "swap": -7.68,
         "fee": 0.0,
-        "volume": 3.78,
-        "closed_deals": 54,
-        "winning_deals": 4,
-        "losing_deals": 33,
-        "breakeven_deals": 17
+        "volume": 0.07,
+        "closed_deals": 1,
+        "winning_deals": 0,
+        "losing_deals": 1,
+        "breakeven_deals": 0
       },
       "latest_weekly": {
         "bot_id": "paul",
-        "period": "2026-W29",
+        "period": "2026-W30",
         "currency": "CAD",
-        "net_profit": -2717.95,
-        "gross_profit": 3688.65,
-        "gross_loss": -6409.5,
+        "net_profit": -154.91,
+        "gross_profit": 0.0,
+        "gross_loss": -147.23,
         "commission": 0.0,
-        "swap": 2.9,
+        "swap": -7.68,
         "fee": 0.0,
-        "volume": 9.59,
-        "closed_deals": 173,
-        "winning_deals": 43,
-        "losing_deals": 53,
-        "breakeven_deals": 77
+        "volume": 0.07,
+        "closed_deals": 1,
+        "winning_deals": 0,
+        "losing_deals": 1,
+        "breakeven_deals": 0
       },
       "data_status": "ok"
     },
@@ -96,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-18T09:22:21.2051021+02:00",
-      "latest_activity_age_seconds": 9.4,
+      "latest_activity_at": "2026-07-20T09:18:45.0332570+02:00",
+      "latest_activity_age_seconds": 4.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -141,8 +145,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-18T09:18:03.7246782+02:00",
-      "latest_activity_age_seconds": 267.1,
+      "latest_activity_at": "2026-07-20T09:17:39.9474983+02:00",
+      "latest_activity_age_seconds": 70.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -186,8 +190,8 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-18T09:18:07.8445997+02:00",
-      "latest_activity_age_seconds": 263.3,
+      "latest_activity_at": "2026-07-20T09:17:44.7360965+02:00",
+      "latest_activity_age_seconds": 65.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -236,7 +240,7 @@
       "latest_activity_at": "2026-07-16T15:14:01Z",
       "freshness": {
         "source_at": "2026-07-16T15:14:01+00:00",
-        "age_seconds": 145524.8,
+        "age_seconds": 317159.8,
         "sla_seconds": 3600,
         "status": "stale"
       },
@@ -259,7 +263,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 313082.0,
+        "age_seconds": 484717.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +286,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 240291.6,
+        "age_seconds": 411926.6,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 2909877.2,
+        "age_seconds": 3081512.2,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -325,19 +329,19 @@
         "bot_id": "paul",
         "period": "ALL_HISTORY",
         "currency": "CAD",
-        "net_profit": -2282.7,
+        "net_profit": -2437.61,
         "gross_profit": 9952.81,
-        "gross_loss": -12234.17,
+        "gross_loss": -12381.4,
         "commission": 0.0,
-        "swap": -1.34,
+        "swap": -9.02,
         "fee": 0.0,
-        "volume": 20.84,
-        "closed_deals": 1298,
+        "volume": 20.91,
+        "closed_deals": 1299,
         "winning_deals": 416,
-        "losing_deals": 388,
+        "losing_deals": 389,
         "breakeven_deals": 494,
         "first_period": "2026-05-01",
-        "last_period": "2026-07-17"
+        "last_period": "2026-07-20"
       },
       {
         "bot_id": "gold",
@@ -579,19 +583,19 @@
         "bot_id": "paul",
         "period": "2026-07",
         "currency": "CAD",
-        "net_profit": -3059.19,
+        "net_profit": -3214.1,
         "gross_profit": 4203.52,
-        "gross_loss": -7265.61,
+        "gross_loss": -7412.84,
         "commission": 0.0,
-        "swap": 2.9,
+        "swap": -4.78,
         "fee": 0.0,
-        "volume": 11.15,
-        "closed_deals": 329,
+        "volume": 11.22,
+        "closed_deals": 330,
         "winning_deals": 82,
-        "losing_deals": 91,
+        "losing_deals": 92,
         "breakeven_deals": 156,
         "first_period": "2026-07-01",
-        "last_period": "2026-07-17"
+        "last_period": "2026-07-20"
       },
       {
         "bot_id": "xau",
@@ -1250,6 +1254,22 @@
         "volume": 1.89,
         "closed_deals": 3,
         "winning_deals": 2,
+        "losing_deals": 1,
+        "breakeven_deals": 0
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-W30",
+        "currency": "CAD",
+        "net_profit": -154.91,
+        "gross_profit": 0.0,
+        "gross_loss": -147.23,
+        "commission": 0.0,
+        "swap": -7.68,
+        "fee": 0.0,
+        "volume": 0.07,
+        "closed_deals": 1,
+        "winning_deals": 0,
         "losing_deals": 1,
         "breakeven_deals": 0
       }
@@ -3558,6 +3578,22 @@
         "winning_deals": 4,
         "losing_deals": 33,
         "breakeven_deals": 17
+      },
+      {
+        "bot_id": "paul",
+        "period": "2026-07-20",
+        "currency": "CAD",
+        "net_profit": -154.91,
+        "gross_profit": 0.0,
+        "gross_loss": -147.23,
+        "commission": 0.0,
+        "swap": -7.68,
+        "fee": 0.0,
+        "volume": 0.07,
+        "closed_deals": 1,
+        "winning_deals": 0,
+        "losing_deals": 1,
+        "breakeven_deals": 0
       }
     ]
   },
@@ -3567,12 +3603,12 @@
       "bot_id": "portfolio",
       "data_status": "ok",
       "scope": "observed_closed_deal_rows",
-      "net_profit": -2025.25,
+      "net_profit": -2180.16,
       "closed_pnl_high_water": 258.9,
-      "max_drawdown": 2395.34,
-      "current_drawdown": 2284.15,
-      "pnl_to_max_drawdown": -0.845496,
-      "profit_factor": 0.883494,
+      "max_drawdown": 2439.06,
+      "current_drawdown": 2439.06,
+      "pnl_to_max_drawdown": -0.893853,
+      "profit_factor": 0.876069,
       "best_day": {
         "period": "2026-07-16",
         "net_profit": 2188.06
@@ -3582,20 +3618,20 @@
         "net_profit": -2200.45
       },
       "winning_days": 30,
-      "losing_days": 28,
-      "observed_days": 58
+      "losing_days": 29,
+      "observed_days": 59
     },
     "bots": [
       {
         "bot_id": "paul",
         "data_status": "ok",
         "scope": "observed_closed_deal_rows",
-        "net_profit": -2282.7,
+        "net_profit": -2437.61,
         "closed_pnl_high_water": 1885.04,
-        "max_drawdown": 4167.74,
-        "current_drawdown": 4167.74,
-        "pnl_to_max_drawdown": -0.547707,
-        "profit_factor": 0.813526,
+        "max_drawdown": 4322.65,
+        "current_drawdown": 4322.65,
+        "pnl_to_max_drawdown": -0.563916,
+        "profit_factor": 0.803852,
         "best_day": {
           "period": "2026-07-16",
           "net_profit": 2737.24
@@ -3605,8 +3641,8 @@
           "net_profit": -4167.74
         },
         "winning_days": 30,
-        "losing_days": 23,
-        "observed_days": 53
+        "losing_days": 24,
+        "observed_days": 54
       },
       {
         "bot_id": "gold",
@@ -3741,15 +3777,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 896,
+    "sample_count": 897,
     "observed_equity_high_water": 101071.64,
-    "current_equity_drawdown": 3747.14,
-    "current_equity_drawdown_pct": 3.70741
+    "current_equity_drawdown": 3640.49,
+    "current_equity_drawdown_pct": 3.601891
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-18T09:22:32.771436+02:00",
-    "last_successful_publication_at": "2026-07-18T07:38:24.893199+00:00",
+    "last_successful_build_at": "2026-07-20T09:18:52.549951+02:00",
+    "last_successful_publication_at": "2026-07-18T07:39:30.287468+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -3788,11 +3824,11 @@
   },
   "measurement": {
     "status": "collecting",
-    "generated_at": "2026-07-18T07:09:40.073320+00:00",
+    "generated_at": "2026-07-20T07:18:59.462525+00:00",
     "measurement_started_at": "2026-07-14T14:59:06.014210+00:00",
-    "elapsed_calendar_days": 4,
+    "elapsed_calendar_days": 6,
     "minimum_calendar_days": 14,
-    "observed_iso_week_count": 1,
+    "observed_iso_week_count": 2,
     "minimum_iso_weeks": 2,
     "automatic_execution_enablement": false,
     "execution_change_approved": false,
@@ -3805,29 +3841,29 @@
         "sample_count": 9,
         "baseline_sample_count": 6,
         "new_sample_count": 3,
-        "tagged_net_pnl": -105.53,
+        "tagged_net_pnl": -56.42,
         "pnl_basis": "actual_mapped_partial_lifecycle_pnl",
-        "positive_outcome_count": 4,
+        "positive_outcome_count": 5,
         "negative_outcome_count": 2,
         "recovery_damage_ratio": null,
-        "data_quality": "missing",
-        "source_generated_at": "2026-07-18T05:09:22.321441+00:00"
+        "data_quality": "partial",
+        "source_generated_at": "2026-07-18T20:59:49.589300+00:00"
       },
       {
         "bot_id": "paul",
         "candidate_id": "paul_be_tsl_runner_state_vs_broker",
         "label": "BE / TSL / runner broker-state verification",
         "state": "monitoring",
-        "sample_count": 11,
+        "sample_count": 15,
         "baseline_sample_count": 0,
-        "new_sample_count": 11,
+        "new_sample_count": 15,
         "tagged_net_pnl": null,
         "pnl_basis": "DATA_MISSING",
-        "positive_outcome_count": 11,
+        "positive_outcome_count": 15,
         "negative_outcome_count": 0,
         "recovery_damage_ratio": null,
         "data_quality": "ok",
-        "source_generated_at": "2026-07-18T07:09:41+00:00"
+        "source_generated_at": "2026-07-20T07:18:59+00:00"
       },
       {
         "bot_id": "paul",
@@ -3843,7 +3879,7 @@
         "negative_outcome_count": 1,
         "recovery_damage_ratio": null,
         "data_quality": "partial",
-        "source_generated_at": "2026-07-18T07:09:43.044803+00:00"
+        "source_generated_at": "2026-07-20T07:19:00.322319+00:00"
       },
       {
         "bot_id": "gold",
@@ -3875,7 +3911,7 @@
         "negative_outcome_count": 9,
         "recovery_damage_ratio": 0.0,
         "data_quality": "ok",
-        "source_generated_at": "2026-07-17T08:35:59.648403+00:00"
+        "source_generated_at": "2026-07-19T14:59:38.490032+00:00"
       },
       {
         "bot_id": "xau",
@@ -3891,23 +3927,23 @@
         "negative_outcome_count": 3,
         "recovery_damage_ratio": null,
         "data_quality": "reconstructed_close_path",
-        "source_generated_at": "2026-07-18T07:09:50.596252+00:00"
+        "source_generated_at": "2026-07-20T07:19:00.731281+00:00"
       },
       {
         "bot_id": "xau",
         "candidate_id": "xau_daily_loss_latch_context",
         "label": "Daily-loss latch post-breach context",
-        "state": "DATA_MISSING",
-        "sample_count": null,
+        "state": "monitoring",
+        "sample_count": 0,
         "baseline_sample_count": 0,
-        "new_sample_count": null,
+        "new_sample_count": 0,
         "tagged_net_pnl": null,
         "pnl_basis": "DATA_MISSING",
         "positive_outcome_count": null,
         "negative_outcome_count": null,
         "recovery_damage_ratio": null,
-        "data_quality": "DATA_MISSING",
-        "source_generated_at": "DATA_MISSING"
+        "data_quality": "missing_outcome_mapping",
+        "source_generated_at": "2026-07-20T07:15:07.563447+00:00"
       }
     ],
     "candidate_gates": [
@@ -3919,13 +3955,13 @@
         "minimum_new_sample_count": 4,
         "time_ready": false,
         "sample_ready": false,
-        "evidence_complete": false
+        "evidence_complete": true
       },
       {
         "bot_id": "paul",
         "candidate_id": "paul_be_tsl_runner_state_vs_broker",
         "status": "collecting",
-        "new_sample_count": 11,
+        "new_sample_count": 15,
         "minimum_new_sample_count": 2,
         "time_ready": false,
         "sample_ready": true,
@@ -3975,7 +4011,7 @@
         "bot_id": "xau",
         "candidate_id": "xau_daily_loss_latch_context",
         "status": "collecting",
-        "new_sample_count": null,
+        "new_sample_count": 0,
         "minimum_new_sample_count": 5,
         "time_ready": false,
         "sample_ready": false,
@@ -3986,8 +4022,8 @@
       "status": "ok",
       "telegram_available": true,
       "last_checked_at": "2026-07-16T15:14:01Z",
-      "scheduler_status": "DATA_MISSING",
-      "scheduler_finished_at": "DATA_MISSING",
+      "scheduler_status": "completed",
+      "scheduler_finished_at": "2026-07-20T07:13:12.3659644+00:00",
       "normalized_message_count": 161,
       "observation_row_count": 155,
       "duplicate_signal_count": 6,
@@ -3999,15 +4035,7 @@
   "warnings": [
     {
       "severity": "warning",
-      "message": "Exposure data is stale against its reporting SLA."
-    },
-    {
-      "severity": "warning",
-      "message": "Process data is stale against its reporting SLA."
-    },
-    {
-      "severity": "warning",
-      "message": "Performance data is stale against its reporting SLA."
+      "message": "Current week portfolio PnL is partial because one or more bots have no closed-deal row."
     },
     {
       "severity": "info",
