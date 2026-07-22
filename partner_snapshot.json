@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-22T19:39:17.7971317+02:00",
+  "generated_at": "2026-07-22T19:39:55.502709+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 97053.11,
-    "equity": 96805.67,
-    "floating_pnl": -247.44,
+    "equity": 96709.19,
+    "floating_pnl": -343.92,
     "open_positions": 6,
     "unmapped_positions": 0,
     "xau_net_exposure": 0.42,
@@ -19,25 +19,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-22T19:38:55.035938+02:00",
-    "process_at": "2026-07-22T19:38:53.5559023+02:00",
+    "exposure_at": "2026-07-22T19:39:55.502709+02:00",
+    "process_at": "2026-07-22T19:39:53.6717250+02:00",
     "performance_export_at": "2026-07-22T19:39:17.7971317+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-22T17:38:55.035938+00:00",
-        "age_seconds": 53.2,
+        "source_at": "2026-07-22T17:39:55.502709+00:00",
+        "age_seconds": 58.7,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-22T17:38:53.555902+00:00",
-        "age_seconds": 54.7,
+        "source_at": "2026-07-22T17:39:53.671725+00:00",
+        "age_seconds": 60.5,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-22T17:39:17.797131+00:00",
-        "age_seconds": 30.5,
+        "age_seconds": 96.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -51,10 +51,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T19:33:02.9887484+02:00",
-      "latest_activity_age_seconds": 348.4,
+      "latest_activity_at": "2026-07-22T19:39:01.2967091+02:00",
+      "latest_activity_age_seconds": 50.1,
       "exposure_net_volume": 0.42,
-      "floating_pnl": -247.44,
+      "floating_pnl": -343.92,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-22",
@@ -96,8 +96,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T19:38:51.5137962+02:00",
-      "latest_activity_age_seconds": 0.2,
+      "latest_activity_at": "2026-07-22T19:39:42.1740408+02:00",
+      "latest_activity_age_seconds": 9.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -141,8 +141,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T19:35:05.4166411+02:00",
-      "latest_activity_age_seconds": 226.8,
+      "latest_activity_at": "2026-07-22T19:39:10.3999497+02:00",
+      "latest_activity_age_seconds": 41.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -186,8 +186,8 @@
       "status": "session_complete",
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T19:33:16.4603944+02:00",
-      "latest_activity_age_seconds": 336.2,
+      "latest_activity_at": "2026-07-22T19:39:16.7665981+02:00",
+      "latest_activity_age_seconds": 35.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -231,7 +231,7 @@
       "name": "Paul Telegram Shadow v1",
       "category": "observation",
       "symbol": "XAUUSD.s",
-      "status": "safety_validation_failed",
+      "status": "unknown",
       "mode": "observation_only",
       "latest_activity_at": null,
       "freshness": {
@@ -244,7 +244,7 @@
       "latest_weekly": null,
       "performance_status": "NOT_APPLICABLE",
       "summary_label": "Normalized messages",
-      "summary_value": null,
+      "summary_value": 612,
       "open_positions": 0,
       "exposure_net_volume": null,
       "floating_pnl": null
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 694704.5,
+        "age_seconds": 694770.4,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 621914.0,
+        "age_seconds": 621980.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3291499.6,
+        "age_seconds": 3291565.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3933,15 +3933,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 1482,
+    "sample_count": 1483,
     "observed_equity_high_water": 101071.64,
-    "current_equity_drawdown": 4265.97,
-    "current_equity_drawdown_pct": 4.220739
+    "current_equity_drawdown": 4362.45,
+    "current_equity_drawdown_pct": 4.316196
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-22T19:39:17.7971317+02:00",
-    "last_successful_publication_at": "2026-07-22T17:38:48.007199+00:00",
+    "last_successful_build_at": "2026-07-22T19:39:55.502709+02:00",
+    "last_successful_publication_at": "2026-07-22T17:39:53.973991+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4195,7 +4195,7 @@
     },
     {
       "severity": "warning",
-      "message": "Paul Telegram Shadow v1 status is safety validation failed."
+      "message": "Paul Telegram Shadow v1 status is unknown."
     },
     {
       "severity": "warning",
