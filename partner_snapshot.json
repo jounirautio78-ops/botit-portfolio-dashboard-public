@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-23T00:09:53.555712+02:00",
+  "generated_at": "2026-07-23T00:33:52.0385269+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -18,28 +18,28 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "overall_status": "stale",
-    "exposure_at": "2026-07-23T00:09:53.555712+02:00",
-    "process_at": "2026-07-22T23:55:50.8807670+02:00",
-    "performance_export_at": "2026-07-22T23:52:11.3996231+02:00",
+    "overall_status": "fresh",
+    "exposure_at": "2026-07-23T00:32:53.969505+02:00",
+    "process_at": "2026-07-23T00:33:52.0385269+02:00",
+    "performance_export_at": "2026-07-23T00:32:11.5934469+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-22T22:09:53.555712+00:00",
-        "age_seconds": 1260.6,
+        "source_at": "2026-07-22T22:32:53.969505+00:00",
+        "age_seconds": 77.5,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-22T21:55:50.880767+00:00",
-        "age_seconds": 2103.3,
+        "source_at": "2026-07-22T22:33:52.038526+00:00",
+        "age_seconds": 19.4,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-22T21:52:11.399623+00:00",
-        "age_seconds": 2322.8,
+        "source_at": "2026-07-22T22:32:11.593446+00:00",
+        "age_seconds": 119.9,
         "sla_seconds": 600,
-        "status": "stale"
+        "status": "fresh"
       }
     }
   },
@@ -51,8 +51,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T23:51:59.1717411+02:00",
-      "latest_activity_age_seconds": 229.9,
+      "latest_activity_at": "2026-07-23T00:31:59.2291880+02:00",
+      "latest_activity_age_seconds": 111.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -96,8 +96,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T23:55:49.0940426+02:00",
-      "latest_activity_age_seconds": 0.3,
+      "latest_activity_at": "2026-07-23T00:33:49.7343956+02:00",
+      "latest_activity_age_seconds": 0.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -141,8 +141,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T23:52:06.5443175+02:00",
-      "latest_activity_age_seconds": 223.2,
+      "latest_activity_at": "2026-07-23T00:32:05.8575812+02:00",
+      "latest_activity_age_seconds": 105.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -186,8 +186,8 @@
       "status": "session_complete",
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-22T23:52:10.8559226+02:00",
-      "latest_activity_age_seconds": 219.3,
+      "latest_activity_at": "2026-07-23T00:32:11.0556090+02:00",
+      "latest_activity_age_seconds": 100.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 712170.4,
+        "age_seconds": 712367.7,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 639379.9,
+        "age_seconds": 639577.2,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3308965.5,
+        "age_seconds": 3309162.8,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3933,15 +3933,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 1691,
+    "sample_count": 1692,
     "observed_equity_high_water": 101071.64,
     "current_equity_drawdown": 4905.99,
     "current_equity_drawdown_pct": 4.853973
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-23T00:09:53.555712+02:00",
-    "last_successful_publication_at": "2026-07-22T22:10:25.109472+00:00",
+    "last_successful_build_at": "2026-07-23T00:33:52.0385269+02:00",
+    "last_successful_publication_at": "2026-07-22T22:30:56.874330+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4189,18 +4189,6 @@
     }
   },
   "warnings": [
-    {
-      "severity": "warning",
-      "message": "Exposure data is stale against its reporting SLA."
-    },
-    {
-      "severity": "warning",
-      "message": "Process data is stale against its reporting SLA."
-    },
-    {
-      "severity": "warning",
-      "message": "Performance data is stale against its reporting SLA."
-    },
     {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
