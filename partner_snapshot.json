@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-23T20:24:20.6476680+02:00",
+  "generated_at": "2026-07-23T20:24:55.793402+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 98367.6,
-    "equity": 99248.26,
-    "floating_pnl": 880.66,
+    "equity": 99235.52,
+    "floating_pnl": 867.92,
     "open_positions": 5,
     "unmapped_positions": 0,
     "xau_net_exposure": -0.11,
@@ -19,25 +19,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-23T20:23:56.637606+02:00",
-    "process_at": "2026-07-23T20:23:54.9446462+02:00",
+    "exposure_at": "2026-07-23T20:24:55.793402+02:00",
+    "process_at": "2026-07-23T20:24:54.1408266+02:00",
     "performance_export_at": "2026-07-23T20:24:20.6476680+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-23T18:23:56.637606+00:00",
-        "age_seconds": 50.9,
+        "source_at": "2026-07-23T18:24:55.793402+00:00",
+        "age_seconds": 57.2,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-23T18:23:54.944646+00:00",
-        "age_seconds": 52.6,
+        "source_at": "2026-07-23T18:24:54.140826+00:00",
+        "age_seconds": 58.9,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-23T18:24:20.647668+00:00",
-        "age_seconds": 26.9,
+        "age_seconds": 92.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -51,10 +51,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-23T20:23:06.4652814+02:00",
-      "latest_activity_age_seconds": 45.4,
+      "latest_activity_at": "2026-07-23T20:24:04.1303520+02:00",
+      "latest_activity_age_seconds": 47.4,
       "exposure_net_volume": -0.11,
-      "floating_pnl": 880.66,
+      "floating_pnl": 867.92,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-23",
@@ -96,8 +96,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-23T20:23:42.6431632+02:00",
-      "latest_activity_age_seconds": 9.7,
+      "latest_activity_at": "2026-07-23T20:24:43.5206596+02:00",
+      "latest_activity_age_seconds": 8.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -141,8 +141,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-23T20:20:00.9461779+02:00",
-      "latest_activity_age_seconds": 232.0,
+      "latest_activity_at": "2026-07-23T20:24:13.1665806+02:00",
+      "latest_activity_age_seconds": 39.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -186,8 +186,8 @@
       "status": "session_complete",
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-23T20:19:16.5919035+02:00",
-      "latest_activity_age_seconds": 277.0,
+      "latest_activity_at": "2026-07-23T20:24:20.2061031+02:00",
+      "latest_activity_age_seconds": 32.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 4530.9,
+        "age_seconds": 4596.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3380598.9,
+        "age_seconds": 3380664.4,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3965,15 +3965,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 2231,
+    "sample_count": 2232,
     "observed_equity_high_water": 101071.64,
-    "current_equity_drawdown": 1823.38,
-    "current_equity_drawdown_pct": 1.804047
+    "current_equity_drawdown": 1836.12,
+    "current_equity_drawdown_pct": 1.816652
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-23T20:24:20.6476680+02:00",
-    "last_successful_publication_at": "2026-07-23T18:23:47.303368+00:00",
+    "last_successful_build_at": "2026-07-23T20:24:55.793402+02:00",
+    "last_successful_publication_at": "2026-07-23T18:24:52.740800+00:00",
     "consecutive_failures": 0
   },
   "research": {
