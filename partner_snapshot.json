@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-23T17:05:54.4122048+02:00",
+  "generated_at": "2026-07-23T17:05:56.088379+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 98325.33,
-    "equity": 98995.91,
-    "floating_pnl": 670.58,
+    "equity": 99002.93,
+    "floating_pnl": 677.6,
     "open_positions": 1,
     "unmapped_positions": 0,
     "xau_net_exposure": -0.07,
@@ -19,25 +19,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-23T17:04:55.725745+02:00",
+    "exposure_at": "2026-07-23T17:05:56.088379+02:00",
     "process_at": "2026-07-23T17:05:54.4122048+02:00",
     "performance_export_at": "2026-07-23T17:01:22.3517034+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-23T15:04:55.725745+00:00",
-        "age_seconds": 67.2,
+        "source_at": "2026-07-23T15:05:56.088379+00:00",
+        "age_seconds": 72.0,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-07-23T15:05:54.412204+00:00",
-        "age_seconds": 8.5,
+        "age_seconds": 73.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-23T15:01:22.351703+00:00",
-        "age_seconds": 280.5,
+        "age_seconds": 345.7,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -54,7 +54,7 @@
       "latest_activity_at": "2026-07-23T17:01:05.4071579+02:00",
       "latest_activity_age_seconds": 286.5,
       "exposure_net_volume": -0.07,
-      "floating_pnl": 670.58,
+      "floating_pnl": 677.6,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-23",
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 771879.1,
+        "age_seconds": 771944.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -277,21 +277,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "safety_validation_failed",
+      "status": "no_signal",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-07-23T15:06:14.871633Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-07-23T15:06:14.871633+00:00",
+        "age_seconds": 53.2,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "fresh"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": null,
-      "open_positions": null,
+      "summary_value": 0,
+      "open_positions": 0,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3368674.2,
+        "age_seconds": 3368739.4,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3965,15 +3965,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 2053,
+    "sample_count": 2054,
     "observed_equity_high_water": 101071.64,
-    "current_equity_drawdown": 2075.73,
-    "current_equity_drawdown_pct": 2.053721
+    "current_equity_drawdown": 2068.71,
+    "current_equity_drawdown_pct": 2.046776
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-23T17:05:54.4122048+02:00",
-    "last_successful_publication_at": "2026-07-23T15:05:02.715015+00:00",
+    "last_successful_build_at": "2026-07-23T17:05:56.088379+02:00",
+    "last_successful_publication_at": "2026-07-23T15:06:07.715335+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4232,10 +4232,6 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Demo Copier status is stale."
-    },
-    {
-      "severity": "warning",
-      "message": "XAU Martingale Demo v1 status is safety validation failed."
     },
     {
       "severity": "warning",
