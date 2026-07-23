@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-23T04:15:10.4922426+02:00",
+  "generated_at": "2026-07-23T08:23:19.6897544+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,25 +23,25 @@
     "overall_status": "stale",
     "exposure_at": "2026-07-23T04:14:54.849088+02:00",
     "process_at": "2026-07-23T04:14:53.2458163+02:00",
-    "performance_export_at": "2026-07-23T04:15:10.4922426+02:00",
+    "performance_export_at": "2026-07-23T08:23:19.6897544+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-23T02:14:54.849088+00:00",
-        "age_seconds": 3275.7,
+        "age_seconds": 15008.8,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-23T02:14:53.245816+00:00",
-        "age_seconds": 3277.3,
+        "age_seconds": 15010.4,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
-        "source_at": "2026-07-23T02:15:10.492242+00:00",
-        "age_seconds": 3260.1,
+        "source_at": "2026-07-23T06:23:19.689754+00:00",
+        "age_seconds": 103.9,
         "sla_seconds": 600,
-        "status": "stale"
+        "status": "fresh"
       }
     }
   },
@@ -203,7 +203,7 @@
       "name": "Paul Telegram Shadow v1",
       "category": "observation",
       "symbol": "XAUUSD.s",
-      "status": "unknown",
+      "status": "safety_validation_failed",
       "mode": "observation_only",
       "latest_activity_at": null,
       "freshness": {
@@ -216,7 +216,7 @@
       "latest_weekly": null,
       "performance_status": "NOT_APPLICABLE",
       "summary_label": "Normalized messages",
-      "summary_value": 616,
+      "summary_value": null,
       "open_positions": 0,
       "exposure_net_volume": null,
       "floating_pnl": null
@@ -231,7 +231,7 @@
       "latest_activity_at": "2026-07-14T16:41:23.793562Z",
       "freshness": {
         "source_at": "2026-07-14T16:41:23.793562+00:00",
-        "age_seconds": 728886.8,
+        "age_seconds": 740619.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -254,7 +254,7 @@
       "latest_activity_at": "2026-07-15T12:54:34.251492Z",
       "freshness": {
         "source_at": "2026-07-15T12:54:34.251492+00:00",
-        "age_seconds": 656096.3,
+        "age_seconds": 667829.4,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -277,7 +277,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3325681.9,
+        "age_seconds": 3337415.0,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -2723,15 +2723,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 1696,
+    "sample_count": 1697,
     "observed_equity_high_water": 101071.64,
     "current_equity_drawdown": 4905.99,
     "current_equity_drawdown_pct": 4.853973
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-23T04:15:10.4922426+02:00",
-    "last_successful_publication_at": "2026-07-23T03:01:21.369799+00:00",
+    "last_successful_build_at": "2026-07-23T08:23:19.6897544+02:00",
+    "last_successful_publication_at": "2026-07-23T03:09:38.067360+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -2992,16 +2992,12 @@
       "message": "Process data is stale against its reporting SLA."
     },
     {
-      "severity": "warning",
-      "message": "Performance data is stale against its reporting SLA."
-    },
-    {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
     },
     {
       "severity": "warning",
-      "message": "Paul Telegram Shadow v1 status is unknown."
+      "message": "Paul Telegram Shadow v1 status is safety validation failed."
     },
     {
       "severity": "warning",
