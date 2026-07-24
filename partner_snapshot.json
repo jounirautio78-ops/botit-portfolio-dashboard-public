@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-25T00:03:53.757698+02:00",
+  "generated_at": "2026-07-25T00:04:54.063132+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -19,25 +19,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-25T00:03:53.757698+02:00",
-    "process_at": "2026-07-25T00:03:52.6053029+02:00",
+    "exposure_at": "2026-07-25T00:04:54.063132+02:00",
+    "process_at": "2026-07-25T00:04:52.9179438+02:00",
     "performance_export_at": "2026-07-25T00:02:13.6760770+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-24T22:03:53.757698+00:00",
-        "age_seconds": 34.2,
+        "source_at": "2026-07-24T22:04:54.063132+00:00",
+        "age_seconds": 40.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-24T22:03:52.605302+00:00",
-        "age_seconds": 35.3,
+        "source_at": "2026-07-24T22:04:52.917943+00:00",
+        "age_seconds": 41.7,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-24T22:02:13.676077+00:00",
-        "age_seconds": 134.3,
+        "age_seconds": 200.9,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -52,7 +52,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-25T00:01:59.0196010+02:00",
-      "latest_activity_age_seconds": 111.4,
+      "latest_activity_age_seconds": 171.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -96,8 +96,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-25T00:03:43.2817857+02:00",
-      "latest_activity_age_seconds": 7.5,
+      "latest_activity_at": "2026-07-25T00:04:43.7853206+02:00",
+      "latest_activity_age_seconds": 7.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -142,7 +142,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-25T00:02:06.6091451+02:00",
-      "latest_activity_age_seconds": 104.7,
+      "latest_activity_age_seconds": 165.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -187,7 +187,7 @@
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-25T00:02:12.8317024+02:00",
-      "latest_activity_age_seconds": 98.9,
+      "latest_activity_age_seconds": 159.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 104111.2,
+        "age_seconds": 104177.9,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -277,21 +277,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "outside_entry_session",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-24T22:04:09.773489Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-24T22:04:09.773489+00:00",
-        "age_seconds": 18.2,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": 0,
-      "open_positions": 0,
+      "summary_value": null,
+      "open_positions": null,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3480179.3,
+        "age_seconds": 3480246.0,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3997,15 +3997,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 3046,
+    "sample_count": 3047,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1178.89,
     "current_equity_drawdown_pct": 1.143942
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-25T00:03:53.757698+02:00",
-    "last_successful_publication_at": "2026-07-24T22:03:27.644484+00:00",
+    "last_successful_build_at": "2026-07-25T00:04:54.063132+02:00",
+    "last_successful_publication_at": "2026-07-24T22:04:34.324733+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4255,6 +4255,10 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Demo Copier status is stale."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1 status is safety validation failed."
     },
     {
       "severity": "warning",
