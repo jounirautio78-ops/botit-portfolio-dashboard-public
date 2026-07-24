@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-24T10:08:57.660527+02:00",
+  "generated_at": "2026-07-24T10:10:56.530106+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-24T10:08:57.660527+02:00",
-    "process_at": "2026-07-24T10:08:55.7462044+02:00",
+    "exposure_at": "2026-07-24T10:10:56.530106+02:00",
+    "process_at": "2026-07-24T10:10:54.8724497+02:00",
     "performance_export_at": "2026-07-24T10:06:24.8952719+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-24T08:08:57.660527+00:00",
-        "age_seconds": 43.7,
+        "source_at": "2026-07-24T08:10:56.530106+00:00",
+        "age_seconds": 16.5,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-24T08:08:55.746204+00:00",
-        "age_seconds": 45.6,
+        "source_at": "2026-07-24T08:10:54.872449+00:00",
+        "age_seconds": 18.1,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-24T08:06:24.895271+00:00",
-        "age_seconds": 196.5,
+        "age_seconds": 288.1,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -55,8 +55,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-24T10:06:07.2062822+02:00",
-      "latest_activity_age_seconds": 165.6,
+      "latest_activity_at": "2026-07-24T10:10:06.7836282+02:00",
+      "latest_activity_age_seconds": 45.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-24T10:08:48.0177199+02:00",
-      "latest_activity_age_seconds": 5.2,
+      "latest_activity_at": "2026-07-24T10:10:49.6089228+02:00",
+      "latest_activity_age_seconds": 2.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -115,8 +115,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-24T10:06:17.2188106+02:00",
-      "latest_activity_age_seconds": 156.5,
+      "latest_activity_at": "2026-07-24T10:10:07.2600916+02:00",
+      "latest_activity_age_seconds": 45.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -131,7 +131,7 @@
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-24T10:06:24.1985480+02:00",
-      "latest_activity_age_seconds": 150.3,
+      "latest_activity_age_seconds": 269.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -173,7 +173,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 54024.7,
+        "age_seconds": 54116.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -214,14 +214,14 @@
       "name": "RSI MTF Pullback Shadow v1",
       "category": "observation",
       "symbol": "XAUUSD.s",
-      "status": "safety_validation_failed",
+      "status": "stale",
       "mode": "shadow_only",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-06-14T15:21:28.658331+00:00",
+        "age_seconds": 3430184.4,
         "sla_seconds": 86400,
-        "status": "DATA_MISSING"
+        "status": "stale"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -1613,19 +1613,19 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 2358,
+    "sample_count": 2359,
     "observed_equity_high_water": 101071.64,
     "current_equity_drawdown": 1916.91,
     "current_equity_drawdown_pct": 1.896585
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-24T10:08:57.660527+02:00",
-    "last_successful_publication_at": "2026-07-24T08:08:41.194911+00:00",
+    "last_successful_build_at": "2026-07-24T10:10:56.530106+02:00",
+    "last_successful_publication_at": "2026-07-24T08:10:12.772322+00:00",
     "consecutive_failures": 0
   },
   "research": {
-    "generated_at": "2026-07-13T07:23:40+00:00",
+    "generated_at": "2026-07-21T11:19:31.017690+00:00",
     "items": [
       {
         "bot_id": "paul",
@@ -1638,7 +1638,7 @@
         "bot_id": "gold",
         "title": "Exit outcome mapping",
         "state": "MAPPING GAP",
-        "detail": "0 signal/order chains; realized close-deal PnL is DATA_MISSING.",
+        "detail": "132 signal/order chains; realized close-deal PnL is DATA_MISSING.",
         "data_quality": "mapping_gap"
       },
       {
@@ -1659,13 +1659,213 @@
     "counterfactual_pnl_published": false
   },
   "measurement": {
-    "status": "DATA_MISSING",
-    "data_quality": "safety_validation_failed",
-    "candidates": [],
-    "candidate_gates": [],
+    "status": "collecting",
+    "generated_at": "2026-07-20T14:19:33.800965+00:00",
+    "measurement_started_at": "2026-07-20T14:19:33.800965+00:00",
+    "elapsed_calendar_days": 0,
+    "minimum_calendar_days": 14,
+    "observed_iso_week_count": 1,
+    "minimum_iso_weeks": 2,
+    "automatic_execution_enablement": false,
+    "execution_change_approved": false,
+    "candidates": [
+      {
+        "bot_id": "paul",
+        "candidate_id": "paul_partial_pending_update_mixed_entry",
+        "label": "Partial pending update + mixed entry",
+        "state": "DATA_MISSING",
+        "sample_count": null,
+        "baseline_sample_count": null,
+        "new_sample_count": null,
+        "tagged_net_pnl": null,
+        "pnl_basis": "DATA_MISSING",
+        "positive_outcome_count": 0,
+        "negative_outcome_count": 0,
+        "recovery_damage_ratio": null,
+        "data_quality": "DATA_MISSING",
+        "source_generated_at": "DATA_MISSING"
+      },
+      {
+        "bot_id": "paul",
+        "candidate_id": "paul_be_tsl_runner_state_vs_broker",
+        "label": "BE / TSL / runner broker-state verification",
+        "state": "monitoring",
+        "sample_count": 16,
+        "baseline_sample_count": 16,
+        "new_sample_count": 0,
+        "tagged_net_pnl": null,
+        "pnl_basis": "DATA_MISSING",
+        "positive_outcome_count": 16,
+        "negative_outcome_count": 0,
+        "recovery_damage_ratio": null,
+        "data_quality": "missing",
+        "source_generated_at": "2026-07-20T13:19:33+00:00"
+      },
+      {
+        "bot_id": "paul",
+        "candidate_id": "paul_after_daily_loss_guard_context",
+        "label": "After daily-loss guard context",
+        "state": "monitoring",
+        "sample_count": 1,
+        "baseline_sample_count": 1,
+        "new_sample_count": 0,
+        "tagged_net_pnl": -884.34,
+        "pnl_basis": "actual_closed_broker_linked_basket_pnl",
+        "positive_outcome_count": null,
+        "negative_outcome_count": null,
+        "recovery_damage_ratio": null,
+        "data_quality": "partial",
+        "source_generated_at": "2026-07-20T12:19:32.487928+00:00"
+      },
+      {
+        "bot_id": "gold",
+        "candidate_id": "gold_entry_session_utc_08_12",
+        "label": "08-12 UTC entry context",
+        "state": "DATA_MISSING",
+        "sample_count": null,
+        "baseline_sample_count": null,
+        "new_sample_count": null,
+        "tagged_net_pnl": null,
+        "pnl_basis": "DATA_MISSING",
+        "positive_outcome_count": null,
+        "negative_outcome_count": null,
+        "recovery_damage_ratio": null,
+        "data_quality": "DATA_MISSING",
+        "source_generated_at": "DATA_MISSING"
+      },
+      {
+        "bot_id": "btc",
+        "candidate_id": "btc_logged_local_session_10_16",
+        "label": "10-16 logged local session",
+        "state": "monitoring",
+        "sample_count": 9,
+        "baseline_sample_count": 9,
+        "new_sample_count": 0,
+        "tagged_net_pnl": -234.06,
+        "pnl_basis": "actual_mapped_basket_pnl",
+        "positive_outcome_count": 0,
+        "negative_outcome_count": 9,
+        "recovery_damage_ratio": 0.0,
+        "data_quality": "partial",
+        "source_generated_at": "2026-07-20T08:54:51.055846+00:00"
+      },
+      {
+        "bot_id": "xau",
+        "candidate_id": "xau_paper_only_no_momentum_short",
+        "label": "Paper-only no-momentum short",
+        "state": "DATA_MISSING",
+        "sample_count": null,
+        "baseline_sample_count": null,
+        "new_sample_count": null,
+        "tagged_net_pnl": null,
+        "pnl_basis": "DATA_MISSING",
+        "positive_outcome_count": null,
+        "negative_outcome_count": null,
+        "recovery_damage_ratio": null,
+        "data_quality": "DATA_MISSING",
+        "source_generated_at": "DATA_MISSING"
+      },
+      {
+        "bot_id": "xau",
+        "candidate_id": "xau_daily_loss_latch_context",
+        "label": "Daily-loss latch post-breach context",
+        "state": "monitoring",
+        "sample_count": 0,
+        "baseline_sample_count": 0,
+        "new_sample_count": 0,
+        "tagged_net_pnl": null,
+        "pnl_basis": "DATA_MISSING",
+        "positive_outcome_count": null,
+        "negative_outcome_count": null,
+        "recovery_damage_ratio": null,
+        "data_quality": "missing_outcome_mapping",
+        "source_generated_at": "2026-07-20T13:50:07.511290+00:00"
+      }
+    ],
+    "candidate_gates": [
+      {
+        "bot_id": "paul",
+        "candidate_id": "paul_partial_pending_update_mixed_entry",
+        "status": "collecting",
+        "new_sample_count": null,
+        "minimum_new_sample_count": 4,
+        "time_ready": false,
+        "sample_ready": false,
+        "evidence_complete": false
+      },
+      {
+        "bot_id": "paul",
+        "candidate_id": "paul_be_tsl_runner_state_vs_broker",
+        "status": "collecting",
+        "new_sample_count": 0,
+        "minimum_new_sample_count": 2,
+        "time_ready": false,
+        "sample_ready": false,
+        "evidence_complete": false
+      },
+      {
+        "bot_id": "paul",
+        "candidate_id": "paul_after_daily_loss_guard_context",
+        "status": "collecting",
+        "new_sample_count": 0,
+        "minimum_new_sample_count": 5,
+        "time_ready": false,
+        "sample_ready": false,
+        "evidence_complete": true
+      },
+      {
+        "bot_id": "gold",
+        "candidate_id": "gold_entry_session_utc_08_12",
+        "status": "collecting",
+        "new_sample_count": null,
+        "minimum_new_sample_count": 12,
+        "time_ready": false,
+        "sample_ready": false,
+        "evidence_complete": false
+      },
+      {
+        "bot_id": "btc",
+        "candidate_id": "btc_logged_local_session_10_16",
+        "status": "collecting",
+        "new_sample_count": 0,
+        "minimum_new_sample_count": 4,
+        "time_ready": false,
+        "sample_ready": false,
+        "evidence_complete": true
+      },
+      {
+        "bot_id": "xau",
+        "candidate_id": "xau_paper_only_no_momentum_short",
+        "status": "collecting",
+        "new_sample_count": null,
+        "minimum_new_sample_count": 4,
+        "time_ready": false,
+        "sample_ready": false,
+        "evidence_complete": false
+      },
+      {
+        "bot_id": "xau",
+        "candidate_id": "xau_daily_loss_latch_context",
+        "status": "collecting",
+        "new_sample_count": 0,
+        "minimum_new_sample_count": 5,
+        "time_ready": false,
+        "sample_ready": false,
+        "evidence_complete": false
+      }
+    ],
     "paul_telegram_shadow": {
-      "status": "DATA_MISSING",
-      "data_quality": "safety_validation_failed"
+      "status": "ok",
+      "telegram_available": true,
+      "last_checked_at": "2026-07-16T15:14:01Z",
+      "scheduler_status": "completed",
+      "scheduler_finished_at": "2026-07-20T13:43:15.3111804+00:00",
+      "normalized_message_count": 161,
+      "observation_row_count": 155,
+      "duplicate_signal_count": 6,
+      "wait_instruction_observation_count": 3,
+      "data_quality": "ok",
+      "mode": "observation_only"
     }
   },
   "warnings": [
@@ -1691,7 +1891,7 @@
     },
     {
       "severity": "warning",
-      "message": "RSI MTF Pullback Shadow v1 status is safety validation failed."
+      "message": "RSI MTF Pullback Shadow v1 status is stale."
     }
   ],
   "safety": {
