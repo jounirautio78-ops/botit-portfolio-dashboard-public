@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-24T15:37:57.774236+02:00",
+  "generated_at": "2026-07-24T15:40:05.3569382+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -18,26 +18,26 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-24T15:37:57.774236+02:00",
     "process_at": "2026-07-24T15:37:55.9276043+02:00",
-    "performance_export_at": "2026-07-24T15:34:22.7134286+02:00",
+    "performance_export_at": "2026-07-24T15:40:05.3569382+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-24T13:37:57.774236+00:00",
-        "age_seconds": 84.6,
+        "age_seconds": 149.8,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-24T13:37:55.927604+00:00",
-        "age_seconds": 86.5,
+        "age_seconds": 151.6,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
-        "source_at": "2026-07-24T13:34:22.713428+00:00",
-        "age_seconds": 299.7,
+        "source_at": "2026-07-24T13:40:05.356938+00:00",
+        "age_seconds": 22.2,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 73805.7,
+        "age_seconds": 73870.9,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3449873.7,
+        "age_seconds": 3449938.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3981,15 +3981,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 2634,
+    "sample_count": 2635,
     "observed_equity_high_water": 101071.64,
     "current_equity_drawdown": 1867.51,
     "current_equity_drawdown_pct": 1.847709
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-24T15:37:57.774236+02:00",
-    "last_successful_publication_at": "2026-07-24T13:38:22.171317+00:00",
+    "last_successful_build_at": "2026-07-24T15:40:05.3569382+02:00",
+    "last_successful_publication_at": "2026-07-24T13:39:27.306087+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4228,6 +4228,14 @@
     }
   },
   "warnings": [
+    {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
+    },
     {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
