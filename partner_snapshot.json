@@ -18,26 +18,26 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-24T22:05:54.490987+02:00",
     "process_at": "2026-07-24T22:05:53.1371334+02:00",
     "performance_export_at": "2026-07-24T22:05:24.0955712+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-24T20:05:54.490987+00:00",
-        "age_seconds": 45.0,
+        "age_seconds": 281.5,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-24T20:05:53.137133+00:00",
-        "age_seconds": 46.3,
+        "age_seconds": 282.8,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-24T20:05:24.095571+00:00",
-        "age_seconds": 75.4,
+        "age_seconds": 311.9,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 97042.7,
+        "age_seconds": 97279.2,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3473110.8,
+        "age_seconds": 3473347.3,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4005,7 +4005,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-24T22:05:54.490987+02:00",
-    "last_successful_publication_at": "2026-07-24T20:05:38.360544+00:00",
+    "last_successful_publication_at": "2026-07-24T20:08:48.693989+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4244,6 +4244,14 @@
     }
   },
   "warnings": [
+    {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
+    },
     {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
