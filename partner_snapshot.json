@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-25T23:13:54.150523+02:00",
+  "generated_at": "2026-07-25T23:14:53.507192+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -18,26 +18,26 @@
     "current_week_missing_bots": []
   },
   "freshness": {
-    "overall_status": "fresh",
-    "exposure_at": "2026-07-25T23:13:54.150523+02:00",
-    "process_at": "2026-07-25T23:13:53.0603923+02:00",
+    "overall_status": "stale",
+    "exposure_at": "2026-07-25T23:14:53.507192+02:00",
+    "process_at": "2026-07-25T23:14:52.5576851+02:00",
     "performance_export_at": "2026-07-25T23:13:14.0789871+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-25T21:13:54.150523+00:00",
-        "age_seconds": 38.0,
+        "source_at": "2026-07-25T21:14:53.507192+00:00",
+        "age_seconds": 483.0,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
-        "source_at": "2026-07-25T21:13:53.060392+00:00",
-        "age_seconds": 39.1,
+        "source_at": "2026-07-25T21:14:52.557685+00:00",
+        "age_seconds": 483.9,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-25T21:13:14.078987+00:00",
-        "age_seconds": 78.1,
+        "age_seconds": 582.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -52,7 +52,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-25T23:12:58.8106694+02:00",
-      "latest_activity_age_seconds": 52.0,
+      "latest_activity_age_seconds": 111.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -96,8 +96,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-25T23:13:41.6238961+02:00",
-      "latest_activity_age_seconds": 9.6,
+      "latest_activity_at": "2026-07-25T23:14:42.0435179+02:00",
+      "latest_activity_age_seconds": 8.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -142,7 +142,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-25T23:13:08.1224757+02:00",
-      "latest_activity_age_seconds": 43.6,
+      "latest_activity_age_seconds": 103.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -187,7 +187,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-25T23:13:13.5211660+02:00",
-      "latest_activity_age_seconds": 38.7,
+      "latest_activity_age_seconds": 98.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 187515.4,
+        "age_seconds": 188019.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3563583.5,
+        "age_seconds": 3564087.8,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3997,15 +3997,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 3867,
+    "sample_count": 3868,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1178.89,
     "current_equity_drawdown_pct": 1.143942
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-25T23:13:54.150523+02:00",
-    "last_successful_publication_at": "2026-07-25T21:12:54.356225+00:00",
+    "last_successful_build_at": "2026-07-25T23:14:53.507192+02:00",
+    "last_successful_publication_at": "2026-07-25T21:14:40.483497+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4244,6 +4244,14 @@
     }
   },
   "warnings": [
+    {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
+    },
     {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
