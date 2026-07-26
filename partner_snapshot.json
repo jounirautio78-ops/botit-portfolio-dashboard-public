@@ -25,21 +25,21 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-26T06:19:54.566223+00:00",
-        "age_seconds": 579.0,
+        "age_seconds": 1346.4,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-26T06:19:53.275506+00:00",
-        "age_seconds": 580.3,
+        "age_seconds": 1347.7,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-26T06:20:05.114302+00:00",
-        "age_seconds": 568.5,
+        "age_seconds": 1335.8,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 220816.9,
+        "age_seconds": 221584.2,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -277,14 +277,14 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "outside_entry_session",
+      "status": "stale",
       "mode": "demo_execution",
       "latest_activity_at": "2026-07-26T06:19:52.311900Z",
       "freshness": {
         "source_at": "2026-07-26T06:19:52.311900+00:00",
-        "age_seconds": 581.3,
+        "age_seconds": 1348.6,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3596884.9,
+        "age_seconds": 3597652.3,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4005,7 +4005,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-26T08:20:05.1143028+02:00",
-    "last_successful_publication_at": "2026-07-26T06:21:34.133752+00:00",
+    "last_successful_publication_at": "2026-07-26T06:29:36.370353+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4253,6 +4253,10 @@
       "message": "Process data is stale against its reporting SLA."
     },
     {
+      "severity": "warning",
+      "message": "Performance data is stale against its reporting SLA."
+    },
+    {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
     },
@@ -4263,6 +4267,10 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Demo Copier status is stale."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1 status is stale."
     },
     {
       "severity": "warning",
