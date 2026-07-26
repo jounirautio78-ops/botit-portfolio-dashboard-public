@@ -25,19 +25,19 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-26T19:13:54.424296+00:00",
-        "age_seconds": 1356.0,
+        "age_seconds": 1767.5,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-26T19:13:53.238934+00:00",
-        "age_seconds": 1357.2,
+        "age_seconds": 1768.7,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-26T19:14:15.820651+00:00",
-        "age_seconds": 1334.7,
+        "age_seconds": 1746.1,
         "sla_seconds": 600,
         "status": "stale"
       }
@@ -231,7 +231,7 @@
       "name": "Paul Telegram Shadow v1",
       "category": "observation",
       "symbol": "XAUUSD.s",
-      "status": "unknown",
+      "status": "safety_validation_failed",
       "mode": "observation_only",
       "latest_activity_at": null,
       "freshness": {
@@ -244,7 +244,7 @@
       "latest_weekly": null,
       "performance_status": "NOT_APPLICABLE",
       "summary_label": "Normalized messages",
-      "summary_value": 850,
+      "summary_value": null,
       "open_positions": 0,
       "exposure_net_volume": null,
       "floating_pnl": null
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 268033.8,
+        "age_seconds": 268445.2,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 42700.4,
+        "age_seconds": 43111.9,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3644101.8,
+        "age_seconds": 3644513.3,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4005,7 +4005,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-26T21:14:15.8206518+02:00",
-    "last_successful_publication_at": "2026-07-26T19:16:02.961721+00:00",
+    "last_successful_publication_at": "2026-07-26T19:36:35.358858+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4262,7 +4262,7 @@
     },
     {
       "severity": "warning",
-      "message": "Paul Telegram Shadow v1 status is unknown."
+      "message": "Paul Telegram Shadow v1 status is safety validation failed."
     },
     {
       "severity": "warning",
