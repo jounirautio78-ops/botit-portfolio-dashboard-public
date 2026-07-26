@@ -25,19 +25,19 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-26T01:42:54.748225+00:00",
-        "age_seconds": 1785.8,
+        "age_seconds": 2446.7,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-26T01:42:53.471894+00:00",
-        "age_seconds": 1787.1,
+        "age_seconds": 2448.0,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-26T01:39:14.104818+00:00",
-        "age_seconds": 2006.5,
+        "age_seconds": 2667.4,
         "sla_seconds": 600,
         "status": "stale"
       }
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 205403.9,
+        "age_seconds": 206064.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -277,21 +277,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "stale",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-26T01:43:36.976936Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-26T01:43:36.976936+00:00",
-        "age_seconds": 1743.6,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "stale"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": 0,
-      "open_positions": 0,
+      "summary_value": null,
+      "open_positions": null,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3581471.9,
+        "age_seconds": 3582132.8,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4005,7 +4005,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-26T03:42:54.748225+02:00",
-    "last_successful_publication_at": "2026-07-26T01:44:53.198080+00:00",
+    "last_successful_publication_at": "2026-07-26T02:12:43.764541+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4270,7 +4270,7 @@
     },
     {
       "severity": "warning",
-      "message": "XAU Martingale Demo v1 status is stale."
+      "message": "XAU Martingale Demo v1 status is safety validation failed."
     },
     {
       "severity": "warning",
