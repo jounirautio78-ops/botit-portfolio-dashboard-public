@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-27T15:43:06.5413204+02:00",
+  "generated_at": "2026-07-27T15:44:07.430885+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -19,25 +19,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-27T15:42:55.008114+02:00",
-    "process_at": "2026-07-27T15:42:53.4315586+02:00",
-    "performance_export_at": "2026-07-27T15:43:06.5413204+02:00",
+    "exposure_at": "2026-07-27T15:44:07.430885+02:00",
+    "process_at": "2026-07-27T15:44:05.5923847+02:00",
+    "performance_export_at": "2026-07-27T15:43:17.6830684+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-27T13:42:55.008114+00:00",
-        "age_seconds": 19.1,
+        "source_at": "2026-07-27T13:44:07.430885+00:00",
+        "age_seconds": 9.7,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-27T13:42:53.431558+00:00",
-        "age_seconds": 20.6,
+        "source_at": "2026-07-27T13:44:05.592384+00:00",
+        "age_seconds": 11.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-27T13:43:06.541320+00:00",
-        "age_seconds": 7.5,
+        "source_at": "2026-07-27T13:43:17.683068+00:00",
+        "age_seconds": 59.5,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -51,8 +51,8 @@
       "status": "stopped",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-27T15:37:01.1041276+02:00",
-      "latest_activity_age_seconds": 350.2,
+      "latest_activity_at": "2026-07-27T15:43:01.5743299+02:00",
+      "latest_activity_age_seconds": 60.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -93,11 +93,11 @@
       "id": "gold",
       "name": "Gold Scalper v2",
       "symbol": "XAUUSD.s",
-      "status": "stopped",
-      "process_tree_status": "stopped",
+      "status": "running",
+      "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-27T15:37:04.6857471+02:00",
-      "latest_activity_age_seconds": 347.0,
+      "latest_activity_at": "2026-07-27T15:44:00.8165152+02:00",
+      "latest_activity_age_seconds": 1.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -138,11 +138,11 @@
       "id": "xau",
       "name": "XAUUSD Intraday Regime Momentum",
       "symbol": "XAUUSD.s",
-      "status": "stopped",
-      "process_tree_status": "stopped",
+      "status": "running",
+      "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-27T15:37:09.5222067+02:00",
-      "latest_activity_age_seconds": 342.5,
+      "latest_activity_at": "2026-07-27T15:43:36.3687983+02:00",
+      "latest_activity_age_seconds": 27.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -186,8 +186,8 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-27T15:37:16.3986553+02:00",
-      "latest_activity_age_seconds": 336.0,
+      "latest_activity_at": "2026-07-27T15:43:16.3900729+02:00",
+      "latest_activity_age_seconds": 47.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -259,7 +259,7 @@
       "latest_activity_at": "2026-07-23T17:09:16.711365Z",
       "freshness": {
         "source_at": "2026-07-23T17:09:16.711365+00:00",
-        "age_seconds": 333237.4,
+        "age_seconds": 333300.5,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -282,7 +282,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 107904.0,
+        "age_seconds": 107967.1,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -305,7 +305,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3709305.4,
+        "age_seconds": 3709368.5,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -3997,15 +3997,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 4396,
+    "sample_count": 4397,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1178.89,
     "current_equity_drawdown_pct": 1.143942
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-27T15:43:06.5413204+02:00",
-    "last_successful_publication_at": "2026-07-27T13:42:13.718689+00:00",
+    "last_successful_build_at": "2026-07-27T15:44:07.430885+02:00",
+    "last_successful_publication_at": "2026-07-27T13:43:17.000889+00:00",
     "consecutive_failures": 0
   },
   "research": {
