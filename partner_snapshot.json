@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v4",
-  "generated_at": "2026-07-28T15:35:56.464747+02:00",
+  "generated_at": "2026-07-28T15:36:55.243204+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,25 +22,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-28T15:35:56.464747+02:00",
-    "process_at": "2026-07-28T15:35:54.6722732+02:00",
+    "exposure_at": "2026-07-28T15:36:55.243204+02:00",
+    "process_at": "2026-07-28T15:36:53.1694747+02:00",
     "performance_export_at": "2026-07-28T15:33:22.3988881+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-28T13:35:56.464747+00:00",
-        "age_seconds": 33.1,
+        "source_at": "2026-07-28T13:36:55.243204+00:00",
+        "age_seconds": 41.8,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-28T13:35:54.672273+00:00",
-        "age_seconds": 34.9,
+        "source_at": "2026-07-28T13:36:53.169474+00:00",
+        "age_seconds": 43.9,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-28T13:33:22.398888+00:00",
-        "age_seconds": 187.1,
+        "age_seconds": 254.7,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -55,7 +55,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:33:05.4731831+02:00",
-      "latest_activity_age_seconds": 166.5,
+      "latest_activity_age_seconds": 225.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -100,7 +100,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:33:09.6488730+02:00",
-      "latest_activity_age_seconds": 162.7,
+      "latest_activity_age_seconds": 221.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -145,7 +145,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:33:14.8189251+02:00",
-      "latest_activity_age_seconds": 158.0,
+      "latest_activity_age_seconds": 216.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -190,7 +190,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:33:21.3593817+02:00",
-      "latest_activity_age_seconds": 152.0,
+      "latest_activity_age_seconds": 210.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -285,7 +285,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 193899.5,
+        "age_seconds": 193967.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -308,7 +308,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3795300.9,
+        "age_seconds": 3795368.4,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4064,15 +4064,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 4963,
+    "sample_count": 4964,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1899.35,
     "current_equity_drawdown_pct": 1.843045
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-28T15:35:56.464747+02:00",
-    "last_successful_publication_at": "2026-07-28T13:35:29.303104+00:00",
+    "last_successful_build_at": "2026-07-28T15:36:55.243204+02:00",
+    "last_successful_publication_at": "2026-07-28T13:36:36.836625+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4519,7 +4519,7 @@
       },
       {
         "capability": "Same-channel multi-message context",
-        "status": "staged_tested_not_loaded",
+        "status": "staged_shadow_implemented_tested_not_loaded",
         "action_policy": "Observe-only evidence; no execution authorization"
       },
       {
@@ -4529,13 +4529,23 @@
       },
       {
         "capability": "Image understanding",
-        "status": "planned_shadow_only",
+        "status": "metadata_shadow_intake_implemented_content_analysis_requires_pilot",
         "action_policy": "Image alone never authorizes a trade"
       },
       {
         "capability": "Voice and audio understanding",
-        "status": "planned_shadow_only",
+        "status": "metadata_shadow_intake_implemented_content_analysis_requires_pilot",
         "action_policy": "Transcript plus exact same-channel context required; uncertainty abstains"
+      },
+      {
+        "capability": "Human review and consensus labeling",
+        "status": "implemented_collecting",
+        "action_policy": "Two matching reviewers required; no label changes runtime rules automatically"
+      },
+      {
+        "capability": "Per-channel and per-instrument drift detection",
+        "status": "implemented_waiting_for_minimum_sample_and_baseline",
+        "action_policy": "Drift raises a review flag only; it never changes rules or channel modes"
       },
       {
         "capability": "Closed-day continuous learning",
@@ -4558,13 +4568,13 @@
       {
         "phase": "P1",
         "work": "Build sanitized image and audio shadow intake",
-        "status": "planned",
+        "status": "metadata_layer_implemented_content_pipeline_not_funded",
         "exit_evidence": "No-history delivered-event pipeline, retention policy and no-trade media tests"
       },
       {
         "phase": "P2",
         "work": "Create labeled Paul evaluation corpus with balanced coverage per channel",
-        "status": "planned",
+        "status": "review_console_implemented_collecting",
         "exit_evidence": "Partner-reviewed labels for action, joke, result, promotion, ambiguity and lifecycle intent"
       },
       {
