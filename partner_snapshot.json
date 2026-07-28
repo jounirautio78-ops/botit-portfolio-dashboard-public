@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-28T10:09:55.093229+02:00",
+  "generated_at": "2026-07-28T13:17:55.185196+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,25 +22,25 @@
   },
   "freshness": {
     "overall_status": "stale",
-    "exposure_at": "2026-07-28T10:09:55.093229+02:00",
-    "process_at": "2026-07-28T10:09:53.1405619+02:00",
+    "exposure_at": "2026-07-28T13:17:55.185196+02:00",
+    "process_at": "2026-07-28T13:17:53.5842945+02:00",
     "performance_export_at": "2026-07-28T10:09:19.5887136+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-28T08:09:55.093229+00:00",
-        "age_seconds": 4883.8,
+        "source_at": "2026-07-28T11:17:55.185196+00:00",
+        "age_seconds": 59.5,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-28T08:09:53.140561+00:00",
-        "age_seconds": 4885.8,
+        "source_at": "2026-07-28T11:17:53.584294+00:00",
+        "age_seconds": 61.1,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-28T08:09:19.588713+00:00",
-        "age_seconds": 4919.3,
+        "age_seconds": 11375.1,
         "sla_seconds": 600,
         "status": "stale"
       }
@@ -54,8 +54,8 @@
       "status": "stopped",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-28T10:09:05.1073369+02:00",
-      "latest_activity_age_seconds": 46.1,
+      "latest_activity_at": "2026-07-28T13:17:02.0489315+02:00",
+      "latest_activity_age_seconds": 49.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -99,8 +99,8 @@
       "status": "stopped",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-28T10:09:08.3025282+02:00",
-      "latest_activity_age_seconds": 43.3,
+      "latest_activity_at": "2026-07-28T13:17:05.7770999+02:00",
+      "latest_activity_age_seconds": 46.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -144,8 +144,8 @@
       "status": "stopped",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-28T10:09:12.6416186+02:00",
-      "latest_activity_age_seconds": 39.3,
+      "latest_activity_at": "2026-07-28T13:17:11.9994500+02:00",
+      "latest_activity_age_seconds": 40.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -189,8 +189,8 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-28T10:09:18.6587966+02:00",
-      "latest_activity_age_seconds": 33.7,
+      "latest_activity_at": "2026-07-28T13:17:19.2145910+02:00",
+      "latest_activity_age_seconds": 33.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -259,12 +259,12 @@
       "symbol": "MULTI-ASSET",
       "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-28T07:58:12.067235Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-28T07:58:12.067235+00:00",
-        "age_seconds": 5586.9,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "stale"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -285,7 +285,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 179188.9,
+        "age_seconds": 185644.6,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -308,7 +308,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3780590.3,
+        "age_seconds": 3787046.0,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4064,15 +4064,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 4871,
+    "sample_count": 4872,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1899.35,
     "current_equity_drawdown_pct": 1.843045
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-28T10:09:55.093229+02:00",
-    "last_successful_publication_at": "2026-07-28T09:30:18.149781+00:00",
+    "last_successful_build_at": "2026-07-28T13:17:55.185196+02:00",
+    "last_successful_publication_at": "2026-07-28T09:31:31.613204+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4314,14 +4314,6 @@
     {
       "severity": "warning",
       "message": "Current week portfolio PnL is partial because one or more bots have no closed-deal row."
-    },
-    {
-      "severity": "warning",
-      "message": "Exposure data is stale against its reporting SLA."
-    },
-    {
-      "severity": "warning",
-      "message": "Process data is stale against its reporting SLA."
     },
     {
       "severity": "warning",
