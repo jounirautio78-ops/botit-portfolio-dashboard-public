@@ -1,6 +1,6 @@
 {
-  "schema_version": "botit-partner-snapshot-v3",
-  "generated_at": "2026-07-28T14:29:54.134659+02:00",
+  "schema_version": "botit-partner-snapshot-v4",
+  "generated_at": "2026-07-28T14:30:58.2530938+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,25 +22,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-28T14:29:54.134659+02:00",
-    "process_at": "2026-07-28T14:29:52.5535303+02:00",
-    "performance_export_at": "2026-07-28T14:25:22.5091223+02:00",
+    "exposure_at": "2026-07-28T14:30:53.655985+02:00",
+    "process_at": "2026-07-28T14:30:52.1870227+02:00",
+    "performance_export_at": "2026-07-28T14:30:58.2530938+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-28T12:29:54.134659+00:00",
-        "age_seconds": 5.2,
+        "source_at": "2026-07-28T12:30:53.655985+00:00",
+        "age_seconds": 11.1,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-28T12:29:52.553530+00:00",
-        "age_seconds": 6.8,
+        "source_at": "2026-07-28T12:30:52.187022+00:00",
+        "age_seconds": 12.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-28T12:25:22.509122+00:00",
-        "age_seconds": 276.9,
+        "source_at": "2026-07-28T12:30:58.253093+00:00",
+        "age_seconds": 6.5,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -55,7 +55,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T14:25:02.9508460+02:00",
-      "latest_activity_age_seconds": 287.7,
+      "latest_activity_age_seconds": 347.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -100,7 +100,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T14:25:06.4066583+02:00",
-      "latest_activity_age_seconds": 284.5,
+      "latest_activity_age_seconds": 344.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -145,7 +145,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T14:25:12.2480288+02:00",
-      "latest_activity_age_seconds": 279.0,
+      "latest_activity_age_seconds": 338.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -190,7 +190,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T14:25:20.5172162+02:00",
-      "latest_activity_age_seconds": 271.1,
+      "latest_activity_age_seconds": 330.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -285,7 +285,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 189909.3,
+        "age_seconds": 189974.7,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -308,7 +308,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3791310.7,
+        "age_seconds": 3791376.1,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4064,15 +4064,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 4935,
+    "sample_count": 4936,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1899.35,
     "current_equity_drawdown_pct": 1.843045
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-28T14:29:54.134659+02:00",
-    "last_successful_publication_at": "2026-07-28T12:28:59.074540+00:00",
+    "last_successful_build_at": "2026-07-28T14:30:58.2530938+02:00",
+    "last_successful_publication_at": "2026-07-28T12:30:04.521378+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4309,6 +4309,359 @@
       "status": "DATA_MISSING",
       "data_quality": "safety_validation_failed"
     }
+  },
+  "paul_signal_intelligence": {
+    "status": "active_staged_development",
+    "generated_at": "2026-07-28T12:28:20.776376Z",
+    "title": "Paul Signal Intelligence",
+    "goal": "Understand Paul's text, conversational context, images and audio as accurately as evidence allows while every uncertain case remains no-trade.",
+    "truth_statement": "No architecture can guarantee 100 percent semantic understanding. The target is maximum measured coverage with deterministic fail-closed execution gates.",
+    "development_policy": "all_five_channels_equal_parallel",
+    "current_recommendation": "Advance all five Paul channels in parallel on the current stack, add the small-budget local multimodal shadow layer, and make a medium-budget decision only after a labeled per-channel evaluation set proves the remaining gap.",
+    "quality_status": "DATA_MISSING_no_consensus_labels",
+    "bounded_candidate_count": 0,
+    "review_event_count": 0,
+    "consensus_label_count": 0,
+    "reviewer_disagreement_count": 0,
+    "configured_reviewer_count": 0,
+    "drift_status": "DATA_MISSING",
+    "channels": [
+      {
+        "channel_label": "current_paul_channel",
+        "display_name": "Free",
+        "mode": "DATA_MISSING",
+        "enabled": null,
+        "development_priority": "equal_parallel",
+        "latest_message_at": null,
+        "bounded_fixture_count": 0,
+        "reviewed_candidate_count": 0,
+        "consensus_label_count": 0,
+        "reviewer_disagreement_count": 0,
+        "understanding_accuracy_pct": null,
+        "corpus_progress_pct": 0.0,
+        "drift_status": "DATA_MISSING",
+        "guarded_demo_readiness": "blocked_evidence_and_approval_gate",
+        "instrument_metrics": [
+          {
+            "instrument_key": "UNCLASSIFIED",
+            "bounded_fixture_count": 0,
+            "reviewed_candidate_count": 0,
+            "consensus_label_count": 0,
+            "understanding_accuracy_pct": null,
+            "false_action_count": 0,
+            "missed_action_count": 0,
+            "corpus_progress_pct": null,
+            "corpus_status": "DATA_MISSING",
+            "drift_status": "DATA_MISSING",
+            "data_quality": "DATA_MISSING",
+            "automatic_promotion": false
+          }
+        ],
+        "automatic_promotion": false
+      },
+      {
+        "channel_label": "goldhunter_community",
+        "display_name": "VIP Plus Jackpot",
+        "mode": "DATA_MISSING",
+        "enabled": null,
+        "development_priority": "equal_parallel",
+        "latest_message_at": null,
+        "bounded_fixture_count": 7,
+        "reviewed_candidate_count": 0,
+        "consensus_label_count": 0,
+        "reviewer_disagreement_count": 0,
+        "understanding_accuracy_pct": null,
+        "corpus_progress_pct": 0.0,
+        "drift_status": "DATA_MISSING",
+        "guarded_demo_readiness": "blocked_evidence_and_approval_gate",
+        "instrument_metrics": [
+          {
+            "instrument_key": "UNCLASSIFIED",
+            "bounded_fixture_count": 7,
+            "reviewed_candidate_count": 0,
+            "consensus_label_count": 0,
+            "understanding_accuracy_pct": null,
+            "false_action_count": 0,
+            "missed_action_count": 0,
+            "corpus_progress_pct": 0.0,
+            "corpus_status": "collecting",
+            "drift_status": "DATA_MISSING",
+            "data_quality": "DATA_MISSING_minimum_20_consensus_labels",
+            "automatic_promotion": false
+          }
+        ],
+        "automatic_promotion": false
+      },
+      {
+        "channel_label": "goldhunter_indices",
+        "display_name": "Indices & Crypto",
+        "mode": "DATA_MISSING",
+        "enabled": null,
+        "development_priority": "equal_parallel",
+        "latest_message_at": null,
+        "bounded_fixture_count": 2,
+        "reviewed_candidate_count": 0,
+        "consensus_label_count": 0,
+        "reviewer_disagreement_count": 0,
+        "understanding_accuracy_pct": null,
+        "corpus_progress_pct": 0.0,
+        "drift_status": "DATA_MISSING",
+        "guarded_demo_readiness": "blocked_evidence_and_approval_gate",
+        "instrument_metrics": [
+          {
+            "instrument_key": "BTCUSD",
+            "bounded_fixture_count": 1,
+            "reviewed_candidate_count": 0,
+            "consensus_label_count": 0,
+            "understanding_accuracy_pct": null,
+            "false_action_count": 0,
+            "missed_action_count": 0,
+            "corpus_progress_pct": 0.0,
+            "corpus_status": "collecting",
+            "drift_status": "DATA_MISSING",
+            "data_quality": "DATA_MISSING_minimum_20_consensus_labels",
+            "automatic_promotion": false
+          },
+          {
+            "instrument_key": "UNCLASSIFIED",
+            "bounded_fixture_count": 1,
+            "reviewed_candidate_count": 0,
+            "consensus_label_count": 0,
+            "understanding_accuracy_pct": null,
+            "false_action_count": 0,
+            "missed_action_count": 0,
+            "corpus_progress_pct": 0.0,
+            "corpus_status": "collecting",
+            "drift_status": "DATA_MISSING",
+            "data_quality": "DATA_MISSING_minimum_20_consensus_labels",
+            "automatic_promotion": false
+          }
+        ],
+        "automatic_promotion": false
+      },
+      {
+        "channel_label": "goldhunter_currency",
+        "display_name": "Currency",
+        "mode": "DATA_MISSING",
+        "enabled": null,
+        "development_priority": "equal_parallel",
+        "latest_message_at": null,
+        "bounded_fixture_count": 1,
+        "reviewed_candidate_count": 0,
+        "consensus_label_count": 0,
+        "reviewer_disagreement_count": 0,
+        "understanding_accuracy_pct": null,
+        "corpus_progress_pct": 0.0,
+        "drift_status": "DATA_MISSING",
+        "guarded_demo_readiness": "blocked_evidence_and_approval_gate",
+        "instrument_metrics": [
+          {
+            "instrument_key": "UNCLASSIFIED",
+            "bounded_fixture_count": 1,
+            "reviewed_candidate_count": 0,
+            "consensus_label_count": 0,
+            "understanding_accuracy_pct": null,
+            "false_action_count": 0,
+            "missed_action_count": 0,
+            "corpus_progress_pct": 0.0,
+            "corpus_status": "collecting",
+            "drift_status": "DATA_MISSING",
+            "data_quality": "DATA_MISSING_minimum_20_consensus_labels",
+            "automatic_promotion": false
+          }
+        ],
+        "automatic_promotion": false
+      },
+      {
+        "channel_label": "goldhunter_vip_plus",
+        "display_name": "VIP Plus 2.0",
+        "mode": "DATA_MISSING",
+        "enabled": null,
+        "development_priority": "equal_parallel",
+        "latest_message_at": null,
+        "bounded_fixture_count": 0,
+        "reviewed_candidate_count": 0,
+        "consensus_label_count": 0,
+        "reviewer_disagreement_count": 0,
+        "understanding_accuracy_pct": null,
+        "corpus_progress_pct": 0.0,
+        "drift_status": "DATA_MISSING",
+        "guarded_demo_readiness": "blocked_evidence_and_approval_gate",
+        "instrument_metrics": [
+          {
+            "instrument_key": "UNCLASSIFIED",
+            "bounded_fixture_count": 0,
+            "reviewed_candidate_count": 0,
+            "consensus_label_count": 0,
+            "understanding_accuracy_pct": null,
+            "false_action_count": 0,
+            "missed_action_count": 0,
+            "corpus_progress_pct": null,
+            "corpus_status": "DATA_MISSING",
+            "drift_status": "DATA_MISSING",
+            "data_quality": "DATA_MISSING",
+            "automatic_promotion": false
+          }
+        ],
+        "automatic_promotion": false
+      }
+    ],
+    "capabilities": [
+      {
+        "capability": "Exact numeric text signals",
+        "status": "implemented",
+        "action_policy": "Eligible only on separately approved execute channels after all safety gates"
+      },
+      {
+        "capability": "Conversational text commands",
+        "status": "implemented_and_expanding",
+        "action_policy": "Deterministic parser; ambiguity remains no-trade"
+      },
+      {
+        "capability": "Same-channel multi-message context",
+        "status": "staged_tested_not_loaded",
+        "action_policy": "Observe-only evidence; no execution authorization"
+      },
+      {
+        "capability": "Jokes, results and promotional chatter",
+        "status": "partial_rule_coverage",
+        "action_policy": "Classify as non-actionable unless an exact command contract is present"
+      },
+      {
+        "capability": "Image understanding",
+        "status": "planned_shadow_only",
+        "action_policy": "Image alone never authorizes a trade"
+      },
+      {
+        "capability": "Voice and audio understanding",
+        "status": "planned_shadow_only",
+        "action_policy": "Transcript plus exact same-channel context required; uncertainty abstains"
+      },
+      {
+        "capability": "Closed-day continuous learning",
+        "status": "implemented_proposal_only",
+        "action_policy": "No automatic parser change or execute promotion"
+      },
+      {
+        "capability": "Observe-only channel execute promotion",
+        "status": "blocked_per_channel_until_terminal_readiness",
+        "action_policy": "Each channel and instrument requires its own future exact fixture, symbol, tick, tests, flat ownership gate and exact approval"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "P0",
+        "work": "Harden text and isolated same-channel context across all five channels",
+        "status": "in_progress",
+        "exit_evidence": "Per-channel fixtures, focused tests and zero cross-channel leakage"
+      },
+      {
+        "phase": "P1",
+        "work": "Build sanitized image and audio shadow intake",
+        "status": "planned",
+        "exit_evidence": "No-history delivered-event pipeline, retention policy and no-trade media tests"
+      },
+      {
+        "phase": "P2",
+        "work": "Create labeled Paul evaluation corpus with balanced coverage per channel",
+        "status": "planned",
+        "exit_evidence": "Partner-reviewed labels for action, joke, result, promotion, ambiguity and lifecycle intent"
+      },
+      {
+        "phase": "P3",
+        "work": "Add multimodal semantic reviewer",
+        "status": "planned",
+        "exit_evidence": "Measured precision, recall, calibration, abstention and adversarial tests"
+      },
+      {
+        "phase": "P4",
+        "work": "Promote channels and instruments individually in guarded demo",
+        "status": "blocked",
+        "exit_evidence": "Independent terminal readiness gates and exact Supervisor approval for each scope"
+      },
+      {
+        "phase": "P5",
+        "work": "Scale infrastructure only if economics support it",
+        "status": "decision_pending",
+        "exit_evidence": "Measured operational bottleneck and partner budget decision"
+      }
+    ],
+    "investment_options": [
+      {
+        "tier": "Current stack",
+        "decision": "Use now",
+        "build_budget": "EUR 0-3k incremental",
+        "monthly_budget": "EUR 0-75",
+        "execution_host": "Existing Windows MT5 machine",
+        "analysis_host": "Existing Mac plus local Codex development tools",
+        "language_stack": "Deterministic parser, same-channel context, offline shadow learning",
+        "media_stack": "Metadata only; image and audio content remain DATA_MISSING",
+        "monitoring": "Existing supervisor JSON and Streamlit dashboard",
+        "best_for": "Finishing text semantics, collecting exact fixtures and proving value before buying infrastructure",
+        "main_gain": "Baseline",
+        "main_limit": "No production OCR, speech transcription, multimodal model or independent service redundancy",
+        "recommendation": "Continue immediately",
+        "cash_required": false,
+        "purchase_authorized": false
+      },
+      {
+        "tier": "Small budget",
+        "decision": "Recommended next pilot",
+        "build_budget": "EUR 3k-12k",
+        "monthly_budget": "EUR 75-300",
+        "execution_host": "Existing Windows MT5 machine",
+        "analysis_host": "One Linux mini-PC or small VPS isolated from MT5",
+        "language_stack": "Current deterministic parser plus local small language model or capped API reviewer",
+        "media_stack": "PaddleOCR or Tesseract for images, whisper.cpp or capped transcription API for audio, all shadow-only",
+        "monitoring": "Current Streamlit dashboard plus uptime alerts and optional Tailscale access",
+        "best_for": "Learning Paul's wording and testing image and audio understanding without a large commitment",
+        "main_gain": "Adds measurable OCR, speech and semantic shadow coverage",
+        "main_limit": "Limited redundancy and more manual review of low-confidence cases",
+        "recommendation": "Best immediate value after text-context staging",
+        "cash_required": true,
+        "purchase_authorized": false
+      },
+      {
+        "tier": "Medium budget",
+        "decision": "Preferred production-grade demo target",
+        "build_budget": "EUR 20k-60k",
+        "monthly_budget": "EUR 400-1.5k",
+        "execution_host": "Dedicated Windows VPS for one active MT5 execution instance",
+        "analysis_host": "Separate Linux application and AI service",
+        "language_stack": "Deterministic rules plus structured multimodal model review and versioned evaluation suites",
+        "media_stack": "OCR, chart-region extraction, speech transcription and vision-language review with confidence calibration",
+        "monitoring": "Prometheus or equivalent metrics, Grafana or current dashboard, alerting and error tracking",
+        "best_for": "Reliable 24/7 demo operation, partner reporting and continuous supervised learning",
+        "main_gain": "Strong auditability, measurable multimodal quality and reduced machine dependency",
+        "main_limit": "Requires DevOps ownership, labeling discipline and recurring cloud or API cost",
+        "recommendation": "Decide after the small pilot has a labeled accuracy report",
+        "cash_required": true,
+        "purchase_authorized": false
+      },
+      {
+        "tier": "Large budget",
+        "decision": "Scale only after proven economics",
+        "build_budget": "EUR 80k-250k+",
+        "monthly_budget": "EUR 3k-12k+",
+        "execution_host": "One active Windows MT5 host plus guarded warm standby; never dual-active trading",
+        "analysis_host": "Redundant application services and dedicated or managed GPU inference with cloud fallback",
+        "language_stack": "Model ensemble, retrieval over approved Paul corpus, automated evals, drift detection and human review console",
+        "media_stack": "Redundant OCR, ASR and vision pipelines with disagreement detection and calibrated abstention",
+        "monitoring": "Full metrics, logs, traces, security audit, on-call alerts, service objectives and incident runbooks",
+        "best_for": "Commercial-scale operation with formal uptime, audit and governance expectations",
+        "main_gain": "Highest availability, strongest governance and fastest measured learning loop",
+        "main_limit": "High cost and complexity; semantic ambiguity still cannot be eliminated",
+        "recommendation": "Do not fund before medium-tier evidence proves return on complexity",
+        "cash_required": true,
+        "purchase_authorized": false
+      }
+    ],
+    "budget_note": "Ranges are planning bands for engineering, infrastructure and API usage. They are not quotes.",
+    "automatic_rule_promotion": false,
+    "automatic_execute_promotion": false,
+    "purchase_authorized": false,
+    "raw_telegram_text_included": false,
+    "private_media_included": false
   },
   "warnings": [
     {
