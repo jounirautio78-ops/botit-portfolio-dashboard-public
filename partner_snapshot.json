@@ -28,21 +28,21 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-28T18:12:54.130068+00:00",
-        "age_seconds": 374.1,
+        "age_seconds": 1411.5,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-28T18:12:52.676163+00:00",
-        "age_seconds": 375.6,
+        "age_seconds": 1412.9,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-28T18:12:19.763673+00:00",
-        "age_seconds": 408.5,
+        "age_seconds": 1445.8,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -285,7 +285,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 210858.2,
+        "age_seconds": 211895.5,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -308,7 +308,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3812259.6,
+        "age_seconds": 3813296.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4072,7 +4072,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-28T20:12:54.130068+02:00",
-    "last_successful_publication_at": "2026-07-28T18:12:33.423165+00:00",
+    "last_successful_publication_at": "2026-07-28T18:19:16.495908+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4699,6 +4699,10 @@
     {
       "severity": "warning",
       "message": "Process data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Performance data is stale against its reporting SLA."
     },
     {
       "severity": "info",
