@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v4",
-  "generated_at": "2026-07-28T15:41:54.482858+02:00",
+  "generated_at": "2026-07-28T15:42:53.953294+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,25 +22,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-28T15:41:54.482858+02:00",
-    "process_at": "2026-07-28T15:41:52.8016047+02:00",
+    "exposure_at": "2026-07-28T15:42:53.953294+02:00",
+    "process_at": "2026-07-28T15:42:52.4715241+02:00",
     "performance_export_at": "2026-07-28T15:39:18.4823154+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-28T13:41:54.482858+00:00",
-        "age_seconds": 8.0,
+        "source_at": "2026-07-28T13:42:53.953294+00:00",
+        "age_seconds": 13.9,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-28T13:41:52.801604+00:00",
-        "age_seconds": 9.7,
+        "source_at": "2026-07-28T13:42:52.471524+00:00",
+        "age_seconds": 15.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-28T13:39:18.482315+00:00",
-        "age_seconds": 164.0,
+        "age_seconds": 229.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -55,7 +55,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:39:03.3454784+02:00",
-      "latest_activity_age_seconds": 167.5,
+      "latest_activity_age_seconds": 227.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -100,7 +100,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:39:06.5523798+02:00",
-      "latest_activity_age_seconds": 164.6,
+      "latest_activity_age_seconds": 224.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -145,7 +145,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:39:11.1879937+02:00",
-      "latest_activity_age_seconds": 160.2,
+      "latest_activity_age_seconds": 220.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -190,7 +190,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-28T15:39:16.5963812+02:00",
-      "latest_activity_age_seconds": 155.2,
+      "latest_activity_age_seconds": 215.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -285,7 +285,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 194232.4,
+        "age_seconds": 194297.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -308,7 +308,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3795633.8,
+        "age_seconds": 3795699.2,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4064,15 +4064,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 4969,
+    "sample_count": 4970,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1899.35,
     "current_equity_drawdown_pct": 1.843045
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-28T15:41:54.482858+02:00",
-    "last_successful_publication_at": "2026-07-28T13:41:08.512746+00:00",
+    "last_successful_build_at": "2026-07-28T15:42:53.953294+02:00",
+    "last_successful_publication_at": "2026-07-28T13:42:07.539713+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4329,10 +4329,10 @@
       {
         "channel_label": "current_paul_channel",
         "display_name": "Free",
-        "mode": "execute",
-        "enabled": true,
+        "mode": "DATA_MISSING",
+        "enabled": null,
         "development_priority": "equal_parallel",
-        "latest_message_at": "2026-07-28T12:49:32Z",
+        "latest_message_at": null,
         "bounded_fixture_count": 0,
         "reviewed_candidate_count": 0,
         "consensus_label_count": 0,
@@ -4340,38 +4340,10 @@
         "understanding_accuracy_pct": null,
         "corpus_progress_pct": 0.0,
         "drift_status": "DATA_MISSING",
-        "guarded_demo_readiness": "existing_guarded_demo_execute",
+        "guarded_demo_readiness": "blocked_evidence_and_approval_gate",
         "instrument_metrics": [
           {
-            "instrument_key": "BTCUSD",
-            "bounded_fixture_count": 0,
-            "reviewed_candidate_count": 0,
-            "consensus_label_count": 0,
-            "understanding_accuracy_pct": null,
-            "false_action_count": 0,
-            "missed_action_count": 0,
-            "corpus_progress_pct": null,
-            "corpus_status": "DATA_MISSING",
-            "drift_status": "DATA_MISSING",
-            "data_quality": "DATA_MISSING",
-            "automatic_promotion": false
-          },
-          {
             "instrument_key": "UNCLASSIFIED",
-            "bounded_fixture_count": 0,
-            "reviewed_candidate_count": 0,
-            "consensus_label_count": 0,
-            "understanding_accuracy_pct": null,
-            "false_action_count": 0,
-            "missed_action_count": 0,
-            "corpus_progress_pct": null,
-            "corpus_status": "DATA_MISSING",
-            "drift_status": "DATA_MISSING",
-            "data_quality": "DATA_MISSING",
-            "automatic_promotion": false
-          },
-          {
-            "instrument_key": "XAUUSD",
             "bounded_fixture_count": 0,
             "reviewed_candidate_count": 0,
             "consensus_label_count": 0,
@@ -4390,10 +4362,10 @@
       {
         "channel_label": "goldhunter_community",
         "display_name": "VIP Plus Jackpot",
-        "mode": "observe_only",
-        "enabled": true,
+        "mode": "DATA_MISSING",
+        "enabled": null,
         "development_priority": "equal_parallel",
-        "latest_message_at": "2026-07-28T13:32:00Z",
+        "latest_message_at": null,
         "bounded_fixture_count": 22,
         "reviewed_candidate_count": 0,
         "consensus_label_count": 0,
@@ -4437,10 +4409,10 @@
       {
         "channel_label": "goldhunter_indices",
         "display_name": "Indices & Crypto",
-        "mode": "observe_only",
-        "enabled": true,
+        "mode": "DATA_MISSING",
+        "enabled": null,
         "development_priority": "equal_parallel",
-        "latest_message_at": "2026-07-28T12:49:06Z",
+        "latest_message_at": null,
         "bounded_fixture_count": 3,
         "reviewed_candidate_count": 0,
         "consensus_label_count": 0,
@@ -4484,10 +4456,10 @@
       {
         "channel_label": "goldhunter_currency",
         "display_name": "Currency",
-        "mode": "observe_only",
-        "enabled": true,
+        "mode": "DATA_MISSING",
+        "enabled": null,
         "development_priority": "equal_parallel",
-        "latest_message_at": "2026-07-28T10:56:11Z",
+        "latest_message_at": null,
         "bounded_fixture_count": 1,
         "reviewed_candidate_count": 0,
         "consensus_label_count": 0,
@@ -4517,10 +4489,10 @@
       {
         "channel_label": "goldhunter_vip_plus",
         "display_name": "VIP Plus 2.0",
-        "mode": "observe_only",
-        "enabled": true,
+        "mode": "DATA_MISSING",
+        "enabled": null,
         "development_priority": "equal_parallel",
-        "latest_message_at": "2026-07-28T13:31:09Z",
+        "latest_message_at": null,
         "bounded_fixture_count": 1,
         "reviewed_candidate_count": 0,
         "consensus_label_count": 0,
@@ -4542,20 +4514,6 @@
             "corpus_status": "collecting",
             "drift_status": "DATA_MISSING",
             "data_quality": "DATA_MISSING_minimum_20_consensus_labels",
-            "automatic_promotion": false
-          },
-          {
-            "instrument_key": "XAUUSD",
-            "bounded_fixture_count": 0,
-            "reviewed_candidate_count": 0,
-            "consensus_label_count": 0,
-            "understanding_accuracy_pct": null,
-            "false_action_count": 0,
-            "missed_action_count": 0,
-            "corpus_progress_pct": null,
-            "corpus_status": "DATA_MISSING",
-            "drift_status": "DATA_MISSING",
-            "data_quality": "DATA_MISSING",
             "automatic_promotion": false
           }
         ],
