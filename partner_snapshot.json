@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v4",
-  "generated_at": "2026-07-29T09:04:53.191867+02:00",
+  "generated_at": "2026-07-29T09:12:53.675702+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,25 +22,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-29T09:04:53.191867+02:00",
-    "process_at": "2026-07-29T09:04:51.8181054+02:00",
-    "performance_export_at": "2026-07-29T09:03:30.4340025+02:00",
+    "exposure_at": "2026-07-29T09:12:53.675702+02:00",
+    "process_at": "2026-07-29T09:12:52.0055739+02:00",
+    "performance_export_at": "2026-07-29T09:09:21.1872429+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-29T07:04:53.191867+00:00",
-        "age_seconds": 61.8,
+        "source_at": "2026-07-29T07:12:53.675702+00:00",
+        "age_seconds": 46.7,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-29T07:04:51.818105+00:00",
-        "age_seconds": 63.2,
+        "source_at": "2026-07-29T07:12:52.005573+00:00",
+        "age_seconds": 48.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-29T07:03:30.434002+00:00",
-        "age_seconds": 144.6,
+        "source_at": "2026-07-29T07:09:21.187242+00:00",
+        "age_seconds": 259.2,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -54,8 +54,8 @@
       "status": "stopped",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-29T09:03:00.8599214+02:00",
-      "latest_activity_age_seconds": 109.0,
+      "latest_activity_at": "2026-07-29T09:09:02.0334905+02:00",
+      "latest_activity_age_seconds": 228.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -99,8 +99,8 @@
       "status": "stopped",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-29T09:03:14.6994204+02:00",
-      "latest_activity_age_seconds": 95.5,
+      "latest_activity_at": "2026-07-29T09:09:05.7447632+02:00",
+      "latest_activity_age_seconds": 224.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -144,8 +144,8 @@
       "status": "stopped",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-29T09:03:21.1258065+02:00",
-      "latest_activity_age_seconds": 89.4,
+      "latest_activity_at": "2026-07-29T09:09:11.6691708+02:00",
+      "latest_activity_age_seconds": 219.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -189,8 +189,8 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-29T09:03:27.8574198+02:00",
-      "latest_activity_age_seconds": 83.0,
+      "latest_activity_at": "2026-07-29T09:09:19.2334043+02:00",
+      "latest_activity_age_seconds": 211.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -257,14 +257,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "safety_validation_failed",
+      "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-07-29T07:13:27.104243Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-07-29T07:13:27.104243+00:00",
+        "age_seconds": 13.3,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "fresh"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -285,7 +285,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 256865.0,
+        "age_seconds": 257330.4,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -308,7 +308,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3858266.4,
+        "age_seconds": 3858731.8,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4064,15 +4064,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 5137,
+    "sample_count": 5144,
     "observed_equity_high_water": 103055.02,
     "current_equity_drawdown": 1899.35,
     "current_equity_drawdown_pct": 1.843045
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-29T09:04:53.191867+02:00",
-    "last_successful_publication_at": "2026-07-29T07:04:54.801289+00:00",
+    "last_successful_build_at": "2026-07-29T09:12:53.675702+02:00",
+    "last_successful_publication_at": "2026-07-29T07:06:01.853286+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4699,10 +4699,6 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1 status is unknown."
-    },
-    {
-      "severity": "warning",
-      "message": "Paul Telegram Demo Copier status is safety validation failed."
     },
     {
       "severity": "warning",
