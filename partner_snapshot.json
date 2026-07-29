@@ -21,28 +21,28 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-29T22:25:52.752806+02:00",
     "process_at": "2026-07-29T22:25:51.2767273+02:00",
     "performance_export_at": "2026-07-29T22:26:10.4124626+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-29T20:25:52.752806+00:00",
-        "age_seconds": 83.0,
+        "age_seconds": 4085.6,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-29T20:25:51.276727+00:00",
-        "age_seconds": 84.4,
+        "age_seconds": 4087.1,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-29T20:26:10.412462+00:00",
-        "age_seconds": 65.3,
+        "age_seconds": 4067.9,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -257,14 +257,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "running",
+      "status": "stale",
       "mode": "demo_execution",
       "latest_activity_at": "2026-07-29T20:26:12.758828Z",
       "freshness": {
         "source_at": "2026-07-29T20:26:12.758828+00:00",
-        "age_seconds": 62.9,
+        "age_seconds": 4065.6,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -285,7 +285,7 @@
       "latest_activity_at": "2026-07-26T07:44:50.061588Z",
       "freshness": {
         "source_at": "2026-07-26T07:44:50.061588+00:00",
-        "age_seconds": 304945.6,
+        "age_seconds": 308948.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -308,7 +308,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3906347.0,
+        "age_seconds": 3910349.7,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4693,12 +4693,28 @@
       "message": "Current week portfolio PnL is partial because one or more bots have no closed-deal row."
     },
     {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Performance data is stale against its reporting SLA."
+    },
+    {
       "severity": "info",
       "message": "BTC finite session completed normally; performance remains historical until another approved session runs."
     },
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1 status is unknown."
+    },
+    {
+      "severity": "warning",
+      "message": "Paul Telegram Demo Copier status is stale."
     },
     {
       "severity": "warning",
