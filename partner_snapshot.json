@@ -20,26 +20,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-30T22:24:16.184093+02:00",
     "process_at": "2026-07-30T22:24:14.5085485+02:00",
     "performance_export_at": "2026-07-30T22:23:33.6493720+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-30T20:24:16.184093+00:00",
-        "age_seconds": 61.7,
+        "age_seconds": 132.1,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-30T20:24:14.508548+00:00",
-        "age_seconds": 63.4,
+        "age_seconds": 133.8,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-30T20:23:33.649372+00:00",
-        "age_seconds": 104.2,
+        "age_seconds": 174.7,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -307,7 +307,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 3992629.2,
+        "age_seconds": 3992699.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4103,7 +4103,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-30T22:24:16.184093+02:00",
-    "last_successful_publication_at": "2026-07-30T20:24:17.619506+00:00",
+    "last_successful_publication_at": "2026-07-30T20:25:27.994739+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4722,6 +4722,14 @@
     {
       "severity": "warning",
       "message": "Current week portfolio PnL is partial because one or more bots have no closed-deal row."
+    },
+    {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
     },
     {
       "severity": "warning",
