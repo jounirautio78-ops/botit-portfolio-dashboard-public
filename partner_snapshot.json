@@ -20,28 +20,28 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-31T01:24:14.099899+02:00",
     "process_at": "2026-07-31T01:24:12.7489542+02:00",
     "performance_export_at": "2026-07-31T01:19:32.6212198+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-30T23:24:14.099899+00:00",
-        "age_seconds": 108.7,
+        "age_seconds": 1096.9,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-30T23:24:12.748954+00:00",
-        "age_seconds": 110.1,
+        "age_seconds": 1098.3,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-30T23:19:32.621219+00:00",
-        "age_seconds": 390.2,
+        "age_seconds": 1378.4,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -307,7 +307,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4003474.2,
+        "age_seconds": 4004462.4,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4103,7 +4103,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-31T01:24:14.099899+02:00",
-    "last_successful_publication_at": "2026-07-30T23:24:57.110539+00:00",
+    "last_successful_publication_at": "2026-07-30T23:26:13.179319+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4722,6 +4722,18 @@
     {
       "severity": "warning",
       "message": "Current week portfolio PnL is partial because one or more bots have no closed-deal row."
+    },
+    {
+      "severity": "warning",
+      "message": "Exposure data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Process data is stale against its reporting SLA."
+    },
+    {
+      "severity": "warning",
+      "message": "Performance data is stale against its reporting SLA."
     },
     {
       "severity": "warning",
