@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-31T15:00:20.095183+02:00",
     "process_at": "2026-07-31T15:00:18.3377079+02:00",
     "performance_export_at": "2026-07-31T14:56:37.5650071+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-31T13:00:20.095183+00:00",
-        "age_seconds": 36.3,
+        "age_seconds": 134.7,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-31T13:00:18.337707+00:00",
-        "age_seconds": 38.1,
+        "age_seconds": 136.5,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-31T12:56:37.565007+00:00",
-        "age_seconds": 258.9,
+        "age_seconds": 357.2,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -260,10 +260,10 @@
       "symbol": "MULTI-ASSET",
       "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T13:00:38.700041Z",
+      "latest_activity_at": "2026-07-31T13:00:53.885051Z",
       "freshness": {
-        "source_at": "2026-07-31T13:00:38.700041+00:00",
-        "age_seconds": 17.7,
+        "source_at": "2026-07-31T13:00:53.885051+00:00",
+        "age_seconds": 100.9,
         "sla_seconds": 600,
         "status": "fresh"
       },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4052367.8,
+        "age_seconds": 4052466.2,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4137,7 +4137,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-31T15:00:20.095183+02:00",
-    "last_successful_publication_at": "2026-07-31T12:59:52.177656+00:00",
+    "last_successful_publication_at": "2026-07-31T13:01:29.407926+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5098,6 +5098,14 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
