@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T14:37:17.031260+02:00",
+  "generated_at": "2026-07-31T14:38:44.0444125+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 106828.06,
-    "equity": 107576.58,
-    "floating_pnl": 748.52,
+    "equity": 107707.48,
+    "floating_pnl": 879.42,
     "open_positions": 5,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
-    "exposure_at": "2026-07-31T14:37:17.031260+02:00",
-    "process_at": "2026-07-31T14:37:15.1871793+02:00",
-    "performance_export_at": "2026-07-31T14:32:37.9866100+02:00",
+    "overall_status": "stale",
+    "exposure_at": "2026-07-31T14:38:20.107916+02:00",
+    "process_at": "2026-07-31T14:38:18.0995923+02:00",
+    "performance_export_at": "2026-07-31T14:38:44.0444125+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T12:37:17.031260+00:00",
-        "age_seconds": 110.3,
+        "source_at": "2026-07-31T12:38:20.107916+00:00",
+        "age_seconds": 125.4,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
-        "source_at": "2026-07-31T12:37:15.187179+00:00",
-        "age_seconds": 112.2,
+        "source_at": "2026-07-31T12:38:18.099592+00:00",
+        "age_seconds": 127.4,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
-        "source_at": "2026-07-31T12:32:37.986610+00:00",
-        "age_seconds": 389.4,
+        "source_at": "2026-07-31T12:38:44.044412+00:00",
+        "age_seconds": 101.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T14:32:24.7216089+02:00",
-      "latest_activity_age_seconds": 288.3,
+      "latest_activity_age_seconds": 350.6,
       "exposure_net_volume": -0.4,
-      "floating_pnl": 748.52,
+      "floating_pnl": 879.42,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T14:37:12.2766430+02:00",
-      "latest_activity_age_seconds": 1.1,
+      "latest_activity_at": "2026-07-31T14:38:12.9459344+02:00",
+      "latest_activity_age_seconds": 3.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T14:35:07.5484210+02:00",
-      "latest_activity_age_seconds": 126.3,
+      "latest_activity_age_seconds": 188.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T14:32:37.5701639+02:00",
-      "latest_activity_age_seconds": 276.6,
+      "latest_activity_age_seconds": 339.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -260,10 +260,10 @@
       "symbol": "MULTI-ASSET",
       "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T12:37:11.888192Z",
+      "latest_activity_at": "2026-07-31T12:38:42.714962Z",
       "freshness": {
-        "source_at": "2026-07-31T12:37:11.888192+00:00",
-        "age_seconds": 115.5,
+        "source_at": "2026-07-31T12:38:42.714962+00:00",
+        "age_seconds": 102.8,
         "sla_seconds": 600,
         "status": "fresh"
       },
@@ -281,14 +281,14 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "no_signal",
+      "status": "stale",
       "mode": "demo_execution",
       "latest_activity_at": "2026-07-31T12:29:15.547052Z",
       "freshness": {
         "source_at": "2026-07-31T12:29:15.547052+00:00",
-        "age_seconds": 591.8,
+        "age_seconds": 669.9,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4051058.7,
+        "age_seconds": 4051136.8,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6488,
-    "observed_equity_high_water": 107620.24,
-    "current_equity_drawdown": 43.66,
-    "current_equity_drawdown_pct": 0.040569
+    "sample_count": 6489,
+    "observed_equity_high_water": 107707.48,
+    "current_equity_drawdown": 0.0,
+    "current_equity_drawdown_pct": 0.0
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T14:37:17.031260+02:00",
-    "last_successful_publication_at": "2026-07-31T12:37:59.638023+00:00",
+    "last_successful_build_at": "2026-07-31T14:38:44.0444125+02:00",
+    "last_successful_publication_at": "2026-07-31T12:39:20.818831+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5100,12 +5100,24 @@
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
     },
     {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
+    },
+    {
       "severity": "info",
       "message": "BTC:n rajattu jakso valmistui normaalisti; tulos pysyy historiallisena, kunnes uusi jakso hyv\u00e4ksyt\u00e4\u00e4n erikseen."
     },
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1: tila on tuntematon."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1: tila on vanhentunut."
     },
     {
       "severity": "warning",
