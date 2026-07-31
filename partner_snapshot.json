@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T21:44:16.371288+02:00",
+  "generated_at": "2026-07-31T21:45:18.268918+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 107054.65,
-    "equity": 106319.77,
-    "floating_pnl": -734.88,
+    "equity": 106207.09,
+    "floating_pnl": -847.56,
     "open_positions": 10,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T21:44:16.371288+02:00",
+    "exposure_at": "2026-07-31T21:45:18.268918+02:00",
     "process_at": "2026-07-31T21:44:14.7955537+02:00",
     "performance_export_at": "2026-07-31T21:43:36.1320848+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T19:44:16.371288+00:00",
-        "age_seconds": 9.1,
+        "source_at": "2026-07-31T19:45:18.268918+00:00",
+        "age_seconds": 19.3,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-07-31T19:44:14.795553+00:00",
-        "age_seconds": 10.7,
+        "age_seconds": 82.8,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-31T19:43:36.132084+00:00",
-        "age_seconds": 49.4,
+        "age_seconds": 121.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -58,7 +58,7 @@
       "latest_activity_at": "2026-07-31T21:43:22.6373912+02:00",
       "latest_activity_age_seconds": 49.9,
       "exposure_net_volume": -0.48,
-      "floating_pnl": -619.44,
+      "floating_pnl": -725.64,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4076576.9,
+        "age_seconds": 4076648.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6738,
+    "sample_count": 6739,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 2178.39,
-    "current_equity_drawdown_pct": 2.007767
+    "current_equity_drawdown": 2291.07,
+    "current_equity_drawdown_pct": 2.111621
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T21:44:16.371288+02:00",
-    "last_successful_publication_at": "2026-07-31T19:43:23.263872+00:00",
+    "last_successful_build_at": "2026-07-31T21:45:18.268918+02:00",
+    "last_successful_publication_at": "2026-07-31T19:44:35.645840+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5114,7 +5114,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T19:44:16.371288+00:00",
+      "source_at": "2026-07-31T19:45:18.268918+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 4,
       "other_ownership_mismatch_count": 0,
@@ -5286,14 +5286,14 @@
         "structural_anomaly_basket_count": 11,
         "fully_reconciled_basket_rate_pct": 90.87,
         "mixed_closed_cancelled_basket_count": 1,
-        "basket_level_reconciled_basket_count": 222,
-        "basket_level_coverage_pct": 92.12,
-        "basket_level_remaining_count": 7,
-        "fully_detailed_remaining_count": 10,
-        "priority_basket_count": 5,
-        "priority_data_missing_count": 1,
-        "priority_primary_reconciled_count": 1,
-        "priority_supplemental_exact_basket_count": 3,
+        "basket_level_reconciled_basket_count": null,
+        "basket_level_coverage_pct": null,
+        "basket_level_remaining_count": null,
+        "fully_detailed_remaining_count": null,
+        "priority_basket_count": null,
+        "priority_data_missing_count": null,
+        "priority_primary_reconciled_count": null,
+        "priority_supplemental_exact_basket_count": null,
         "matched_outcome_leg_rate_pct": 91.44,
         "max_consecutive_losing_baskets": 4,
         "max_consecutive_loss_abs": 494.7,
