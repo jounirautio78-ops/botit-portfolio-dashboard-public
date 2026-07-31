@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T22:50:15.649292+02:00",
+  "generated_at": "2026-07-31T22:51:36.2364853+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 107054.65,
-    "equity": 106493.71,
-    "floating_pnl": -560.94,
+    "equity": 106489.69,
+    "floating_pnl": -564.96,
     "open_positions": 10,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T22:50:15.649292+02:00",
-    "process_at": "2026-07-31T22:50:14.2449117+02:00",
-    "performance_export_at": "2026-07-31T22:45:35.2230275+02:00",
+    "exposure_at": "2026-07-31T22:51:16.125134+02:00",
+    "process_at": "2026-07-31T22:51:14.6278742+02:00",
+    "performance_export_at": "2026-07-31T22:51:36.2364853+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T20:50:15.649292+00:00",
-        "age_seconds": 48.5,
+        "source_at": "2026-07-31T20:51:16.125134+00:00",
+        "age_seconds": 55.2,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T20:50:14.244911+00:00",
-        "age_seconds": 49.9,
+        "source_at": "2026-07-31T20:51:14.627874+00:00",
+        "age_seconds": 56.7,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-31T20:45:35.223027+00:00",
-        "age_seconds": 328.9,
+        "source_at": "2026-07-31T20:51:36.236485+00:00",
+        "age_seconds": 35.1,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T22:45:21.8044331+02:00",
-      "latest_activity_age_seconds": 290.3,
+      "latest_activity_age_seconds": 350.8,
       "exposure_net_volume": -0.48,
-      "floating_pnl": -479.58,
+      "floating_pnl": -483.6,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T22:50:05.0384797+02:00",
-      "latest_activity_age_seconds": 7.4,
+      "latest_activity_at": "2026-07-31T22:51:05.6585786+02:00",
+      "latest_activity_age_seconds": 7.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T22:50:05.5044294+02:00",
-      "latest_activity_age_seconds": 7.3,
+      "latest_activity_age_seconds": 67.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T22:45:34.1264714+02:00",
-      "latest_activity_age_seconds": 279.1,
+      "latest_activity_age_seconds": 339.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4080575.5,
+        "age_seconds": 4080642.7,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6794,
+    "sample_count": 6795,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 2004.45,
-    "current_equity_drawdown_pct": 1.847451
+    "current_equity_drawdown": 2008.47,
+    "current_equity_drawdown_pct": 1.851156
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T22:50:15.649292+02:00",
-    "last_successful_publication_at": "2026-07-31T20:50:03.869276+00:00",
+    "last_successful_build_at": "2026-07-31T22:51:36.2364853+02:00",
+    "last_successful_publication_at": "2026-07-31T20:51:11.102522+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5295,7 +5295,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T20:50:15.649292+00:00",
+      "source_at": "2026-07-31T20:51:16.125134+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 4,
       "other_ownership_mismatch_count": 0,
@@ -5450,6 +5450,163 @@
         ],
         "dominant_volume": 0.01,
         "dominant_volume_share_pct": 94.49,
+        "tick_path_analysis": {
+          "status": "completed_descriptive_offline_analysis",
+          "historical_description_only": true,
+          "representative_of_all_positions": false,
+          "source_position_count": 363,
+          "usable_tick_path_count": 132,
+          "missing_tick_path_count": 231,
+          "coverage_pct": 36.36,
+          "sample_gate_passed": true,
+          "winning_position_count": 91,
+          "losing_position_count": 41,
+          "win_rate_pct": 68.94,
+          "net_profit": 2573.33,
+          "median_trade_net_profit": 0.04,
+          "profit_factor": 2.25931889,
+          "largest_winner": 1394.7,
+          "largest_loser": -978.67,
+          "top_three_winner_share_of_gross_profit_pct": 72.88,
+          "net_profit_excluding_largest_winner": 1178.63,
+          "median_mfe_points": 88.0,
+          "mfe_p25_points": 40.75,
+          "mfe_p75_points": 162.75,
+          "mfe_zero_count": 21,
+          "median_mae_points": 121.5,
+          "mae_p25_points": 65.75,
+          "mae_p75_points": 176.5,
+          "median_realized_move_points": 3.0,
+          "median_realized_to_mfe_ratio": 0.24,
+          "realized_to_mfe_available_count": 111,
+          "exit_groups": [
+            {
+              "group": "stop_loss_comment",
+              "position_count": 125,
+              "net_profit": -206.16,
+              "win_rate_pct": 67.2,
+              "median_mfe_points": 78.0,
+              "median_mae_points": 127.0,
+              "sample_gate_passed": true,
+              "interpretation_status": "sufficient_descriptive_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            },
+            {
+              "group": "take_profit_comment",
+              "position_count": 7,
+              "net_profit": 2779.49,
+              "win_rate_pct": 100.0,
+              "median_mfe_points": 232.0,
+              "median_mae_points": 72.0,
+              "sample_gate_passed": false,
+              "interpretation_status": "descriptive_only_small_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            }
+          ],
+          "direction_groups": [
+            {
+              "group": "long",
+              "position_count": 63,
+              "net_profit": 2081.8,
+              "win_rate_pct": 71.43,
+              "median_mfe_points": 99.0,
+              "median_mae_points": 120.0,
+              "sample_gate_passed": true,
+              "interpretation_status": "sufficient_descriptive_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            },
+            {
+              "group": "short",
+              "position_count": 69,
+              "net_profit": 491.53,
+              "win_rate_pct": 66.67,
+              "median_mfe_points": 78.0,
+              "median_mae_points": 124.0,
+              "sample_gate_passed": true,
+              "interpretation_status": "sufficient_descriptive_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            }
+          ],
+          "session_groups": [
+            {
+              "group": "evening_16_20",
+              "position_count": 51,
+              "net_profit": -28.61,
+              "win_rate_pct": 68.63,
+              "median_mfe_points": 99.0,
+              "median_mae_points": 134.0,
+              "sample_gate_passed": true,
+              "interpretation_status": "sufficient_descriptive_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            },
+            {
+              "group": "midday_12_16",
+              "position_count": 13,
+              "net_profit": 9.4,
+              "win_rate_pct": 76.92,
+              "median_mfe_points": 165.0,
+              "median_mae_points": 121.0,
+              "sample_gate_passed": false,
+              "interpretation_status": "descriptive_only_small_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            },
+            {
+              "group": "morning_08_12",
+              "position_count": 68,
+              "net_profit": 2592.54,
+              "win_rate_pct": 67.65,
+              "median_mfe_points": 76.0,
+              "median_mae_points": 117.5,
+              "sample_gate_passed": true,
+              "interpretation_status": "sufficient_descriptive_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            }
+          ],
+          "volume_groups": [
+            {
+              "group": "dominant_volume",
+              "position_count": 121,
+              "net_profit": -43.98,
+              "win_rate_pct": 67.77,
+              "median_mfe_points": 87.0,
+              "median_mae_points": 125.0,
+              "sample_gate_passed": true,
+              "interpretation_status": "sufficient_descriptive_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            },
+            {
+              "group": "non_dominant_volume",
+              "position_count": 11,
+              "net_profit": 2617.31,
+              "win_rate_pct": 81.82,
+              "median_mfe_points": 93.0,
+              "median_mae_points": 92.0,
+              "sample_gate_passed": false,
+              "interpretation_status": "descriptive_only_small_sample",
+              "causal_claim": false,
+              "parameter_recommendation": false
+            }
+          ],
+          "volatility_or_trend_regime_available": false,
+          "descriptive_regime_proxies": [
+            "decision_session_bucket",
+            "decision_weekday",
+            "direction",
+            "volume_profile"
+          ],
+          "exact_initial_money_risk_position_count": 0,
+          "spread_at_decision_position_count": 0,
+          "parameter_recommendation": false,
+          "causal_claim": false
+        },
         "parameter_recommendation": false
       },
       "kultamania": {
