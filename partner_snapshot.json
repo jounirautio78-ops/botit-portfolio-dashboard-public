@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T14:17:17.499162+02:00",
+  "generated_at": "2026-07-31T14:18:17.675105+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 106659.52,
-    "equity": 106905.82,
-    "floating_pnl": 246.3,
+    "equity": 106935.7,
+    "floating_pnl": 276.18,
     "open_positions": 7,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T14:17:17.499162+02:00",
-    "process_at": "2026-07-31T14:17:15.8058295+02:00",
+    "exposure_at": "2026-07-31T14:18:17.675105+02:00",
+    "process_at": "2026-07-31T14:18:16.0629479+02:00",
     "performance_export_at": "2026-07-31T14:16:39.0705049+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T12:17:17.499162+00:00",
-        "age_seconds": 44.8,
+        "source_at": "2026-07-31T12:18:17.675105+00:00",
+        "age_seconds": 58.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T12:17:15.805829+00:00",
-        "age_seconds": 46.5,
+        "source_at": "2026-07-31T12:18:16.062947+00:00",
+        "age_seconds": 60.2,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-31T12:16:39.070504+00:00",
-        "age_seconds": 83.3,
+        "age_seconds": 157.2,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T14:16:24.4780707+02:00",
-      "latest_activity_age_seconds": 49.0,
+      "latest_activity_age_seconds": 109.4,
       "exposure_net_volume": -0.56,
-      "floating_pnl": 246.3,
+      "floating_pnl": 276.18,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T14:17:09.1330291+02:00",
-      "latest_activity_age_seconds": 4.8,
+      "latest_activity_at": "2026-07-31T14:18:09.8688740+02:00",
+      "latest_activity_age_seconds": 4.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T14:16:32.2781897+02:00",
-      "latest_activity_age_seconds": 42.1,
+      "latest_activity_age_seconds": 102.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T14:16:38.7152675+02:00",
-      "latest_activity_age_seconds": 36.1,
+      "latest_activity_age_seconds": 96.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -260,10 +260,10 @@
       "symbol": "MULTI-ASSET",
       "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T12:17:47.421690Z",
+      "latest_activity_at": "2026-07-31T12:18:47.817703Z",
       "freshness": {
-        "source_at": "2026-07-31T12:17:47.421690+00:00",
-        "age_seconds": 14.9,
+        "source_at": "2026-07-31T12:18:47.817703+00:00",
+        "age_seconds": 28.5,
         "sla_seconds": 600,
         "status": "fresh"
       },
@@ -283,10 +283,10 @@
       "symbol": "XAUUSD.s",
       "status": "no_signal",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T12:17:42.572060Z",
+      "latest_activity_at": "2026-07-31T12:18:42.793061Z",
       "freshness": {
-        "source_at": "2026-07-31T12:17:42.572060+00:00",
-        "age_seconds": 19.8,
+        "source_at": "2026-07-31T12:18:42.793061+00:00",
+        "age_seconds": 33.5,
         "sla_seconds": 600,
         "status": "fresh"
       },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4049793.7,
+        "age_seconds": 4049867.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6479,
+    "sample_count": 6480,
     "observed_equity_high_water": 107238.53,
-    "current_equity_drawdown": 332.71,
-    "current_equity_drawdown_pct": 0.310252
+    "current_equity_drawdown": 302.83,
+    "current_equity_drawdown_pct": 0.282389
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T14:17:17.499162+02:00",
-    "last_successful_publication_at": "2026-07-31T12:17:02.074637+00:00",
+    "last_successful_build_at": "2026-07-31T14:18:17.675105+02:00",
+    "last_successful_publication_at": "2026-07-31T12:18:06.090677+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4454,7 +4454,7 @@
       },
       {
         "channel_label": "goldhunter_community",
-        "display_name": "VIP Plus Jackpot",
+        "display_name": "Community",
         "mode": "observe_only",
         "enabled": true,
         "development_priority": "equal_parallel",
@@ -4623,7 +4623,7 @@
       },
       {
         "channel_label": "goldhunter_vip_plus",
-        "display_name": "VIP Plus 2.0",
+        "display_name": "VIP Plus",
         "mode": "observe_only",
         "enabled": true,
         "development_priority": "equal_parallel",
@@ -4897,7 +4897,7 @@
         },
         {
           "rank": 2,
-          "channel": "VIP Plus Jackpot",
+          "channel": "Community",
           "instrument": "XAUUSD",
           "readiness_stage": "priority_3_delivery_metadata_missing",
           "blocker_count": 10,
@@ -4921,7 +4921,7 @@
         },
         {
           "rank": 5,
-          "channel": "VIP Plus Jackpot",
+          "channel": "Community",
           "instrument": "BTCUSD",
           "readiness_stage": "priority_5_historical_mention_only",
           "blocker_count": 9,
@@ -4977,7 +4977,7 @@
         },
         {
           "rank": 12,
-          "channel": "VIP Plus 2.0",
+          "channel": "VIP Plus",
           "instrument": "BTCUSD",
           "readiness_stage": "priority_5_historical_mention_only",
           "blocker_count": 9,
@@ -4985,7 +4985,7 @@
         },
         {
           "rank": 13,
-          "channel": "VIP Plus 2.0",
+          "channel": "VIP Plus",
           "instrument": "XAUUSD",
           "readiness_stage": "priority_5_historical_mention_only",
           "blocker_count": 9,
