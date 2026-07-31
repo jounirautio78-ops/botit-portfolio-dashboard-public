@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T15:11:18.450010+02:00",
+  "generated_at": "2026-07-31T15:12:38.2344968+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-31T15:11:18.450010+02:00",
     "process_at": "2026-07-31T15:11:16.7838344+02:00",
-    "performance_export_at": "2026-07-31T15:07:39.5935217+02:00",
+    "performance_export_at": "2026-07-31T15:12:38.2344968+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-31T13:11:18.450010+00:00",
-        "age_seconds": 71.1,
+        "age_seconds": 161.4,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-31T13:11:16.783834+00:00",
-        "age_seconds": 72.8,
+        "age_seconds": 163.0,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
-        "source_at": "2026-07-31T13:07:39.593521+00:00",
-        "age_seconds": 290.0,
+        "source_at": "2026-07-31T13:12:38.234496+00:00",
+        "age_seconds": 81.6,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -258,14 +258,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "safety_validation_failed",
+      "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-07-31T13:11:44.103491Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-07-31T13:11:44.103491+00:00",
+        "age_seconds": 135.7,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "fresh"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4053060.9,
+        "age_seconds": 4053151.2,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6504,
+    "sample_count": 6505,
     "observed_equity_high_water": 108127.97,
     "current_equity_drawdown": 11.14,
     "current_equity_drawdown_pct": 0.010303
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T15:11:18.450010+02:00",
-    "last_successful_publication_at": "2026-07-31T13:11:25.762792+00:00",
+    "last_successful_build_at": "2026-07-31T15:12:38.2344968+02:00",
+    "last_successful_publication_at": "2026-07-31T13:12:57.748391+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4851,7 +4851,7 @@
     "private_media_included": false
   },
   "development_readiness": {
-    "generated_at": "2026-07-31T11:59:22.294558Z",
+    "generated_at": "2026-07-31T13:12:43.105252+00:00",
     "paul_channels": {
       "status": "completed_no_trade_manual_activation_required",
       "channel_count": 5,
@@ -5034,23 +5034,23 @@
       },
       "kultamania": {
         "status": "partial",
-        "basket_count": 365,
+        "basket_count": 366,
         "fully_reconciled_basket_count": 218,
-        "partial_or_missing_basket_count": 147,
+        "partial_or_missing_basket_count": 148,
         "reconciled_net_profit": 815.63,
         "losing_basket_count": 60,
         "largest_loss": 1015.08,
         "top_three_loss_share_pct": 16.4,
         "runner_net_profit": 1266.93,
-        "complete_six_leg_basket_count": 354,
+        "complete_six_leg_basket_count": 355,
         "structural_anomaly_basket_count": 11,
-        "fully_reconciled_basket_rate_pct": 59.73,
-        "matched_outcome_leg_rate_pct": 58.74,
+        "fully_reconciled_basket_rate_pct": 59.56,
+        "matched_outcome_leg_rate_pct": 58.58,
         "max_consecutive_losing_baskets": 4,
         "max_consecutive_loss_abs": 494.7,
         "runner_share_of_reconciled_net_pct": 153.6,
-        "breakeven_basket_count": 173,
-        "trailing_stop_basket_count": 48,
+        "breakeven_basket_count": 174,
+        "trailing_stop_basket_count": 49,
         "true_mae_mfe_status": "DATA_MISSING",
         "parameter_recommendation": false
       }
@@ -5066,8 +5066,8 @@
       {
         "system": "kultamania_outcome_reconciliation",
         "observed_count": 218,
-        "total_count": 365,
-        "coverage_pct": 59.73,
+        "total_count": 366,
+        "coverage_pct": 59.56,
         "next_gap": "exact_money_risk_and_true_tick_path"
       },
       {
@@ -5100,16 +5100,20 @@
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
     },
     {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
+    },
+    {
       "severity": "info",
       "message": "BTC:n rajattu jakso valmistui normaalisti; tulos pysyy historiallisena, kunnes uusi jakso hyv\u00e4ksyt\u00e4\u00e4n erikseen."
     },
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1: tila on tuntematon."
-    },
-    {
-      "severity": "warning",
-      "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
