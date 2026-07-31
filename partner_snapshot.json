@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T14:45:17.5513384+02:00",
+  "generated_at": "2026-07-31T14:45:19.228152+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 106828.06,
-    "equity": 107810.74,
-    "floating_pnl": 982.68,
+    "equity": 107759.04,
+    "floating_pnl": 930.98,
     "open_positions": 5,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
-    "exposure_at": "2026-07-31T14:44:19.277941+02:00",
+    "overall_status": "stale",
+    "exposure_at": "2026-07-31T14:45:19.228152+02:00",
     "process_at": "2026-07-31T14:45:17.5513384+02:00",
     "performance_export_at": "2026-07-31T14:44:39.6529636+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T12:44:19.277941+00:00",
-        "age_seconds": 87.0,
+        "source_at": "2026-07-31T12:45:19.228152+00:00",
+        "age_seconds": 119.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-07-31T12:45:17.551338+00:00",
-        "age_seconds": 28.8,
+        "age_seconds": 121.1,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-31T12:44:39.652963+00:00",
-        "age_seconds": 66.7,
+        "age_seconds": 159.0,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -58,7 +58,7 @@
       "latest_activity_at": "2026-07-31T14:44:26.4411664+02:00",
       "latest_activity_age_seconds": 48.8,
       "exposure_net_volume": -0.4,
-      "floating_pnl": 982.68,
+      "floating_pnl": 930.98,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -260,10 +260,10 @@
       "symbol": "MULTI-ASSET",
       "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T12:45:16.323544Z",
+      "latest_activity_at": "2026-07-31T12:45:31.430225Z",
       "freshness": {
-        "source_at": "2026-07-31T12:45:16.323544+00:00",
-        "age_seconds": 30.0,
+        "source_at": "2026-07-31T12:45:31.430225+00:00",
+        "age_seconds": 107.2,
         "sla_seconds": 600,
         "status": "fresh"
       },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4051457.7,
+        "age_seconds": 4051549.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6492,
+    "sample_count": 6493,
     "observed_equity_high_water": 107810.74,
-    "current_equity_drawdown": 0.0,
-    "current_equity_drawdown_pct": 0.0
+    "current_equity_drawdown": 51.7,
+    "current_equity_drawdown_pct": 0.047954
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T14:45:17.5513384+02:00",
-    "last_successful_publication_at": "2026-07-31T12:44:31.358001+00:00",
+    "last_successful_build_at": "2026-07-31T14:45:19.228152+02:00",
+    "last_successful_publication_at": "2026-07-31T12:46:13.391459+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5098,6 +5098,10 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
