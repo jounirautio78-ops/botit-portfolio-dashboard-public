@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T20:21:37.6101657+02:00",
+  "generated_at": "2026-07-31T20:22:17.878339+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 107159.18,
-    "equity": 106680.59,
-    "floating_pnl": -478.59,
+    "equity": 106678.02,
+    "floating_pnl": -481.16,
     "open_positions": 14,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T20:21:17.646355+02:00",
-    "process_at": "2026-07-31T20:21:16.1272241+02:00",
+    "exposure_at": "2026-07-31T20:22:17.878339+02:00",
+    "process_at": "2026-07-31T20:22:16.1462372+02:00",
     "performance_export_at": "2026-07-31T20:21:37.6101657+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T18:21:17.646355+00:00",
-        "age_seconds": 52.0,
+        "source_at": "2026-07-31T18:22:17.878339+00:00",
+        "age_seconds": 61.7,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T18:21:16.127224+00:00",
-        "age_seconds": 53.5,
+        "source_at": "2026-07-31T18:22:16.146237+00:00",
+        "age_seconds": 63.5,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-31T18:21:37.610165+00:00",
-        "age_seconds": 32.0,
+        "age_seconds": 102.0,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -55,10 +55,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T20:15:26.2290692+02:00",
-      "latest_activity_age_seconds": 347.7,
+      "latest_activity_at": "2026-07-31T20:21:24.2800098+02:00",
+      "latest_activity_age_seconds": 49.4,
       "exposure_net_volume": -0.48,
-      "floating_pnl": -334.5,
+      "floating_pnl": -333.84,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T20:21:12.1747191+02:00",
-      "latest_activity_age_seconds": 2.1,
+      "latest_activity_at": "2026-07-31T20:22:12.8489589+02:00",
+      "latest_activity_age_seconds": 1.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -145,8 +145,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T20:20:10.0408679+02:00",
-      "latest_activity_age_seconds": 64.7,
+      "latest_activity_at": "2026-07-31T20:21:30.6456493+02:00",
+      "latest_activity_age_seconds": 43.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -190,8 +190,8 @@
       "status": "session_complete",
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T20:15:40.4072602+02:00",
-      "latest_activity_age_seconds": 334.8,
+      "latest_activity_at": "2026-07-31T20:21:36.3949712+02:00",
+      "latest_activity_age_seconds": 38.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -281,21 +281,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "no_signal",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T18:21:55.980429Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-31T18:21:55.980429+00:00",
-        "age_seconds": 13.6,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": 0,
-      "open_positions": 0,
+      "summary_value": null,
+      "open_positions": null,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4071641.0,
+        "age_seconds": 4071711.0,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6688,
+    "sample_count": 6689,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 1817.57,
-    "current_equity_drawdown_pct": 1.675208
+    "current_equity_drawdown": 1820.14,
+    "current_equity_drawdown_pct": 1.677577
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T20:21:37.6101657+02:00",
-    "last_successful_publication_at": "2026-07-31T18:21:09.319635+00:00",
+    "last_successful_build_at": "2026-07-31T20:22:17.878339+02:00",
+    "last_successful_publication_at": "2026-07-31T18:22:19.149811+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4851,7 +4851,7 @@
     "private_media_included": false
   },
   "development_readiness": {
-    "generated_at": "2026-07-31T18:17:36.097240Z",
+    "generated_at": "2026-07-31T18:23:11.842816+00:00",
     "paul_channels": {
       "status": "completed_no_trade_manual_activation_required",
       "channel_count": 5,
@@ -5099,7 +5099,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T18:21:17.646355+00:00",
+      "source_at": "2026-07-31T18:22:17.878339+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 8,
       "other_ownership_mismatch_count": 0,
@@ -5240,135 +5240,80 @@
         "parameter_recommendation": false
       },
       "kultamania": {
-        "status": "partial",
+        "status": "DATA_MISSING",
         "basket_count": 370,
         "basket_plan_count": 370,
         "outcome_relevant_basket_count": 241,
         "cancelled_unfilled_basket_count": 129,
-        "lifecycle_reconciled_basket_count": 347,
-        "fully_reconciled_basket_count": 218,
-        "partial_or_missing_basket_count": 23,
-        "reconciled_net_profit": 815.63,
-        "losing_basket_count": 60,
-        "largest_loss": 1015.08,
-        "top_three_loss_share_pct": 16.4,
-        "runner_net_profit": 1266.93,
-        "complete_six_leg_basket_count": 359,
-        "structural_anomaly_basket_count": 11,
-        "fully_reconciled_basket_rate_pct": 90.46,
-        "matched_outcome_leg_rate_pct": 91.44,
-        "max_consecutive_losing_baskets": 4,
-        "max_consecutive_loss_abs": 494.7,
-        "runner_share_of_reconciled_net_pct": 153.6,
-        "breakeven_basket_count": 176,
-        "trailing_stop_basket_count": 49,
+        "lifecycle_reconciled_basket_count": 348,
+        "fully_reconciled_basket_count": 219,
+        "partial_or_missing_basket_count": 22,
+        "reconciled_net_profit": 813.9,
+        "losing_basket_count": null,
+        "largest_loss": null,
+        "top_three_loss_share_pct": null,
+        "runner_net_profit": null,
+        "complete_six_leg_basket_count": null,
+        "structural_anomaly_basket_count": null,
+        "fully_reconciled_basket_rate_pct": null,
+        "matched_outcome_leg_rate_pct": null,
+        "max_consecutive_losing_baskets": null,
+        "max_consecutive_loss_abs": null,
+        "runner_share_of_reconciled_net_pct": null,
+        "breakeven_basket_count": null,
+        "trailing_stop_basket_count": null,
         "true_mae_mfe_status": "DATA_MISSING",
-        "reconciliation_backlog_count": 23,
-        "all_outcomes_missing_basket_count": 18,
-        "partial_outcome_basket_count": 5,
-        "cancelled_unfilled_excluded_count": 129,
-        "backlog_leg_count": 144,
-        "matched_backlog_leg_count": 20,
-        "missing_outcome_leg_count": 124,
-        "reconciliation_priority_queue": [
-          {
-            "outcome_status": "partial_outcome_DATA_MISSING",
-            "opened_at": "2026-06-29T11:56:48.101395+02:00",
-            "initial_leg_count": 6,
-            "matched_outcome_leg_count": 5,
-            "missing_outcome_leg_count": 1
-          },
-          {
-            "outcome_status": "partial_outcome_DATA_MISSING",
-            "opened_at": "2026-07-30T16:24:27.703736+02:00",
-            "initial_leg_count": 6,
-            "matched_outcome_leg_count": 5,
-            "missing_outcome_leg_count": 1
-          },
-          {
-            "outcome_status": "partial_outcome_DATA_MISSING",
-            "opened_at": "2026-06-29T17:18:38.473035+02:00",
-            "initial_leg_count": 6,
-            "matched_outcome_leg_count": 3,
-            "missing_outcome_leg_count": 3
-          },
-          {
-            "outcome_status": "partial_outcome_DATA_MISSING",
-            "opened_at": "2026-06-04T08:40:44.362024+02:00",
-            "initial_leg_count": 6,
-            "matched_outcome_leg_count": 1,
-            "missing_outcome_leg_count": 5
-          },
-          {
-            "outcome_status": "partial_outcome_DATA_MISSING",
-            "opened_at": "2026-05-07T11:02:57.242624+02:00",
-            "initial_leg_count": 12,
-            "matched_outcome_leg_count": 6,
-            "missing_outcome_leg_count": 6
-          }
-        ],
+        "reconciliation_backlog_count": null,
+        "all_outcomes_missing_basket_count": null,
+        "partial_outcome_basket_count": null,
+        "cancelled_unfilled_excluded_count": null,
+        "backlog_leg_count": null,
+        "matched_backlog_leg_count": null,
+        "missing_outcome_leg_count": null,
+        "reconciliation_priority_queue": [],
         "target_gates": {
           "fully_reconciled_baskets": {
-            "observed_count": 218,
-            "total_count": 241,
-            "coverage_pct": 90.46,
-            "target_pct": 95.0,
-            "minimum_required_count": 229,
-            "remaining_count": 11,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           },
           "matched_outcome_legs": {
-            "observed_count": 1324,
-            "total_count": 1448,
-            "coverage_pct": 91.44,
-            "target_pct": 95.0,
-            "minimum_required_count": 1376,
-            "remaining_count": 52,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           },
           "exact_initial_money_risk": {
-            "observed_count": 0,
-            "total_count": 241,
-            "coverage_pct": 0.0,
-            "target_pct": 90.0,
-            "minimum_required_count": 217,
-            "remaining_count": 217,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           },
           "true_tick_path_mae_mfe": {
-            "observed_count": 0,
-            "total_count": 241,
-            "coverage_pct": 0.0,
-            "target_pct": 80.0,
-            "minimum_required_count": 193,
-            "remaining_count": 193,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           }
         },
-        "outcome_coverage_by_month": [
-          {
-            "month": "2026-05",
-            "total_count": 91,
-            "observed_count": 90,
-            "coverage_pct": 98.9
-          },
-          {
-            "month": "2026-06",
-            "total_count": 56,
-            "observed_count": 45,
-            "coverage_pct": 80.36
-          },
-          {
-            "month": "2026-07",
-            "total_count": 94,
-            "observed_count": 83,
-            "coverage_pct": 88.3
-          }
-        ],
+        "outcome_coverage_by_month": [],
         "parameter_recommendation": false
       }
     },
@@ -5461,14 +5406,14 @@
       },
       {
         "system": "kultamania_outcome_reconciliation",
-        "observed_count": 218,
-        "total_count": 241,
-        "coverage_pct": 90.46,
-        "target_pct": 95.0,
-        "minimum_required_count": 229,
-        "remaining_count": 11,
+        "observed_count": null,
+        "total_count": null,
+        "coverage_pct": null,
+        "target_pct": null,
+        "minimum_required_count": null,
+        "remaining_count": null,
         "passed": false,
-        "status": "collecting",
+        "status": "DATA_MISSING",
         "next_gap": "exact_money_risk_and_true_tick_path"
       },
       {
@@ -5521,6 +5466,10 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
