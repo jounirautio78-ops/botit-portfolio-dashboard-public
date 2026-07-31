@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T13:58:16.612000+02:00",
+  "generated_at": "2026-07-31T13:59:35.9749343+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 106659.52,
-    "equity": 106952.41,
-    "floating_pnl": 292.89,
+    "equity": 107031.29,
+    "floating_pnl": 371.77,
     "open_positions": 6,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T13:58:16.612000+02:00",
-    "process_at": "2026-07-31T13:58:14.9851467+02:00",
-    "performance_export_at": "2026-07-31T13:53:36.7925625+02:00",
+    "exposure_at": "2026-07-31T13:59:17.490791+02:00",
+    "process_at": "2026-07-31T13:59:15.9635017+02:00",
+    "performance_export_at": "2026-07-31T13:59:35.9749343+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T11:58:16.612000+00:00",
-        "age_seconds": 35.7,
+        "source_at": "2026-07-31T11:59:17.490791+00:00",
+        "age_seconds": 42.3,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T11:58:14.985146+00:00",
-        "age_seconds": 37.3,
+        "source_at": "2026-07-31T11:59:15.963501+00:00",
+        "age_seconds": 43.8,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-31T11:53:36.792562+00:00",
-        "age_seconds": 315.5,
+        "source_at": "2026-07-31T11:59:35.974934+00:00",
+        "age_seconds": 23.8,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T13:53:22.2116234+02:00",
-      "latest_activity_age_seconds": 290.7,
+      "latest_activity_age_seconds": 351.6,
       "exposure_net_volume": -0.48,
-      "floating_pnl": 292.89,
+      "floating_pnl": 371.77,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T13:58:04.7223821+02:00",
-      "latest_activity_age_seconds": 8.6,
+      "latest_activity_at": "2026-07-31T13:59:05.4475865+02:00",
+      "latest_activity_age_seconds": 8.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T13:55:07.2186311+02:00",
-      "latest_activity_age_seconds": 186.5,
+      "latest_activity_age_seconds": 247.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T13:53:35.8681668+02:00",
-      "latest_activity_age_seconds": 278.3,
+      "latest_activity_age_seconds": 339.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4048643.7,
+        "age_seconds": 4048711.1,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6462,
+    "sample_count": 6463,
     "observed_equity_high_water": 107238.53,
-    "current_equity_drawdown": 286.12,
-    "current_equity_drawdown_pct": 0.266807
+    "current_equity_drawdown": 207.24,
+    "current_equity_drawdown_pct": 0.193251
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T13:58:16.612000+02:00",
-    "last_successful_publication_at": "2026-07-31T11:57:52.088129+00:00",
+    "last_successful_build_at": "2026-07-31T13:59:35.9749343+02:00",
+    "last_successful_publication_at": "2026-07-31T11:58:59.283931+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4851,7 +4851,7 @@
     "private_media_included": false
   },
   "development_readiness": {
-    "generated_at": "2026-07-31T11:58:42.723117+00:00",
+    "generated_at": "2026-07-31T11:59:22.294558Z",
     "paul_channels": {
       "status": "completed_no_trade_manual_activation_required",
       "channel_count": 5,
@@ -4880,6 +4880,14 @@
       "activation_queue": [
         {
           "rank": 1,
+          "channel": "Indices & Crypto",
+          "instrument": "BTCUSD",
+          "readiness_stage": "priority_3_delivery_metadata_missing",
+          "blocker_count": 9,
+          "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
+        },
+        {
+          "rank": 2,
           "channel": "VIP Plus Jackpot",
           "instrument": "XAUUSD",
           "readiness_stage": "priority_3_delivery_metadata_missing",
@@ -4887,19 +4895,11 @@
           "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "channel": "Currency",
           "instrument": "USDCHF",
           "readiness_stage": "priority_3_delivery_metadata_missing",
           "blocker_count": 10,
-          "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
-        },
-        {
-          "rank": 3,
-          "channel": "Indices & Crypto",
-          "instrument": "BTCUSD",
-          "readiness_stage": "priority_3_delivery_metadata_missing",
-          "blocker_count": 9,
           "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
         },
         {
