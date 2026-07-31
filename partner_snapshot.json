@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T19:43:35.9378853+02:00",
+  "generated_at": "2026-07-31T19:45:16.934655+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 107159.18,
-    "equity": 106618.03,
-    "floating_pnl": -541.15,
+    "equity": 106512.98,
+    "floating_pnl": -646.2,
     "open_positions": 14,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T19:43:16.747584+02:00",
-    "process_at": "2026-07-31T19:43:15.2104236+02:00",
+    "exposure_at": "2026-07-31T19:45:16.934655+02:00",
+    "process_at": "2026-07-31T19:45:15.2615626+02:00",
     "performance_export_at": "2026-07-31T19:43:35.9378853+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T17:43:16.747584+00:00",
-        "age_seconds": 50.6,
+        "source_at": "2026-07-31T17:45:16.934655+00:00",
+        "age_seconds": 22.2,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T17:43:15.210423+00:00",
-        "age_seconds": 52.2,
+        "source_at": "2026-07-31T17:45:15.261562+00:00",
+        "age_seconds": 23.9,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-31T17:43:35.937885+00:00",
-        "age_seconds": 31.5,
+        "age_seconds": 123.2,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -55,10 +55,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T19:38:22.5303743+02:00",
-      "latest_activity_age_seconds": 290.5,
+      "latest_activity_at": "2026-07-31T19:43:22.6707269+02:00",
+      "latest_activity_age_seconds": 110.3,
       "exposure_net_volume": -0.48,
-      "floating_pnl": -419.7,
+      "floating_pnl": -528.0,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T19:43:06.3572213+02:00",
-      "latest_activity_age_seconds": 7.1,
+      "latest_activity_at": "2026-07-31T19:45:07.5710694+02:00",
+      "latest_activity_age_seconds": 5.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -145,8 +145,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T19:40:10.0263613+02:00",
-      "latest_activity_age_seconds": 183.8,
+      "latest_activity_at": "2026-07-31T19:45:01.1732062+02:00",
+      "latest_activity_age_seconds": 12.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -190,8 +190,8 @@
       "status": "session_complete",
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T19:38:36.0998003+02:00",
-      "latest_activity_age_seconds": 278.1,
+      "latest_activity_at": "2026-07-31T19:43:34.7770430+02:00",
+      "latest_activity_age_seconds": 99.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4069358.7,
+        "age_seconds": 4069450.5,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6662,
+    "sample_count": 6663,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 1880.13,
-    "current_equity_drawdown_pct": 1.732868
+    "current_equity_drawdown": 1985.18,
+    "current_equity_drawdown_pct": 1.82969
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T19:43:35.9378853+02:00",
-    "last_successful_publication_at": "2026-07-31T17:43:04.029970+00:00",
+    "last_successful_build_at": "2026-07-31T19:45:16.934655+02:00",
+    "last_successful_publication_at": "2026-07-31T17:44:30.461262+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5006,14 +5006,70 @@
         }
       ],
       "forward_context": {
-        "status": "DATA_MISSING",
-        "fresh_fixture_count": null,
-        "verified_forward_only_fixture_count": null,
-        "fixture_delivery_metadata_missing_count": null,
-        "verified_delayed_complete_context_count": null,
-        "priority_pair_gate_pass_count": null,
-        "priority_pair_count": null,
-        "priority_pair_gates": [],
+        "status": "completed_no_trade_evidence_capture_only",
+        "fresh_fixture_count": 72,
+        "verified_forward_only_fixture_count": 0,
+        "fixture_delivery_metadata_missing_count": 72,
+        "message_fixture_delivery_mismatch_count": 0,
+        "verified_delayed_complete_context_count": 0,
+        "priority_pair_gate_pass_count": 0,
+        "priority_pair_count": 3,
+        "priority_pair_gates": [
+          {
+            "rank": 1,
+            "channel": "Indices & Crypto",
+            "instrument": "BTCUSD",
+            "fresh_structured_fixture_count": 0,
+            "delivery_metadata_missing_fixture_count": 0,
+            "unsafe_delivery_fixture_count": 0,
+            "forward_only_fixture_count": 0,
+            "forward_only_fixture_target": 3,
+            "forward_only_fixture_remaining_count": 3,
+            "delayed_complete_context_count": 0,
+            "delayed_complete_context_target": 2,
+            "delayed_complete_context_remaining_count": 2,
+            "measurement_status": "collecting_forward_only_fixtures",
+            "next_required_evidence": "verified_forward_only_fixture",
+            "evidence_gate_passed": false,
+            "promotion_authorized": false
+          },
+          {
+            "rank": 2,
+            "channel": "Community",
+            "instrument": "XAUUSD",
+            "fresh_structured_fixture_count": 22,
+            "delivery_metadata_missing_fixture_count": 22,
+            "unsafe_delivery_fixture_count": 0,
+            "forward_only_fixture_count": 0,
+            "forward_only_fixture_target": 3,
+            "forward_only_fixture_remaining_count": 3,
+            "delayed_complete_context_count": 0,
+            "delayed_complete_context_target": 2,
+            "delayed_complete_context_remaining_count": 2,
+            "measurement_status": "delivery_provenance_missing",
+            "next_required_evidence": "verified_forward_only_fixture",
+            "evidence_gate_passed": false,
+            "promotion_authorized": false
+          },
+          {
+            "rank": 3,
+            "channel": "Currency",
+            "instrument": "USDCHF",
+            "fresh_structured_fixture_count": 1,
+            "delivery_metadata_missing_fixture_count": 1,
+            "unsafe_delivery_fixture_count": 0,
+            "forward_only_fixture_count": 0,
+            "forward_only_fixture_target": 3,
+            "forward_only_fixture_remaining_count": 3,
+            "delayed_complete_context_count": 0,
+            "delayed_complete_context_target": 2,
+            "delayed_complete_context_remaining_count": 2,
+            "measurement_status": "delivery_provenance_missing",
+            "next_required_evidence": "verified_forward_only_fixture",
+            "evidence_gate_passed": false,
+            "promotion_authorized": false
+          }
+        ],
         "capture_only": true,
         "promotion_authorized": false
       },
@@ -5023,14 +5079,14 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "blocked_open_exposure",
+      "status": "DATA_MISSING",
       "technical_flat_gate_open": false,
-      "position_count": 14,
-      "order_count": 0,
-      "protected_position_count": 14,
-      "protected_order_count": 0,
-      "unmapped_position_count": 0,
-      "unmapped_order_count": 0,
+      "position_count": null,
+      "order_count": null,
+      "protected_position_count": null,
+      "protected_order_count": null,
+      "unmapped_position_count": null,
+      "unmapped_order_count": null,
       "prepared_action_count": 6,
       "prepared_actions": [
         "pause_xauusd_intraday_regime_momentum",
@@ -5043,8 +5099,11 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T17:43:16.747584+00:00",
-      "source_status": "fresh"
+      "source_at": "2026-07-31T17:45:16.934655+00:00",
+      "source_status": "fresh",
+      "known_paul_ger40_symbol_metadata_gap_count": null,
+      "other_ownership_mismatch_count": null,
+      "supervisor_symbol_contract_status": "DATA_MISSING"
     },
     "strategies": {
       "gold": {
@@ -5073,6 +5132,10 @@
         "tick_collection_status": "post_window_positions_missing_tick_path",
         "tick_window_first_entry_at": "2026-06-23T10:00:10.973000+00:00",
         "tick_window_last_close_at": "2026-07-17T12:21:22.719000+00:00",
+        "tick_latest_outcome_close_at": "2026-07-24T19:26:37+00:00",
+        "tick_first_post_window_close_at": "2026-07-20T11:42:27.219000+00:00",
+        "tick_last_post_window_close_at": "2026-07-24T19:26:37+00:00",
+        "tick_collection_lag_seconds": 630314.281,
         "management_evidence_coverage_pct": 1.65,
         "classified_exit_comment_count": 363,
         "decision_time_position_count": 354,
@@ -5204,6 +5267,46 @@
         "all_outcomes_missing_basket_count": 18,
         "partial_outcome_basket_count": 5,
         "cancelled_unfilled_excluded_count": 129,
+        "backlog_leg_count": 144,
+        "matched_backlog_leg_count": 20,
+        "missing_outcome_leg_count": 124,
+        "reconciliation_priority_queue": [
+          {
+            "outcome_status": "partial_outcome_DATA_MISSING",
+            "opened_at": "2026-06-29T11:56:48.101395+02:00",
+            "initial_leg_count": 6,
+            "matched_outcome_leg_count": 5,
+            "missing_outcome_leg_count": 1
+          },
+          {
+            "outcome_status": "partial_outcome_DATA_MISSING",
+            "opened_at": "2026-07-30T16:24:27.703736+02:00",
+            "initial_leg_count": 6,
+            "matched_outcome_leg_count": 5,
+            "missing_outcome_leg_count": 1
+          },
+          {
+            "outcome_status": "partial_outcome_DATA_MISSING",
+            "opened_at": "2026-06-29T17:18:38.473035+02:00",
+            "initial_leg_count": 6,
+            "matched_outcome_leg_count": 3,
+            "missing_outcome_leg_count": 3
+          },
+          {
+            "outcome_status": "partial_outcome_DATA_MISSING",
+            "opened_at": "2026-06-04T08:40:44.362024+02:00",
+            "initial_leg_count": 6,
+            "matched_outcome_leg_count": 1,
+            "missing_outcome_leg_count": 5
+          },
+          {
+            "outcome_status": "partial_outcome_DATA_MISSING",
+            "opened_at": "2026-05-07T11:02:57.242624+02:00",
+            "initial_leg_count": 12,
+            "matched_outcome_leg_count": 6,
+            "missing_outcome_leg_count": 6
+          }
+        ],
         "target_gates": {
           "fully_reconciled_baskets": {
             "observed_count": 218,
@@ -5350,10 +5453,10 @@
         "system": "paul_forward_delivery",
         "observed_count": 0,
         "total_count": 72,
-        "coverage_pct": null,
-        "target_pct": null,
-        "remaining_count": null,
-        "status": "DATA_MISSING",
+        "coverage_pct": 0.0,
+        "target_pct": 100.0,
+        "remaining_count": 72,
+        "status": "collecting",
         "next_gap": "forward_only_delivery_metadata"
       },
       {
