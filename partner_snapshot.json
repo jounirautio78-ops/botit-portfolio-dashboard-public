@@ -1,18 +1,18 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T17:09:21.298277+02:00",
+  "generated_at": "2026-07-31T17:12:21.520064+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
-    "balance": 107046.95,
-    "equity": 107084.41,
-    "floating_pnl": 37.46,
-    "open_positions": 14,
+    "balance": 107103.06,
+    "equity": 107305.21,
+    "floating_pnl": 202.15,
+    "open_positions": 13,
     "open_orders": 0,
     "unmapped_positions": 0,
     "unmapped_orders": 0,
-    "xau_net_exposure": -0.48,
+    "xau_net_exposure": -0.4,
     "btc_net_exposure": 0.0,
     "current_week_period": "2026-W31",
     "current_week_known_pnl": 2973.51,
@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "stale",
-    "exposure_at": "2026-07-31T17:09:21.298277+02:00",
-    "process_at": "2026-07-31T17:09:19.2811564+02:00",
+    "overall_status": "fresh",
+    "exposure_at": "2026-07-31T17:12:21.520064+02:00",
+    "process_at": "2026-07-31T17:12:18.9877238+02:00",
     "performance_export_at": "2026-07-31T17:08:39.5022644+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T15:09:21.298277+00:00",
-        "age_seconds": 145.8,
+        "source_at": "2026-07-31T15:12:21.520064+00:00",
+        "age_seconds": 59.0,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T15:09:19.281156+00:00",
-        "age_seconds": 147.8,
+        "source_at": "2026-07-31T15:12:18.987723+00:00",
+        "age_seconds": 61.6,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-31T15:08:39.502264+00:00",
-        "age_seconds": 187.6,
+        "age_seconds": 281.1,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -55,10 +55,10 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T17:08:25.3823002+02:00",
-      "latest_activity_age_seconds": 50.9,
-      "exposure_net_volume": -0.48,
-      "floating_pnl": 123.18,
+      "latest_activity_at": "2026-07-31T17:12:03.7714592+02:00",
+      "latest_activity_age_seconds": 11.9,
+      "exposure_net_volume": -0.4,
+      "floating_pnl": 300.75,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T17:09:09.7270764+02:00",
-      "latest_activity_age_seconds": 7.2,
+      "latest_activity_at": "2026-07-31T17:12:11.6914727+02:00",
+      "latest_activity_age_seconds": 4.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -145,8 +145,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T17:08:32.6868570+02:00",
-      "latest_activity_age_seconds": 44.8,
+      "latest_activity_at": "2026-07-31T17:10:10.2637620+02:00",
+      "latest_activity_age_seconds": 126.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T17:08:38.9231171+02:00",
-      "latest_activity_age_seconds": 39.2,
+      "latest_activity_age_seconds": 218.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4060218.4,
+        "age_seconds": 4060311.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6572,
+    "sample_count": 6573,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 1413.75,
-    "current_equity_drawdown_pct": 1.303017
+    "current_equity_drawdown": 1192.95,
+    "current_equity_drawdown_pct": 1.099512
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T17:09:21.298277+02:00",
-    "last_successful_publication_at": "2026-07-31T15:10:30.653897+00:00",
+    "last_successful_build_at": "2026-07-31T17:12:21.520064+02:00",
+    "last_successful_publication_at": "2026-07-31T15:12:19.331016+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4946,20 +4946,20 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "DATA_MISSING",
+      "status": "blocked_open_exposure",
       "technical_flat_gate_open": false,
-      "position_count": null,
-      "order_count": null,
-      "protected_position_count": null,
-      "protected_order_count": null,
-      "unmapped_position_count": null,
-      "unmapped_order_count": null,
+      "position_count": 13,
+      "order_count": 0,
+      "protected_position_count": 13,
+      "protected_order_count": 0,
+      "unmapped_position_count": 0,
+      "unmapped_order_count": 0,
       "prepared_action_count": 3,
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T15:09:21.298277+00:00",
-      "source_status": "stale"
+      "source_at": "2026-07-31T15:12:21.520064+00:00",
+      "source_status": "fresh"
     },
     "strategies": {
       "gold": {
@@ -5283,14 +5283,6 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
-    },
-    {
-      "severity": "warning",
-      "message": "Altistusdata on vanhentunut."
-    },
-    {
-      "severity": "warning",
-      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
