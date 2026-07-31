@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T19:54:16.255596+02:00",
+  "generated_at": "2026-07-31T19:55:17.295737+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 107159.18,
-    "equity": 106470.23,
-    "floating_pnl": -688.95,
+    "equity": 106485.78,
+    "floating_pnl": -673.4,
     "open_positions": 14,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T19:54:16.255596+02:00",
-    "process_at": "2026-07-31T19:54:14.6888670+02:00",
+    "exposure_at": "2026-07-31T19:55:17.295737+02:00",
+    "process_at": "2026-07-31T19:55:15.5519551+02:00",
     "performance_export_at": "2026-07-31T19:53:39.4252131+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T17:54:16.255596+00:00",
-        "age_seconds": 15.2,
+        "source_at": "2026-07-31T17:55:17.295737+00:00",
+        "age_seconds": 27.5,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T17:54:14.688867+00:00",
-        "age_seconds": 16.7,
+        "source_at": "2026-07-31T17:55:15.551955+00:00",
+        "age_seconds": 29.2,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-07-31T17:53:39.425213+00:00",
-        "age_seconds": 52.0,
+        "age_seconds": 125.3,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T19:53:23.5723557+02:00",
-      "latest_activity_age_seconds": 48.9,
+      "latest_activity_age_seconds": 109.7,
       "exposure_net_volume": -0.48,
-      "floating_pnl": -593.34,
+      "floating_pnl": -574.56,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T19:54:03.8782298+02:00",
-      "latest_activity_age_seconds": 9.0,
+      "latest_activity_at": "2026-07-31T19:55:04.4422841+02:00",
+      "latest_activity_age_seconds": 9.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -145,8 +145,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T19:53:32.7772441+02:00",
-      "latest_activity_age_seconds": 40.5,
+      "latest_activity_at": "2026-07-31T19:55:03.7574252+02:00",
+      "latest_activity_age_seconds": 10.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T19:53:38.4792461+02:00",
-      "latest_activity_age_seconds": 35.3,
+      "latest_activity_age_seconds": 96.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -281,21 +281,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "no_signal",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T17:54:19.490256Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-31T17:54:19.490256+00:00",
-        "age_seconds": 11.9,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": 0,
-      "open_positions": 0,
+      "summary_value": null,
+      "open_positions": null,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4069982.8,
+        "age_seconds": 4070056.1,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6669,
+    "sample_count": 6670,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 2027.93,
-    "current_equity_drawdown_pct": 1.869092
+    "current_equity_drawdown": 2012.38,
+    "current_equity_drawdown_pct": 1.85476
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T19:54:16.255596+02:00",
-    "last_successful_publication_at": "2026-07-31T17:53:27.941948+00:00",
+    "last_successful_build_at": "2026-07-31T19:55:17.295737+02:00",
+    "last_successful_publication_at": "2026-07-31T17:54:39.771735+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5099,7 +5099,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T17:54:16.255596+00:00",
+      "source_at": "2026-07-31T17:55:17.295737+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 8,
       "other_ownership_mismatch_count": 0,
@@ -5521,6 +5521,10 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
