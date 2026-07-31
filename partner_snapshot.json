@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T18:31:16.748464+02:00",
+  "generated_at": "2026-07-31T18:32:34.2767957+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 107159.18,
-    "equity": 106910.28,
-    "floating_pnl": -248.9,
+    "equity": 106776.19,
+    "floating_pnl": -382.99,
     "open_positions": 14,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T18:31:16.748464+02:00",
-    "process_at": "2026-07-31T18:31:15.1646855+02:00",
-    "performance_export_at": "2026-07-31T18:26:40.9680614+02:00",
+    "exposure_at": "2026-07-31T18:32:17.626734+02:00",
+    "process_at": "2026-07-31T18:32:15.8315495+02:00",
+    "performance_export_at": "2026-07-31T18:32:34.2767957+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T16:31:16.748464+00:00",
-        "age_seconds": 19.8,
+        "source_at": "2026-07-31T16:32:17.626734+00:00",
+        "age_seconds": 28.3,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T16:31:15.164685+00:00",
-        "age_seconds": 21.4,
+        "source_at": "2026-07-31T16:32:15.831549+00:00",
+        "age_seconds": 30.1,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-31T16:26:40.968061+00:00",
-        "age_seconds": 295.6,
+        "source_at": "2026-07-31T16:32:34.276795+00:00",
+        "age_seconds": 11.7,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T18:26:24.9777700+02:00",
-      "latest_activity_age_seconds": 288.0,
+      "latest_activity_age_seconds": 348.6,
       "exposure_net_volume": -0.48,
-      "floating_pnl": -182.46,
+      "floating_pnl": -303.66,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T18:31:06.9543798+02:00",
-      "latest_activity_age_seconds": 6.3,
+      "latest_activity_at": "2026-07-31T18:32:07.6730280+02:00",
+      "latest_activity_age_seconds": 6.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T18:30:02.3902935+02:00",
-      "latest_activity_age_seconds": 71.4,
+      "latest_activity_age_seconds": 132.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T18:26:40.5297925+02:00",
-      "latest_activity_age_seconds": 273.7,
+      "latest_activity_age_seconds": 334.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4065007.9,
+        "age_seconds": 4065077.3,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6622,
+    "sample_count": 6623,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 1587.88,
-    "current_equity_drawdown_pct": 1.463509
+    "current_equity_drawdown": 1721.97,
+    "current_equity_drawdown_pct": 1.587096
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T18:31:16.748464+02:00",
-    "last_successful_publication_at": "2026-07-31T16:30:36.138726+00:00",
+    "last_successful_build_at": "2026-07-31T18:32:34.2767957+02:00",
+    "last_successful_publication_at": "2026-07-31T16:31:45.660562+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4892,6 +4892,7 @@
           "channel": "Indices & Crypto",
           "instrument": "BTCUSD",
           "readiness_stage": "priority_3_delivery_metadata_missing",
+          "fresh_scoped_classification_count": 4,
           "blocker_count": 9,
           "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
         },
@@ -4900,6 +4901,7 @@
           "channel": "Community",
           "instrument": "XAUUSD",
           "readiness_stage": "priority_3_delivery_metadata_missing",
+          "fresh_scoped_classification_count": 19,
           "blocker_count": 10,
           "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
         },
@@ -4908,6 +4910,7 @@
           "channel": "Currency",
           "instrument": "USDCHF",
           "readiness_stage": "priority_3_delivery_metadata_missing",
+          "fresh_scoped_classification_count": 1,
           "blocker_count": 10,
           "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
         },
@@ -4916,6 +4919,7 @@
           "channel": "Currency",
           "instrument": "EURUSD",
           "readiness_stage": "priority_4_historical_signal_shape",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 9,
           "next_action": "refresh_exact_delivered_signal_fixture_and_tick"
         },
@@ -4924,6 +4928,7 @@
           "channel": "Community",
           "instrument": "BTCUSD",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 9,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         },
@@ -4932,6 +4937,7 @@
           "channel": "Currency",
           "instrument": "GBPUSD",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 9,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         },
@@ -4940,6 +4946,7 @@
           "channel": "Currency",
           "instrument": "USDJPY",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 9,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         },
@@ -4948,6 +4955,7 @@
           "channel": "Indices & Crypto",
           "instrument": "US100",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 8,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         },
@@ -4956,6 +4964,7 @@
           "channel": "Indices & Crypto",
           "instrument": "US30",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 8,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         },
@@ -4964,6 +4973,7 @@
           "channel": "Indices & Crypto",
           "instrument": "USOIL",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 9,
           "next_action": "wait_for_flat_then_request_separately_approved_read_only_symbol_verification_no_automatic_probe"
         },
@@ -4972,6 +4982,7 @@
           "channel": "Indices & Crypto",
           "instrument": "XAUUSD",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 8,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         },
@@ -4980,6 +4991,7 @@
           "channel": "VIP Plus",
           "instrument": "BTCUSD",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 9,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         },
@@ -4988,6 +5000,7 @@
           "channel": "VIP Plus",
           "instrument": "XAUUSD",
           "readiness_stage": "priority_5_historical_mention_only",
+          "fresh_scoped_classification_count": 0,
           "blocker_count": 9,
           "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
         }
@@ -5085,7 +5098,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T16:31:16.748464+00:00",
+      "source_at": "2026-07-31T16:32:17.626734+00:00",
       "source_status": "fresh"
     },
     "strategies": {
