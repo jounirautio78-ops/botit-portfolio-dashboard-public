@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-31T17:49:20.649316+02:00",
     "process_at": "2026-07-31T17:49:18.3990898+02:00",
     "performance_export_at": "2026-07-31T17:47:43.7323493+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-31T15:49:20.649316+00:00",
-        "age_seconds": 98.3,
+        "age_seconds": 170.6,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-31T15:49:18.399089+00:00",
-        "age_seconds": 100.5,
+        "age_seconds": 172.8,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-31T15:47:43.732349+00:00",
-        "age_seconds": 195.2,
+        "age_seconds": 267.5,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4062570.2,
+        "age_seconds": 4062642.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4137,7 +4137,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-31T17:49:20.649316+02:00",
-    "last_successful_publication_at": "2026-07-31T15:49:58.708433+00:00",
+    "last_successful_publication_at": "2026-07-31T15:51:11.033708+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4946,14 +4946,14 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "blocked_open_exposure",
+      "status": "DATA_MISSING",
       "technical_flat_gate_open": false,
-      "position_count": 13,
-      "order_count": 0,
-      "protected_position_count": 13,
-      "protected_order_count": 0,
-      "unmapped_position_count": 0,
-      "unmapped_order_count": 0,
+      "position_count": null,
+      "order_count": null,
+      "protected_position_count": null,
+      "protected_order_count": null,
+      "unmapped_position_count": null,
+      "unmapped_order_count": null,
       "prepared_action_count": 6,
       "prepared_actions": [
         "pause_xauusd_intraday_regime_momentum",
@@ -4967,7 +4967,7 @@
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
       "source_at": "2026-07-31T15:49:20.649316+00:00",
-      "source_status": "fresh"
+      "source_status": "stale"
     },
     "strategies": {
       "gold": {
@@ -5291,6 +5291,14 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
