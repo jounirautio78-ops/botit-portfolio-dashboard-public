@@ -29,21 +29,21 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-31T14:28:18.512213+00:00",
-        "age_seconds": 299.8,
+        "age_seconds": 394.9,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-31T14:28:16.709233+00:00",
-        "age_seconds": 301.6,
+        "age_seconds": 396.7,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-31T14:23:45.829180+00:00",
-        "age_seconds": 572.5,
+        "age_seconds": 667.5,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4057909.7,
+        "age_seconds": 4058004.7,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4137,7 +4137,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-31T16:28:18.512213+02:00",
-    "last_successful_publication_at": "2026-07-31T14:32:14.648587+00:00",
+    "last_successful_publication_at": "2026-07-31T14:33:49.560480+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5291,6 +5291,10 @@
     {
       "severity": "warning",
       "message": "Prosessidata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Tulosdata on vanhentunut."
     },
     {
       "severity": "info",
