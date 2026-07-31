@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-07-31T15:08:17.577444+02:00",
     "process_at": "2026-07-31T15:08:15.9123977+02:00",
     "performance_export_at": "2026-07-31T15:07:39.5935217+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-07-31T13:08:17.577444+00:00",
-        "age_seconds": 76.8,
+        "age_seconds": 158.0,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-07-31T13:08:15.912397+00:00",
-        "age_seconds": 78.4,
+        "age_seconds": 159.7,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-31T13:07:39.593521+00:00",
-        "age_seconds": 114.8,
+        "age_seconds": 196.0,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4052885.7,
+        "age_seconds": 4052967.0,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4137,7 +4137,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-31T15:08:17.577444+02:00",
-    "last_successful_publication_at": "2026-07-31T13:08:31.114635+00:00",
+    "last_successful_publication_at": "2026-07-31T13:09:51.203613+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5098,6 +5098,14 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
