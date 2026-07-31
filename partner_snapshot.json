@@ -1,15 +1,17 @@
 {
   "schema_version": "botit-partner-snapshot-v4",
-  "generated_at": "2026-07-31T11:43:16.670659+02:00",
+  "generated_at": "2026-07-31T11:44:36.3479734+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 106603.4,
-    "equity": 106888.77,
-    "floating_pnl": 285.37,
+    "equity": 106881.71,
+    "floating_pnl": 278.31,
     "open_positions": 1,
+    "open_orders": 6,
     "unmapped_positions": 0,
+    "unmapped_orders": 0,
     "xau_net_exposure": -0.08,
     "btc_net_exposure": 0.0,
     "current_week_period": "2026-W31",
@@ -21,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T11:43:16.670659+02:00",
-    "process_at": "2026-07-31T11:43:15.0392252+02:00",
-    "performance_export_at": "2026-07-31T11:39:37.5760821+02:00",
+    "exposure_at": "2026-07-31T11:44:16.752314+02:00",
+    "process_at": "2026-07-31T11:44:15.0572385+02:00",
+    "performance_export_at": "2026-07-31T11:44:36.3479734+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T09:43:16.670659+00:00",
-        "age_seconds": 32.6,
+        "source_at": "2026-07-31T09:44:16.752314+00:00",
+        "age_seconds": 40.7,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T09:43:15.039225+00:00",
-        "age_seconds": 34.2,
+        "source_at": "2026-07-31T09:44:15.057238+00:00",
+        "age_seconds": 42.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-31T09:39:37.576082+00:00",
-        "age_seconds": 251.7,
+        "source_at": "2026-07-31T09:44:36.347973+00:00",
+        "age_seconds": 21.1,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -54,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T11:40:05.3302036+02:00",
-      "latest_activity_age_seconds": 187.5,
+      "latest_activity_age_seconds": 247.8,
       "exposure_net_volume": -0.08,
-      "floating_pnl": 285.37,
+      "floating_pnl": 278.31,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -98,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T11:43:03.3250926+02:00",
-      "latest_activity_age_seconds": 9.9,
+      "latest_activity_at": "2026-07-31T11:44:04.0220271+02:00",
+      "latest_activity_age_seconds": 9.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -144,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T11:40:03.6370218+02:00",
-      "latest_activity_age_seconds": 189.9,
+      "latest_activity_age_seconds": 250.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -189,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T11:39:36.6403167+02:00",
-      "latest_activity_age_seconds": 217.3,
+      "latest_activity_age_seconds": 277.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -256,14 +258,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "running",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T09:43:34.893787Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-31T09:43:34.893787+00:00",
-        "age_seconds": 14.3,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -279,21 +281,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "no_signal",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T09:43:36.995039Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-31T09:43:36.995039+00:00",
-        "age_seconds": 12.2,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": 0,
-      "open_positions": 0,
+      "summary_value": null,
+      "open_positions": null,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -307,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4040540.6,
+        "age_seconds": 4040608.7,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4111,15 +4113,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6344,
+    "sample_count": 6345,
     "observed_equity_high_water": 106904.92,
-    "current_equity_drawdown": 16.15,
-    "current_equity_drawdown_pct": 0.015107
+    "current_equity_drawdown": 23.21,
+    "current_equity_drawdown_pct": 0.021711
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T11:43:16.670659+02:00",
-    "last_successful_publication_at": "2026-07-31T09:42:48.853438+00:00",
+    "last_successful_build_at": "2026-07-31T11:44:36.3479734+02:00",
+    "last_successful_publication_at": "2026-07-31T09:43:56.998778+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4734,6 +4736,195 @@
     "raw_telegram_text_included": false,
     "private_media_included": false
   },
+  "development_readiness": {
+    "generated_at": "2026-07-31T09:42:44.451924Z",
+    "paul_channels": {
+      "status": "completed_no_trade_manual_activation_required",
+      "channel_count": 5,
+      "instrument_count": 10,
+      "pair_count": 50,
+      "active_pair_count": 3,
+      "evidence_backed_inactive_pair_count": 13,
+      "fresh_scoped_pair_count": 3,
+      "forward_only_verified_pair_count": 0,
+      "delivery_metadata_missing_pair_count": 3,
+      "unsafe_delivery_pair_count": 0,
+      "active_pairs": [
+        {
+          "channel": "Free",
+          "instrument": "XAUUSD"
+        },
+        {
+          "channel": "Free",
+          "instrument": "BTCUSD"
+        },
+        {
+          "channel": "Indices & Crypto",
+          "instrument": "GER40"
+        }
+      ],
+      "activation_queue": [
+        {
+          "rank": 1,
+          "channel": "VIP Plus Jackpot",
+          "instrument": "XAUUSD",
+          "readiness_stage": "priority_3_delivery_metadata_missing",
+          "blocker_count": 10,
+          "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
+        },
+        {
+          "rank": 2,
+          "channel": "Currency",
+          "instrument": "USDCHF",
+          "readiness_stage": "priority_3_delivery_metadata_missing",
+          "blocker_count": 10,
+          "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
+        },
+        {
+          "rank": 3,
+          "channel": "Indices & Crypto",
+          "instrument": "BTCUSD",
+          "readiness_stage": "priority_3_delivery_metadata_missing",
+          "blocker_count": 9,
+          "next_action": "capture_next_forward_only_event_with_explicit_delivery_metadata_no_trade"
+        },
+        {
+          "rank": 4,
+          "channel": "Currency",
+          "instrument": "EURUSD",
+          "readiness_stage": "priority_4_historical_signal_shape",
+          "blocker_count": 9,
+          "next_action": "refresh_exact_delivered_signal_fixture_and_tick"
+        },
+        {
+          "rank": 5,
+          "channel": "VIP Plus Jackpot",
+          "instrument": "BTCUSD",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 9,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        },
+        {
+          "rank": 6,
+          "channel": "Currency",
+          "instrument": "GBPUSD",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 9,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        },
+        {
+          "rank": 7,
+          "channel": "Currency",
+          "instrument": "USDJPY",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 9,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        },
+        {
+          "rank": 8,
+          "channel": "Indices & Crypto",
+          "instrument": "US100",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 8,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        },
+        {
+          "rank": 9,
+          "channel": "Indices & Crypto",
+          "instrument": "US30",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 8,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        },
+        {
+          "rank": 10,
+          "channel": "Indices & Crypto",
+          "instrument": "USOIL",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 9,
+          "next_action": "wait_for_flat_then_request_separately_approved_read_only_symbol_verification_no_automatic_probe"
+        },
+        {
+          "rank": 11,
+          "channel": "Indices & Crypto",
+          "instrument": "XAUUSD",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 8,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        },
+        {
+          "rank": 12,
+          "channel": "VIP Plus 2.0",
+          "instrument": "BTCUSD",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 9,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        },
+        {
+          "rank": 13,
+          "channel": "VIP Plus 2.0",
+          "instrument": "XAUUSD",
+          "readiness_stage": "priority_5_historical_mention_only",
+          "blocker_count": 9,
+          "next_action": "collect_first_exact_signal_shaped_fixture_no_trade"
+        }
+      ],
+      "shadow_context_seconds": 600,
+      "shadow_context_loaded": false,
+      "capture_only": true,
+      "automatic_promotion": false
+    },
+    "transition_gate": {
+      "status": "blocked_open_exposure",
+      "technical_flat_gate_open": false,
+      "position_count": 1,
+      "order_count": 6,
+      "protected_position_count": 1,
+      "protected_order_count": 6,
+      "unmapped_position_count": 0,
+      "unmapped_order_count": 0,
+      "prepared_action_count": 3,
+      "all_actions_authorized": false,
+      "automatic_action": false
+    },
+    "strategies": {
+      "gold": {
+        "status": "partial",
+        "position_count": 363,
+        "observed_net_profit": 3529.94,
+        "exact_sizing_provenance_count": 354,
+        "sizing_data_missing_count": 9,
+        "exact_initial_money_risk_status": "DATA_MISSING",
+        "tick_excursion_position_count": 132,
+        "tick_excursion_data_missing_count": 231,
+        "verified_management_evidence_count": 6,
+        "parameter_recommendation": false
+      },
+      "kultamania": {
+        "status": "partial",
+        "basket_count": 365,
+        "fully_reconciled_basket_count": 218,
+        "partial_or_missing_basket_count": 147,
+        "reconciled_net_profit": 815.63,
+        "losing_basket_count": 60,
+        "largest_loss": 1015.08,
+        "top_three_loss_share_pct": 16.4,
+        "runner_net_profit": 1266.93,
+        "breakeven_basket_count": 172,
+        "trailing_stop_basket_count": 48,
+        "true_mae_mfe_status": "DATA_MISSING",
+        "parameter_recommendation": false
+      }
+    },
+    "safety": {
+      "read_only": true,
+      "raw_telegram_text_included": false,
+      "source_paths_included": false,
+      "source_hashes_included": false,
+      "execution_change_approved": false,
+      "parameter_recommendations_generated": false
+    }
+  },
   "warnings": [
     {
       "severity": "warning",
@@ -4746,6 +4937,14 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1 status is unknown."
+    },
+    {
+      "severity": "warning",
+      "message": "Paul Telegram Demo Copier status is safety validation failed."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1 status is safety validation failed."
     },
     {
       "severity": "warning",
