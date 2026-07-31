@@ -29,19 +29,19 @@
     "sources": {
       "exposure": {
         "source_at": "2026-07-31T14:28:18.512213+00:00",
-        "age_seconds": 1370.6,
+        "age_seconds": 1456.4,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-07-31T14:28:16.709233+00:00",
-        "age_seconds": 1372.4,
+        "age_seconds": 1458.2,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-07-31T14:23:45.829180+00:00",
-        "age_seconds": 1643.3,
+        "age_seconds": 1729.1,
         "sla_seconds": 600,
         "status": "stale"
       }
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4058980.4,
+        "age_seconds": 4059066.3,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4137,7 +4137,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-07-31T16:28:18.512213+02:00",
-    "last_successful_publication_at": "2026-07-31T14:50:07.279447+00:00",
+    "last_successful_publication_at": "2026-07-31T14:51:33.305498+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4753,7 +4753,7 @@
     "private_media_included": false
   },
   "development_readiness": {
-    "generated_at": "2026-07-31T13:26:07Z",
+    "generated_at": "2026-07-31T14:52:23.628496+00:00",
     "paul_channels": {
       "status": "completed_no_trade_manual_activation_required",
       "channel_count": 5,
@@ -5060,65 +5060,65 @@
       },
       "kultamania": {
         "status": "partial",
-        "basket_count": 366,
+        "basket_count": 367,
         "fully_reconciled_basket_count": 218,
-        "partial_or_missing_basket_count": 148,
+        "partial_or_missing_basket_count": 149,
         "reconciled_net_profit": 815.63,
         "losing_basket_count": 60,
         "largest_loss": 1015.08,
         "top_three_loss_share_pct": 16.4,
         "runner_net_profit": 1266.93,
-        "complete_six_leg_basket_count": 355,
+        "complete_six_leg_basket_count": 356,
         "structural_anomaly_basket_count": 11,
-        "fully_reconciled_basket_rate_pct": 59.56,
-        "matched_outcome_leg_rate_pct": 58.58,
+        "fully_reconciled_basket_rate_pct": 59.4,
+        "matched_outcome_leg_rate_pct": 58.43,
         "max_consecutive_losing_baskets": 4,
         "max_consecutive_loss_abs": 494.7,
         "runner_share_of_reconciled_net_pct": 153.6,
         "breakeven_basket_count": 174,
         "trailing_stop_basket_count": 49,
         "true_mae_mfe_status": "DATA_MISSING",
-        "reconciliation_backlog_count": 148,
-        "all_outcomes_missing_basket_count": 143,
+        "reconciliation_backlog_count": 149,
+        "all_outcomes_missing_basket_count": 144,
         "partial_outcome_basket_count": 5,
         "target_gates": {
           "fully_reconciled_baskets": {
             "observed_count": 218,
-            "total_count": 366,
-            "coverage_pct": 59.56,
+            "total_count": 367,
+            "coverage_pct": 59.4,
             "target_pct": 95.0,
-            "minimum_required_count": 348,
-            "remaining_count": 130,
+            "minimum_required_count": 349,
+            "remaining_count": 131,
             "passed": false,
             "status": "collecting"
           },
           "matched_outcome_legs": {
             "observed_count": 1324,
-            "total_count": 2260,
-            "coverage_pct": 58.58,
+            "total_count": 2266,
+            "coverage_pct": 58.43,
             "target_pct": 95.0,
-            "minimum_required_count": 2147,
-            "remaining_count": 823,
+            "minimum_required_count": 2153,
+            "remaining_count": 829,
             "passed": false,
             "status": "collecting"
           },
           "exact_initial_money_risk": {
             "observed_count": 0,
-            "total_count": 366,
+            "total_count": 367,
             "coverage_pct": 0.0,
             "target_pct": 90.0,
-            "minimum_required_count": 330,
-            "remaining_count": 330,
+            "minimum_required_count": 331,
+            "remaining_count": 331,
             "passed": false,
             "status": "collecting"
           },
           "true_tick_path_mae_mfe": {
             "observed_count": 0,
-            "total_count": 366,
+            "total_count": 367,
             "coverage_pct": 0.0,
             "target_pct": 80.0,
-            "minimum_required_count": 293,
-            "remaining_count": 293,
+            "minimum_required_count": 294,
+            "remaining_count": 294,
             "passed": false,
             "status": "collecting"
           }
@@ -5138,9 +5138,9 @@
           },
           {
             "month": "2026-07",
-            "total_count": 166,
+            "total_count": 167,
             "observed_count": 83,
-            "coverage_pct": 50.0
+            "coverage_pct": 49.7
           }
         ],
         "parameter_recommendation": false
@@ -5236,11 +5236,11 @@
       {
         "system": "kultamania_outcome_reconciliation",
         "observed_count": 218,
-        "total_count": 366,
-        "coverage_pct": 59.56,
+        "total_count": 367,
+        "coverage_pct": 59.4,
         "target_pct": 95.0,
-        "minimum_required_count": 348,
-        "remaining_count": 130,
+        "minimum_required_count": 349,
+        "remaining_count": 131,
         "passed": false,
         "status": "collecting",
         "next_gap": "exact_money_risk_and_true_tick_path"
