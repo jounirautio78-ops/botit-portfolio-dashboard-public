@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-07-31T20:31:16.445553+02:00",
+  "generated_at": "2026-07-31T20:32:38.2639123+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 107159.18,
-    "equity": 106606.07,
-    "floating_pnl": -553.11,
+    "equity": 106630.55,
+    "floating_pnl": -528.63,
     "open_positions": 14,
     "open_orders": 0,
     "unmapped_positions": 0,
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-07-31T20:31:16.445553+02:00",
-    "process_at": "2026-07-31T20:31:14.9542942+02:00",
-    "performance_export_at": "2026-07-31T20:27:35.8231891+02:00",
+    "exposure_at": "2026-07-31T20:32:16.549170+02:00",
+    "process_at": "2026-07-31T20:32:14.9115376+02:00",
+    "performance_export_at": "2026-07-31T20:32:38.2639123+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-07-31T18:31:16.445553+00:00",
-        "age_seconds": 53.7,
+        "source_at": "2026-07-31T18:32:16.549170+00:00",
+        "age_seconds": 71.0,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-07-31T18:31:14.954294+00:00",
-        "age_seconds": 55.2,
+        "source_at": "2026-07-31T18:32:14.911537+00:00",
+        "age_seconds": 72.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-07-31T18:27:35.823189+00:00",
-        "age_seconds": 274.4,
+        "source_at": "2026-07-31T18:32:38.263912+00:00",
+        "age_seconds": 49.3,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,9 +56,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T20:27:22.1215029+02:00",
-      "latest_activity_age_seconds": 230.7,
+      "latest_activity_age_seconds": 290.5,
       "exposure_net_volume": -0.48,
-      "floating_pnl": -402.54,
+      "floating_pnl": -371.58,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-07-31",
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-07-31T20:31:08.5565266+02:00",
-      "latest_activity_age_seconds": 4.7,
+      "latest_activity_at": "2026-07-31T20:32:09.1794626+02:00",
+      "latest_activity_age_seconds": 3.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T20:30:02.4964096+02:00",
-      "latest_activity_age_seconds": 71.1,
+      "latest_activity_age_seconds": 130.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-07-31T20:27:33.9114585+02:00",
-      "latest_activity_age_seconds": 220.1,
+      "latest_activity_age_seconds": 280.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -281,21 +281,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "no_signal",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-07-31T18:31:58.130983Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-07-31T18:31:58.130983+00:00",
-        "age_seconds": 12.1,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": 0,
-      "open_positions": 0,
+      "summary_value": null,
+      "open_positions": null,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4072241.5,
+        "age_seconds": 4072318.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6696,
+    "sample_count": 6697,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 1892.09,
-    "current_equity_drawdown_pct": 1.743891
+    "current_equity_drawdown": 1867.61,
+    "current_equity_drawdown_pct": 1.721329
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-07-31T20:31:16.445553+02:00",
-    "last_successful_publication_at": "2026-07-31T18:31:09.484243+00:00",
+    "last_successful_build_at": "2026-07-31T20:32:38.2639123+02:00",
+    "last_successful_publication_at": "2026-07-31T18:32:25.484739+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4851,7 +4851,7 @@
     "private_media_included": false
   },
   "development_readiness": {
-    "generated_at": "2026-07-31T18:23:11.842816+00:00",
+    "generated_at": "2026-07-31T18:32:38.469176+00:00",
     "paul_channels": {
       "status": "completed_no_trade_manual_activation_required",
       "channel_count": 5,
@@ -5099,7 +5099,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-07-31T18:31:16.445553+00:00",
+      "source_at": "2026-07-31T18:32:16.549170+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 8,
       "other_ownership_mismatch_count": 0,
@@ -5107,136 +5107,117 @@
     },
     "strategies": {
       "gold": {
-        "status": "partial",
+        "status": "DATA_MISSING",
         "position_count": 363,
         "observed_net_profit": 3529.94,
-        "exact_sizing_provenance_count": 354,
-        "linked_sizing_provenance_count": 354,
-        "linked_sizing_rate_pct": 97.52,
-        "decision_window_position_count": 354,
-        "decision_window_linked_count": 354,
-        "decision_window_linkage_rate_pct": 100.0,
-        "sizing_data_missing_count": 9,
+        "exact_sizing_provenance_count": null,
+        "linked_sizing_provenance_count": null,
+        "linked_sizing_rate_pct": null,
+        "decision_window_position_count": null,
+        "decision_window_linked_count": null,
+        "decision_window_linkage_rate_pct": null,
+        "sizing_data_missing_count": null,
         "exact_initial_money_risk_status": "DATA_MISSING",
-        "tick_excursion_position_count": 132,
-        "tick_excursion_data_missing_count": 231,
-        "verified_management_evidence_count": 6,
-        "tick_excursion_coverage_pct": 36.36,
-        "tick_window_position_count": 132,
-        "tick_window_linked_count": 132,
-        "tick_window_linkage_rate_pct": 100.0,
-        "pre_tick_log_window_count": 222,
-        "post_tick_log_window_count": 9,
-        "unmatched_within_tick_window_count": 0,
+        "tick_excursion_position_count": null,
+        "tick_excursion_data_missing_count": null,
+        "verified_management_evidence_count": null,
+        "tick_excursion_coverage_pct": null,
+        "tick_window_position_count": null,
+        "tick_window_linked_count": null,
+        "tick_window_linkage_rate_pct": null,
+        "pre_tick_log_window_count": null,
+        "post_tick_log_window_count": null,
+        "unmatched_within_tick_window_count": null,
         "tick_collection_current": false,
-        "tick_collection_status": "post_window_positions_missing_tick_path",
-        "tick_window_first_entry_at": "2026-06-23T10:00:10.973000+00:00",
-        "tick_window_last_close_at": "2026-07-17T12:21:22.719000+00:00",
-        "tick_latest_outcome_close_at": "2026-07-24T19:26:37+00:00",
-        "tick_first_post_window_close_at": "2026-07-20T11:42:27.219000+00:00",
-        "tick_last_post_window_close_at": "2026-07-24T19:26:37+00:00",
-        "tick_collection_lag_seconds": 630314.281,
-        "management_evidence_coverage_pct": 1.65,
-        "classified_exit_comment_count": 363,
-        "decision_time_position_count": 354,
+        "tick_collection_status": "DATA_MISSING",
+        "tick_window_first_entry_at": "DATA_MISSING",
+        "tick_window_last_close_at": "DATA_MISSING",
+        "tick_latest_outcome_close_at": "DATA_MISSING",
+        "tick_first_post_window_close_at": "DATA_MISSING",
+        "tick_last_post_window_close_at": "DATA_MISSING",
+        "tick_collection_lag_seconds": null,
+        "management_evidence_coverage_pct": null,
+        "classified_exit_comment_count": null,
+        "decision_time_position_count": null,
         "spread_at_decision_status": "DATA_MISSING",
-        "spread_at_decision_coverage_pct": 0.0,
-        "pre_decision_log_window_count": 9,
-        "unmatched_within_log_window_count": 0,
+        "spread_at_decision_coverage_pct": null,
+        "pre_decision_log_window_count": null,
+        "unmatched_within_log_window_count": null,
         "target_gates": {
           "decision_linkage": {
-            "observed_count": 354,
-            "total_count": 363,
-            "coverage_pct": 97.52,
-            "target_pct": 99.0,
-            "minimum_required_count": 360,
-            "remaining_count": 6,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           },
           "current_decision_log_window_linkage": {
-            "observed_count": 354,
-            "total_count": 354,
-            "coverage_pct": 100.0,
-            "target_pct": 99.0,
-            "minimum_required_count": 351,
-            "remaining_count": 0,
-            "passed": true,
-            "status": "passed"
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
+            "passed": false,
+            "status": "DATA_MISSING"
           },
           "exact_initial_money_risk": {
-            "observed_count": 0,
-            "total_count": 363,
-            "coverage_pct": 0.0,
-            "target_pct": 90.0,
-            "minimum_required_count": 327,
-            "remaining_count": 327,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           },
           "spread_at_decision": {
-            "observed_count": 0,
-            "total_count": 363,
-            "coverage_pct": 0.0,
-            "target_pct": 95.0,
-            "minimum_required_count": 345,
-            "remaining_count": 345,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           },
           "tick_excursion": {
-            "observed_count": 132,
-            "total_count": 363,
-            "coverage_pct": 36.36,
-            "target_pct": 80.0,
-            "minimum_required_count": 291,
-            "remaining_count": 159,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           },
           "within_tick_excursion_log_window_linkage": {
-            "observed_count": 132,
-            "total_count": 132,
-            "coverage_pct": 100.0,
-            "target_pct": 80.0,
-            "minimum_required_count": 106,
-            "remaining_count": 0,
-            "passed": true,
-            "status": "passed"
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
+            "passed": false,
+            "status": "DATA_MISSING"
           },
           "verified_management_evidence": {
-            "observed_count": 6,
-            "total_count": 363,
-            "coverage_pct": 1.65,
-            "target_pct": 80.0,
-            "minimum_required_count": 291,
-            "remaining_count": 285,
+            "observed_count": null,
+            "total_count": null,
+            "coverage_pct": null,
+            "target_pct": null,
+            "minimum_required_count": null,
+            "remaining_count": null,
             "passed": false,
-            "status": "collecting"
+            "status": "DATA_MISSING"
           }
         },
-        "tick_coverage_by_month": [
-          {
-            "month": "2026-05",
-            "total_count": 130,
-            "observed_count": 0,
-            "coverage_pct": 0.0
-          },
-          {
-            "month": "2026-06",
-            "total_count": 140,
-            "observed_count": 48,
-            "coverage_pct": 34.29
-          },
-          {
-            "month": "2026-07",
-            "total_count": 93,
-            "observed_count": 84,
-            "coverage_pct": 90.32
-          }
-        ],
-        "dominant_volume": 0.01,
-        "dominant_volume_share_pct": 94.49,
+        "tick_coverage_by_month": [],
+        "dominant_volume": null,
+        "dominant_volume_share_pct": null,
         "parameter_recommendation": false
       },
       "kultamania": {
@@ -5418,26 +5399,26 @@
       },
       {
         "system": "gold_decision_linkage",
-        "observed_count": 354,
-        "total_count": 354,
-        "coverage_pct": 100.0,
-        "target_pct": 99.0,
-        "minimum_required_count": 351,
-        "remaining_count": 0,
-        "passed": true,
-        "status": "passed",
+        "observed_count": null,
+        "total_count": null,
+        "coverage_pct": null,
+        "target_pct": null,
+        "minimum_required_count": null,
+        "remaining_count": null,
+        "passed": false,
+        "status": "DATA_MISSING",
         "next_gap": "exact_money_risk_and_spread"
       },
       {
         "system": "gold_tick_path",
-        "observed_count": 132,
-        "total_count": 363,
-        "coverage_pct": 36.36,
-        "target_pct": 80.0,
-        "minimum_required_count": 291,
-        "remaining_count": 159,
+        "observed_count": null,
+        "total_count": null,
+        "coverage_pct": null,
+        "target_pct": null,
+        "minimum_required_count": null,
+        "remaining_count": null,
         "passed": false,
-        "status": "collecting",
+        "status": "DATA_MISSING",
         "next_gap": "tick_excursion_coverage"
       }
     ],
@@ -5466,6 +5447,10 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
