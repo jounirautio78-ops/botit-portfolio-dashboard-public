@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-01T14:26:15.182004+02:00",
+  "generated_at": "2026-08-01T14:27:16.771822+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,26 +22,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "stale",
-    "exposure_at": "2026-08-01T14:26:15.182004+02:00",
-    "process_at": "2026-08-01T14:24:14.3335856+02:00",
+    "overall_status": "fresh",
+    "exposure_at": "2026-08-01T14:27:16.771822+02:00",
+    "process_at": "2026-08-01T14:27:15.3061017+02:00",
     "performance_export_at": "2026-08-01T14:23:35.6683867+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-01T12:26:15.182004+00:00",
-        "age_seconds": 33.0,
+        "source_at": "2026-08-01T12:27:16.771822+00:00",
+        "age_seconds": 50.5,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-08-01T12:24:14.333585+00:00",
-        "age_seconds": 153.9,
+        "source_at": "2026-08-01T12:27:15.306101+00:00",
+        "age_seconds": 52.0,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "performance": {
         "source_at": "2026-08-01T12:23:35.668386+00:00",
-        "age_seconds": 192.5,
+        "age_seconds": 271.6,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,7 +56,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T14:23:21.8018712+02:00",
-      "latest_activity_age_seconds": 50.5,
+      "latest_activity_age_seconds": 231.2,
       "exposure_net_volume": -0.48,
       "floating_pnl": 41.7,
       "latest_daily": {
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-01T14:24:03.4793041+02:00",
-      "latest_activity_age_seconds": 9.2,
+      "latest_activity_at": "2026-08-01T14:27:05.0132930+02:00",
+      "latest_activity_age_seconds": 8.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T14:23:28.7934966+02:00",
-      "latest_activity_age_seconds": 44.2,
+      "latest_activity_age_seconds": 225.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T14:23:34.3576213+02:00",
-      "latest_activity_age_seconds": 39.1,
+      "latest_activity_age_seconds": 219.9,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -281,21 +281,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "safety_validation_failed",
+      "status": "no_signal",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-08-01T12:28:01.122918Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-08-01T12:28:01.122918+00:00",
+        "age_seconds": 6.2,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "fresh"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": null,
-      "open_positions": null,
+      "summary_value": 0,
+      "open_positions": 0,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4136719.5,
+        "age_seconds": 4136798.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6943,
+    "sample_count": 6944,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 1463.23,
     "current_equity_drawdown_pct": 1.348622
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-01T14:26:15.182004+02:00",
-    "last_successful_publication_at": "2026-08-01T12:25:47.114096+00:00",
+    "last_successful_build_at": "2026-08-01T14:27:16.771822+02:00",
+    "last_successful_publication_at": "2026-08-01T12:26:57.134651+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5565,7 +5565,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-01T12:26:15.182004+00:00",
+      "source_at": "2026-08-01T12:27:16.771822+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 4,
       "other_ownership_mismatch_count": 0,
@@ -6389,10 +6389,6 @@
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
     },
     {
-      "severity": "warning",
-      "message": "Prosessidata on vanhentunut."
-    },
-    {
       "severity": "info",
       "message": "BTC:n rajattu jakso valmistui normaalisti; tulos pysyy historiallisena, kunnes uusi jakso hyv\u00e4ksyt\u00e4\u00e4n erikseen."
     },
@@ -6403,10 +6399,6 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
-    },
-    {
-      "severity": "warning",
-      "message": "XAU Martingale Demo v1: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
