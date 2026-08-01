@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-01T14:23:16.516360+02:00",
+  "generated_at": "2026-08-01T14:23:35.6683867+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -25,25 +25,25 @@
     "overall_status": "stale",
     "exposure_at": "2026-08-01T14:23:16.516360+02:00",
     "process_at": "2026-08-01T14:20:15.7264187+02:00",
-    "performance_export_at": "2026-08-01T14:07:34.0932204+02:00",
+    "performance_export_at": "2026-08-01T14:23:35.6683867+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-01T12:23:16.516360+00:00",
-        "age_seconds": 6.1,
+        "age_seconds": 74.2,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-08-01T12:20:15.726418+00:00",
-        "age_seconds": 186.9,
+        "age_seconds": 255.0,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
-        "source_at": "2026-08-01T12:07:34.093220+00:00",
-        "age_seconds": 948.5,
+        "source_at": "2026-08-01T12:23:35.668386+00:00",
+        "age_seconds": 55.1,
         "sla_seconds": 600,
-        "status": "stale"
+        "status": "fresh"
       }
     }
   },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4136513.9,
+        "age_seconds": 4136582.1,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6940,
+    "sample_count": 6941,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 1463.23,
     "current_equity_drawdown_pct": 1.348622
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-01T14:23:16.516360+02:00",
-    "last_successful_publication_at": "2026-08-01T12:22:22.200554+00:00",
+    "last_successful_build_at": "2026-08-01T14:23:35.6683867+02:00",
+    "last_successful_publication_at": "2026-08-01T12:23:30.473507+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -6391,10 +6391,6 @@
     {
       "severity": "warning",
       "message": "Prosessidata on vanhentunut."
-    },
-    {
-      "severity": "warning",
-      "message": "Tulosdata on vanhentunut."
     },
     {
       "severity": "info",
