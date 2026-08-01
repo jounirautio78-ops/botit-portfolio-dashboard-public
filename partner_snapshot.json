@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-02T00:11:14.192358+02:00",
+  "generated_at": "2026-08-02T00:12:15.748427+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -22,28 +22,28 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
-    "exposure_at": "2026-08-02T00:11:14.192358+02:00",
-    "process_at": "2026-08-02T00:11:13.1209908+02:00",
+    "overall_status": "stale",
+    "exposure_at": "2026-08-02T00:12:15.748427+02:00",
+    "process_at": "2026-08-02T00:12:14.4907796+02:00",
     "performance_export_at": "2026-08-02T00:09:31.2626592+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-01T22:11:14.192358+00:00",
-        "age_seconds": 49.4,
+        "source_at": "2026-08-01T22:12:15.748427+00:00",
+        "age_seconds": 481.8,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
-        "source_at": "2026-08-01T22:11:13.120990+00:00",
-        "age_seconds": 50.5,
+        "source_at": "2026-08-01T22:12:14.490779+00:00",
+        "age_seconds": 483.0,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-08-01T22:09:31.262659+00:00",
-        "age_seconds": 152.3,
+        "age_seconds": 646.3,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -56,7 +56,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-02T00:09:20.2865974+02:00",
-      "latest_activity_age_seconds": 110.9,
+      "latest_activity_age_seconds": 172.2,
       "exposure_net_volume": -0.48,
       "floating_pnl": 41.7,
       "latest_daily": {
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-02T00:11:09.7439321+02:00",
-      "latest_activity_age_seconds": 1.8,
+      "latest_activity_at": "2026-08-02T00:12:10.2971718+02:00",
+      "latest_activity_age_seconds": 2.6,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "warning_wrapper_visible_python_missing",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-02T00:09:27.1086486+02:00",
-      "latest_activity_age_seconds": 104.8,
+      "latest_activity_age_seconds": 166.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-02T00:09:30.9377462+02:00",
-      "latest_activity_age_seconds": 101.4,
+      "latest_activity_age_seconds": 162.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -286,7 +286,7 @@
       "latest_activity_at": "2026-08-01T13:08:08.191411Z",
       "freshness": {
         "source_at": "2026-08-01T13:08:08.191411+00:00",
-        "age_seconds": 32635.4,
+        "age_seconds": 33129.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4171834.9,
+        "age_seconds": 4172328.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 7376,
+    "sample_count": 7377,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 1463.23,
     "current_equity_drawdown_pct": 1.348622
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-02T00:11:14.192358+02:00",
-    "last_successful_publication_at": "2026-08-01T22:11:03.421827+00:00",
+    "last_successful_build_at": "2026-08-02T00:12:15.748427+02:00",
+    "last_successful_publication_at": "2026-08-01T22:12:10.864312+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5443,14 +5443,14 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "blocked_open_exposure",
+      "status": "DATA_MISSING",
       "technical_flat_gate_open": false,
-      "position_count": 10,
-      "order_count": 0,
-      "protected_position_count": 10,
-      "protected_order_count": 0,
-      "unmapped_position_count": 0,
-      "unmapped_order_count": 0,
+      "position_count": null,
+      "order_count": null,
+      "protected_position_count": null,
+      "protected_order_count": null,
+      "unmapped_position_count": null,
+      "unmapped_order_count": null,
       "prepared_action_count": 6,
       "prepared_actions": [
         "pause_xauusd_intraday_regime_momentum",
@@ -5467,11 +5467,11 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-01T22:11:14.192358+00:00",
-      "source_status": "fresh",
-      "known_paul_ger40_symbol_metadata_gap_count": 4,
-      "other_ownership_mismatch_count": 0,
-      "supervisor_symbol_contract_status": "known_runtime_v2_symbol_metadata_gap"
+      "source_at": "2026-08-01T22:12:15.748427+00:00",
+      "source_status": "stale",
+      "known_paul_ger40_symbol_metadata_gap_count": null,
+      "other_ownership_mismatch_count": null,
+      "supervisor_symbol_contract_status": "DATA_MISSING"
     },
     "strategies": {
       "gold": {
@@ -6289,6 +6289,18 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Tulosdata on vanhentunut."
     },
     {
       "severity": "info",
