@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-01T12:10:14.686941+02:00",
+  "generated_at": "2026-08-01T12:11:32.5612313+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-08-01T12:10:14.686941+02:00",
-    "process_at": "2026-08-01T12:10:13.6787350+02:00",
-    "performance_export_at": "2026-08-01T12:05:32.5569270+02:00",
+    "exposure_at": "2026-08-01T12:11:15.205336+02:00",
+    "process_at": "2026-08-01T12:11:14.0929881+02:00",
+    "performance_export_at": "2026-08-01T12:11:32.5612313+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-01T10:10:14.686941+00:00",
-        "age_seconds": 43.4,
+        "source_at": "2026-08-01T10:11:15.205336+00:00",
+        "age_seconds": 51.3,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-08-01T10:10:13.678735+00:00",
-        "age_seconds": 44.4,
+        "source_at": "2026-08-01T10:11:14.092988+00:00",
+        "age_seconds": 52.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-08-01T10:05:32.556927+00:00",
-        "age_seconds": 325.5,
+        "source_at": "2026-08-01T10:11:32.561231+00:00",
+        "age_seconds": 33.9,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,7 +56,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T12:05:21.5968645+02:00",
-      "latest_activity_age_seconds": 290.2,
+      "latest_activity_age_seconds": 350.6,
       "exposure_net_volume": -0.48,
       "floating_pnl": 41.7,
       "latest_daily": {
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-01T12:10:07.8132327+02:00",
-      "latest_activity_age_seconds": 4.4,
+      "latest_activity_at": "2026-08-01T12:11:08.2693570+02:00",
+      "latest_activity_age_seconds": 4.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T12:05:27.5414978+02:00",
-      "latest_activity_age_seconds": 285.0,
+      "latest_activity_age_seconds": 345.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T12:05:31.7473433+02:00",
-      "latest_activity_age_seconds": 281.2,
+      "latest_activity_age_seconds": 341.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -258,14 +258,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "safety_validation_failed",
+      "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-08-01T10:11:53.858058Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-08-01T10:11:53.858058+00:00",
+        "age_seconds": 12.6,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "fresh"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -281,21 +281,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "safety_validation_failed",
+      "status": "no_signal",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-08-01T10:11:50.646132Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-08-01T10:11:50.646132+00:00",
+        "age_seconds": 15.8,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "fresh"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": null,
-      "open_positions": null,
+      "summary_value": 0,
+      "open_positions": 0,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4128569.4,
+        "age_seconds": 4128637.8,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6843,
+    "sample_count": 6844,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 1463.23,
     "current_equity_drawdown_pct": 1.348622
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-01T12:10:14.686941+02:00",
-    "last_successful_publication_at": "2026-08-01T10:09:57.504837+00:00",
+    "last_successful_build_at": "2026-08-01T12:11:32.5612313+02:00",
+    "last_successful_publication_at": "2026-08-01T10:11:05.130231+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4858,30 +4858,30 @@
       "items": [
         {
           "rank": 1,
-          "label": "Paulin tuore PnL-lahde",
+          "label": "Paulin tuore PnL-l\u00e4hde",
           "state": "waiting_for_data",
-          "detail": "Odotetaan tuoretta sanitoitua suljettujen kauppojen lahdetta; puuttuvaa historiaa ei tayteta nollilla.",
+          "detail": "Odotetaan tuoretta sanitoitua suljettujen kauppojen l\u00e4hdett\u00e4; puuttuvaa historiaa ei t\u00e4ytet\u00e4 nollilla.",
           "action_authorized": false
         },
         {
           "rank": 2,
-          "label": "Ajallinen evidenssikertyma",
+          "label": "Ajallinen evidenssikertym\u00e4",
           "state": "can_do_now",
-          "detail": "Jatka vain luku -havaintojen kerryttamista; nykyinen analyysi ei oikeuta parametri- tai toteutusmuutosta.",
+          "detail": "Jatka vain luku -havaintojen kerrytt\u00e4mist\u00e4; nykyinen analyysi ei oikeuta parametri- tai toteutusmuutosta.",
           "action_authorized": false
         },
         {
           "rank": 3,
           "label": "Flat-ikkunan valmistelut",
           "state": "waiting_for_flat",
-          "detail": "Prosessi- ja capture-valmistelut odottavat varmennettua taysin flat-tilaa ja erillisia tarkkoja toimia.",
+          "detail": "Prosessi- ja capture-valmistelut odottavat varmennettua t\u00e4ysin flat-tilaa ja erillisi\u00e4 tarkkoja toimia.",
           "action_authorized": false
         },
         {
           "rank": 4,
           "label": "Runtime, deploy ja promootio",
           "state": "separate_approval_required",
-          "detail": "Kaikki ajonaikaiset muutokset, lataukset, promootiot ja riskimuutokset vaativat erillisen tarkan hyvaksynnan.",
+          "detail": "Kaikki ajonaikaiset muutokset, lataukset, promootiot ja riskimuutokset vaativat erillisen tarkan hyv\u00e4ksynn\u00e4n.",
           "action_authorized": false
         }
       ]
@@ -5505,7 +5505,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-01T10:10:14.686941+00:00",
+      "source_at": "2026-08-01T10:11:15.205336+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 4,
       "other_ownership_mismatch_count": 0,
@@ -6335,14 +6335,6 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1: tila on tuntematon."
-    },
-    {
-      "severity": "warning",
-      "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
-    },
-    {
-      "severity": "warning",
-      "message": "XAU Martingale Demo v1: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
