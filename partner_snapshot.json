@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-01T13:28:14.323115+02:00",
+  "generated_at": "2026-08-01T13:29:18.4953400+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,25 +23,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-08-01T13:28:14.323115+02:00",
-    "process_at": "2026-08-01T13:28:13.3102466+02:00",
-    "performance_export_at": "2026-08-01T13:23:34.2057460+02:00",
+    "exposure_at": "2026-08-01T13:29:15.205019+02:00",
+    "process_at": "2026-08-01T13:29:14.1326216+02:00",
+    "performance_export_at": "2026-08-01T13:29:18.4953400+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-01T11:28:14.323115+00:00",
-        "age_seconds": 10.0,
+        "source_at": "2026-08-01T11:29:15.205019+00:00",
+        "age_seconds": 12.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-08-01T11:28:13.310246+00:00",
-        "age_seconds": 11.0,
+        "source_at": "2026-08-01T11:29:14.132621+00:00",
+        "age_seconds": 13.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-08-01T11:23:34.205746+00:00",
-        "age_seconds": 290.1,
+        "source_at": "2026-08-01T11:29:18.495340+00:00",
+        "age_seconds": 9.1,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,7 +56,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T13:23:21.0631421+02:00",
-      "latest_activity_age_seconds": 290.5,
+      "latest_activity_age_seconds": 351.2,
       "exposure_net_volume": -0.48,
       "floating_pnl": 41.7,
       "latest_daily": {
@@ -100,8 +100,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-01T13:28:05.1630538+02:00",
-      "latest_activity_age_seconds": 6.7,
+      "latest_activity_at": "2026-08-01T13:29:05.7836728+02:00",
+      "latest_activity_age_seconds": 6.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -146,7 +146,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T13:23:28.1655845+02:00",
-      "latest_activity_age_seconds": 284.0,
+      "latest_activity_age_seconds": 344.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -191,7 +191,7 @@
       "process_tree_status": "completed_wrapper_idle",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-01T13:23:33.0443973+02:00",
-      "latest_activity_age_seconds": 279.5,
+      "latest_activity_age_seconds": 340.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -260,10 +260,10 @@
       "symbol": "MULTI-ASSET",
       "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-08-01T11:28:14.024114Z",
+      "latest_activity_at": "2026-08-01T11:29:14.307201Z",
       "freshness": {
-        "source_at": "2026-08-01T11:28:14.024114+00:00",
-        "age_seconds": 10.3,
+        "source_at": "2026-08-01T11:29:14.307201+00:00",
+        "age_seconds": 13.2,
         "sla_seconds": 600,
         "status": "fresh"
       },
@@ -281,21 +281,21 @@
       "name": "XAU Martingale Demo v1",
       "category": "demo_execution",
       "symbol": "XAUUSD.s",
-      "status": "no_signal",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-08-01T11:28:19.054144Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-08-01T11:28:19.054144+00:00",
-        "age_seconds": 5.3,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
       "performance_status": "DATA_MISSING",
       "summary_label": "Own open positions",
-      "summary_value": 0,
-      "open_positions": 0,
+      "summary_value": null,
+      "open_positions": null,
       "exposure_net_volume": null,
       "floating_pnl": null
     },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4133215.7,
+        "age_seconds": 4133278.9,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4129,15 +4129,15 @@
   "equity_history": {
     "status": "observed",
     "observed_from": "2026-07-16T10:39:56.190297+02:00",
-    "sample_count": 6901,
+    "sample_count": 6902,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 1463.23,
     "current_equity_drawdown_pct": 1.348622
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-01T13:28:14.323115+02:00",
-    "last_successful_publication_at": "2026-08-01T11:27:24.024178+00:00",
+    "last_successful_build_at": "2026-08-01T13:29:18.4953400+02:00",
+    "last_successful_publication_at": "2026-08-01T11:28:27.252215+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4858,27 +4858,34 @@
       "items": [
         {
           "rank": 1,
+          "label": "Paulin lifecycle-havaittavuus",
+          "state": "can_do_now",
+          "detail": "Jatka vain luku -seurantaa: kanoninen exposure on turvassa, mutta state sis\u00e4lt\u00e4\u00e4 kaksi aktiiviseksi j\u00e4\u00e4nytt\u00e4 havaintorivi\u00e4 ilman avointa Paul-exposurea. Tila- tai runtime-muutosta ei ole hyv\u00e4ksytty.",
+          "action_authorized": false
+        },
+        {
+          "rank": 2,
           "label": "Paulin tuore PnL-l\u00e4hde",
           "state": "waiting_for_data",
           "detail": "Odotetaan tuoretta sanitoitua suljettujen kauppojen l\u00e4hdett\u00e4; puuttuvaa historiaa ei t\u00e4ytet\u00e4 nollilla.",
           "action_authorized": false
         },
         {
-          "rank": 2,
+          "rank": 3,
           "label": "Ajallinen evidenssikertym\u00e4",
           "state": "can_do_now",
           "detail": "Jatka vain luku -havaintojen kerrytt\u00e4mist\u00e4; nykyinen analyysi ei oikeuta parametri- tai toteutusmuutosta.",
           "action_authorized": false
         },
         {
-          "rank": 3,
+          "rank": 4,
           "label": "Flat-ikkunan valmistelut",
           "state": "waiting_for_flat",
           "detail": "Prosessi- ja capture-valmistelut odottavat varmennettua t\u00e4ysin flat-tilaa ja erillisi\u00e4 tarkkoja toimia.",
           "action_authorized": false
         },
         {
-          "rank": 4,
+          "rank": 5,
           "label": "Runtime, deploy ja promootio",
           "state": "separate_approval_required",
           "detail": "Kaikki ajonaikaiset muutokset, lataukset, promootiot ja riskimuutokset vaativat erillisen tarkan hyv\u00e4ksynn\u00e4n.",
@@ -4894,9 +4901,39 @@
       "source_row_count": null,
       "owned_closed_deal_count": null,
       "daily_row_count": null,
+      "acceptance_contract_ready": true,
+      "acceptance_check_count": 8,
       "runtime_integration_loaded": false,
       "deployment_authorized": false,
       "missing_source_treated_as_zero": false
+    },
+    "state_exposure_lifecycle": {
+      "status": "attention_lifecycle_observability_gap_no_trade",
+      "active_state_signal_count": 3,
+      "active_with_owned_exposure_count": 1,
+      "active_without_owned_exposure_count": 2,
+      "owned_position_count": 4,
+      "mapping_fault_count": 0,
+      "missing_protection_count": 0,
+      "known_symbol_metadata_gap_count": 4,
+      "observability_gap": true,
+      "ownership_or_protection_fault": false,
+      "no_trade": true,
+      "state_mutation_performed": false
+    },
+    "monitor_regression": {
+      "status": "completed_guarded_monitor_regression_no_runtime_change",
+      "case_count": 21,
+      "pass_count": 21,
+      "failure_count": 0,
+      "unchanged_baseline_quiet_verified": true,
+      "exposure_change_notify_verified": true,
+      "protection_fault_notify_verified": true,
+      "process_fault_notify_verified": true,
+      "listener_reread_verified": true,
+      "flat_gate_notify_verified": true,
+      "runtime_integration_loaded": false,
+      "automatic_action": false
     },
     "adversarial_language": {
       "status": "completed_all_adversarial_cases_passed_no_trade",
@@ -4924,6 +4961,11 @@
           "observed_month_count": 3,
           "positive_month_count": 2,
           "positive_month_pct": 66.67,
+          "leave_one_month_out_scenario_count": 3,
+          "leave_one_month_out_positive_remaining_count": 2,
+          "all_leave_one_month_out_remaining_nets_positive": false,
+          "top_three_winner_share_of_gross_profit_pct": 48.61,
+          "net_profit_without_top_three_winners": -704.81,
           "bootstrap_scenarios": [
             {
               "block_length": 5,
@@ -4950,6 +4992,12 @@
               "nonpositive_net_resample_pct": 17.88
             }
           ],
+          "bootstrap_block_length_sensitivity": {
+            "scenario_count": 3,
+            "lower_bound_sign_consistent": true,
+            "conclusion": "no_tested_block_length_has_a_positive_lower_bound_descriptive_only",
+            "profit_forecast_generated": false
+          },
           "largest_mean_shift": {
             "left_mean_net_profit": -0.1,
             "right_mean_net_profit": 98.98,
@@ -4969,6 +5017,11 @@
           "observed_month_count": 3,
           "positive_month_count": 2,
           "positive_month_pct": 66.67,
+          "leave_one_month_out_scenario_count": 3,
+          "leave_one_month_out_positive_remaining_count": 3,
+          "all_leave_one_month_out_remaining_nets_positive": true,
+          "top_three_winner_share_of_gross_profit_pct": 23.17,
+          "net_profit_without_top_three_winners": -3317.08,
           "bootstrap_scenarios": [
             {
               "block_length": 5,
@@ -4995,6 +5048,12 @@
               "nonpositive_net_resample_pct": 44.16
             }
           ],
+          "bootstrap_block_length_sensitivity": {
+            "scenario_count": 3,
+            "lower_bound_sign_consistent": true,
+            "conclusion": "no_tested_block_length_has_a_positive_lower_bound_descriptive_only",
+            "profit_forecast_generated": false
+          },
           "largest_mean_shift": {
             "left_mean_net_profit": -22.77,
             "right_mean_net_profit": 253.42,
@@ -5506,7 +5565,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-01T11:28:14.323115+00:00",
+      "source_at": "2026-08-01T11:29:15.205019+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 4,
       "other_ownership_mismatch_count": 0,
@@ -6336,6 +6395,10 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1: tila on tuntematon."
+    },
+    {
+      "severity": "warning",
+      "message": "XAU Martingale Demo v1: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
