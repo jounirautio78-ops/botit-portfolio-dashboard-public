@@ -29,19 +29,19 @@
     "sources": {
       "exposure": {
         "source_at": "2026-08-01T22:24:14.862016+00:00",
-        "age_seconds": 965.8,
+        "age_seconds": 1731.2,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-08-01T22:24:13.646305+00:00",
-        "age_seconds": 967.0,
+        "age_seconds": 1732.5,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-08-01T22:20:33.876950+00:00",
-        "age_seconds": 1186.8,
+        "age_seconds": 1952.2,
         "sla_seconds": 600,
         "status": "stale"
       }
@@ -258,14 +258,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "safety_validation_failed",
+      "status": "stale",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-08-01T22:24:09.740354Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-08-01T22:24:09.740354+00:00",
+        "age_seconds": 1736.4,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "stale"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -286,7 +286,7 @@
       "latest_activity_at": "2026-08-01T13:08:08.191411Z",
       "freshness": {
         "source_at": "2026-08-01T13:08:08.191411+00:00",
-        "age_seconds": 34332.5,
+        "age_seconds": 35097.9,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -309,7 +309,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4173532.0,
+        "age_seconds": 4174297.4,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4137,7 +4137,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-08-02T00:24:14.862016+02:00",
-    "last_successful_publication_at": "2026-08-01T22:39:03.719178+00:00",
+    "last_successful_publication_at": "2026-08-01T22:40:40.181214+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -6312,7 +6312,7 @@
     },
     {
       "severity": "warning",
-      "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
+      "message": "Paul Telegram Demo Copier: tila on vanhentunut."
     },
     {
       "severity": "warning",
