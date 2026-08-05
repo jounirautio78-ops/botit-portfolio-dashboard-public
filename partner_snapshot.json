@@ -30,21 +30,21 @@
     "sources": {
       "exposure": {
         "source_at": "2026-08-05T14:10:19.783491+00:00",
-        "age_seconds": 494.7,
+        "age_seconds": 560.2,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-08-05T14:10:17.497412+00:00",
-        "age_seconds": 497.0,
+        "age_seconds": 562.5,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-08-05T14:08:40.596858+00:00",
-        "age_seconds": 593.9,
+        "age_seconds": 659.4,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -264,7 +264,7 @@
       "latest_activity_at": "2026-08-04T09:09:30.171950Z",
       "freshness": {
         "source_at": "2026-08-04T09:09:30.171950+00:00",
-        "age_seconds": 104944.3,
+        "age_seconds": 105009.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -287,7 +287,7 @@
       "latest_activity_at": "2026-08-01T13:08:08.191411Z",
       "freshness": {
         "source_at": "2026-08-01T13:08:08.191411+00:00",
-        "age_seconds": 349826.3,
+        "age_seconds": 349891.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -310,7 +310,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4489025.8,
+        "age_seconds": 4489091.3,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4174,7 +4174,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-08-05T16:10:19.783491+02:00",
-    "last_successful_publication_at": "2026-08-05T14:17:32.602898+00:00",
+    "last_successful_publication_at": "2026-08-05T14:18:39.648586+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -6460,6 +6460,10 @@
     {
       "severity": "warning",
       "message": "Prosessidata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Tulosdata on vanhentunut."
     },
     {
       "severity": "info",
