@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-08T02:23:18.226980+02:00",
+  "generated_at": "2026-08-08T02:24:17.739162+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,26 +23,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
-    "exposure_at": "2026-08-08T02:23:18.226980+02:00",
-    "process_at": "2026-08-08T02:23:17.1513089+02:00",
+    "overall_status": "stale",
+    "exposure_at": "2026-08-08T02:24:17.739162+02:00",
+    "process_at": "2026-08-08T02:24:16.4810152+02:00",
     "performance_export_at": "2026-08-08T02:19:41.6224477+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-08T00:23:18.226980+00:00",
-        "age_seconds": 52.3,
+        "source_at": "2026-08-08T00:24:17.739162+00:00",
+        "age_seconds": 120.1,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
-        "source_at": "2026-08-08T00:23:17.151308+00:00",
-        "age_seconds": 53.4,
+        "source_at": "2026-08-08T00:24:16.481015+00:00",
+        "age_seconds": 121.3,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-08-08T00:19:41.622447+00:00",
-        "age_seconds": 268.9,
+        "age_seconds": 396.2,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -57,7 +57,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-08T02:19:23.4566170+02:00",
-      "latest_activity_age_seconds": 230.7,
+      "latest_activity_age_seconds": 290.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -101,8 +101,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-08T02:23:05.2666948+02:00",
-      "latest_activity_age_seconds": 9.3,
+      "latest_activity_at": "2026-08-08T02:24:05.8484204+02:00",
+      "latest_activity_age_seconds": 8.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -147,7 +147,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-08T02:19:36.1638424+02:00",
-      "latest_activity_age_seconds": 219.0,
+      "latest_activity_age_seconds": 278.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -192,7 +192,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-08T02:19:41.3323022+02:00",
-      "latest_activity_age_seconds": 214.5,
+      "latest_activity_age_seconds": 273.8,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -287,7 +287,7 @@
       "latest_activity_at": "2026-08-01T13:08:08.191411Z",
       "freshness": {
         "source_at": "2026-08-01T13:08:08.191411+00:00",
-        "age_seconds": 558962.4,
+        "age_seconds": 559089.6,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -310,7 +310,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4698161.9,
+        "age_seconds": 4698289.2,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4101,7 +4101,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-17T14:58:50.583775+02:00",
+    "observed_from": "2026-07-17T14:59:58.256940+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 5666.55,
@@ -4109,8 +4109,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-08T02:23:18.226980+02:00",
-    "last_successful_publication_at": "2026-08-08T00:23:10.148890+00:00",
+    "last_successful_build_at": "2026-08-08T02:24:17.739162+02:00",
+    "last_successful_publication_at": "2026-08-08T00:24:16.377295+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5542,14 +5542,14 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "technical_flat_gate_open",
-      "technical_flat_gate_open": true,
-      "position_count": 0,
-      "order_count": 0,
-      "protected_position_count": 0,
-      "protected_order_count": 0,
-      "unmapped_position_count": 0,
-      "unmapped_order_count": 0,
+      "status": "DATA_MISSING",
+      "technical_flat_gate_open": false,
+      "position_count": null,
+      "order_count": null,
+      "protected_position_count": null,
+      "protected_order_count": null,
+      "unmapped_position_count": null,
+      "unmapped_order_count": null,
       "prepared_action_count": 6,
       "prepared_actions": [
         "pause_xauusd_intraday_regime_momentum",
@@ -5566,11 +5566,11 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-08T00:23:18.226980+00:00",
-      "source_status": "fresh",
-      "known_paul_ger40_symbol_metadata_gap_count": 0,
-      "other_ownership_mismatch_count": 0,
-      "supervisor_symbol_contract_status": "ok"
+      "source_at": "2026-08-08T00:24:17.739162+00:00",
+      "source_status": "stale",
+      "known_paul_ger40_symbol_metadata_gap_count": null,
+      "other_ownership_mismatch_count": null,
+      "supervisor_symbol_contract_status": "DATA_MISSING"
     },
     "strategies": {
       "gold": {
@@ -6388,6 +6388,14 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
