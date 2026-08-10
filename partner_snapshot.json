@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-10T21:50:05.5765941+02:00",
+  "generated_at": "2026-08-10T21:50:18.3956223+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,26 +23,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-08-10T21:49:30.672634+02:00",
     "process_at": "2026-08-10T21:49:27.2169485+02:00",
-    "performance_export_at": "2026-08-10T21:50:05.5765941+02:00",
+    "performance_export_at": "2026-08-10T21:50:18.3956223+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-10T19:49:30.672634+00:00",
-        "age_seconds": 55.4,
+        "age_seconds": 129.6,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
         "source_at": "2026-08-10T19:49:27.216948+00:00",
-        "age_seconds": 58.9,
+        "age_seconds": 133.1,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
-        "source_at": "2026-08-10T19:50:05.576594+00:00",
-        "age_seconds": 20.5,
+        "source_at": "2026-08-10T19:50:18.395622+00:00",
+        "age_seconds": 81.9,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -287,7 +287,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 11373.4,
+        "age_seconds": 11447.6,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -310,7 +310,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4940937.4,
+        "age_seconds": 4941011.7,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4085,7 +4085,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-20T14:49:58.378326+02:00",
+    "observed_from": "2026-07-20T14:51:28.4713521+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 9177.86,
@@ -4093,8 +4093,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-10T21:50:05.5765941+02:00",
-    "last_successful_publication_at": "2026-08-10T19:49:23.239272+00:00",
+    "last_successful_build_at": "2026-08-10T21:50:18.3956223+02:00",
+    "last_successful_publication_at": "2026-08-10T19:50:40.102442+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -5526,14 +5526,14 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "blocked_open_exposure",
+      "status": "DATA_MISSING",
       "technical_flat_gate_open": false,
-      "position_count": 1,
-      "order_count": 0,
-      "protected_position_count": 1,
-      "protected_order_count": 0,
-      "unmapped_position_count": 0,
-      "unmapped_order_count": 0,
+      "position_count": null,
+      "order_count": null,
+      "protected_position_count": null,
+      "protected_order_count": null,
+      "unmapped_position_count": null,
+      "unmapped_order_count": null,
       "prepared_action_count": 6,
       "prepared_actions": [
         "pause_xauusd_intraday_regime_momentum",
@@ -5551,10 +5551,10 @@
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
       "source_at": "2026-08-10T19:49:30.672634+00:00",
-      "source_status": "fresh",
-      "known_paul_ger40_symbol_metadata_gap_count": 0,
-      "other_ownership_mismatch_count": 0,
-      "supervisor_symbol_contract_status": "ok"
+      "source_status": "stale",
+      "known_paul_ger40_symbol_metadata_gap_count": null,
+      "other_ownership_mismatch_count": null,
+      "supervisor_symbol_contract_status": "DATA_MISSING"
     },
     "strategies": {
       "gold": {
@@ -6372,6 +6372,14 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
