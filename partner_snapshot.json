@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-10T20:08:01.5697647+02:00",
+  "generated_at": "2026-08-10T20:09:27.5195955+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -25,26 +25,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-08-10T20:07:33.239157+02:00",
-    "process_at": "2026-08-10T20:07:29.4483635+02:00",
-    "performance_export_at": "2026-08-10T20:08:01.5697647+02:00",
+    "process_at": "2026-08-10T20:09:27.5195955+02:00",
+    "performance_export_at": "2026-08-10T20:08:15.6202753+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-10T18:07:33.239157+00:00",
-        "age_seconds": 34.5,
+        "age_seconds": 123.7,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "process": {
-        "source_at": "2026-08-10T18:07:29.448363+00:00",
-        "age_seconds": 38.2,
+        "source_at": "2026-08-10T18:09:27.519595+00:00",
+        "age_seconds": 9.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-08-10T18:08:01.569764+00:00",
-        "age_seconds": 6.1,
+        "source_at": "2026-08-10T18:08:15.620275+00:00",
+        "age_seconds": 81.3,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -58,8 +58,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-10T20:01:56.6491979+02:00",
-      "latest_activity_age_seconds": 327.4,
+      "latest_activity_at": "2026-08-10T20:07:45.6680032+02:00",
+      "latest_activity_age_seconds": 96.9,
       "exposure_net_volume": 0.35,
       "floating_pnl": 389.5,
       "latest_daily": null,
@@ -73,8 +73,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-10T20:07:16.0996992+02:00",
-      "latest_activity_age_seconds": 8.7,
+      "latest_activity_at": "2026-08-10T20:09:19.2719629+02:00",
+      "latest_activity_age_seconds": 4.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -88,8 +88,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-10T20:05:07.3702174+02:00",
-      "latest_activity_age_seconds": 138.5,
+      "latest_activity_at": "2026-08-10T20:08:00.2458165+02:00",
+      "latest_activity_age_seconds": 84.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -103,8 +103,8 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-10T20:02:42.1157344+02:00",
-      "latest_activity_age_seconds": 284.6,
+      "latest_activity_at": "2026-08-10T20:08:13.7472424+02:00",
+      "latest_activity_age_seconds": 71.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -169,7 +169,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 5235.0,
+        "age_seconds": 5324.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -192,7 +192,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4934799.0,
+        "age_seconds": 4934888.3,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -300,7 +300,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-20T13:06:27.735433+02:00",
+    "observed_from": "2026-07-20T13:07:35.306283+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 9847.1,
@@ -308,8 +308,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-10T20:08:01.5697647+02:00",
-    "last_successful_publication_at": "2026-08-10T18:07:07.064654+00:00",
+    "last_successful_build_at": "2026-08-10T20:09:27.5195955+02:00",
+    "last_successful_publication_at": "2026-08-10T18:08:36.484733+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -1741,14 +1741,14 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "blocked_open_exposure",
+      "status": "DATA_MISSING",
       "technical_flat_gate_open": false,
-      "position_count": 5,
-      "order_count": 0,
-      "protected_position_count": 5,
-      "protected_order_count": 0,
-      "unmapped_position_count": 0,
-      "unmapped_order_count": 0,
+      "position_count": null,
+      "order_count": null,
+      "protected_position_count": null,
+      "protected_order_count": null,
+      "unmapped_position_count": null,
+      "unmapped_order_count": null,
       "prepared_action_count": 6,
       "prepared_actions": [
         "pause_xauusd_intraday_regime_momentum",
@@ -1766,10 +1766,10 @@
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
       "source_at": "2026-08-10T18:07:33.239157+00:00",
-      "source_status": "fresh",
-      "known_paul_ger40_symbol_metadata_gap_count": 0,
-      "other_ownership_mismatch_count": 0,
-      "supervisor_symbol_contract_status": "ok"
+      "source_status": "stale",
+      "known_paul_ger40_symbol_metadata_gap_count": null,
+      "other_ownership_mismatch_count": null,
+      "supervisor_symbol_contract_status": "DATA_MISSING"
     },
     "strategies": {
       "gold": {
@@ -2587,6 +2587,10 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Altistusdata on vanhentunut."
     },
     {
       "severity": "info",
