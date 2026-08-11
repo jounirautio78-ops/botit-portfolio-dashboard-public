@@ -23,26 +23,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-08-11T21:43:59.227013+02:00",
     "process_at": "2026-08-11T21:43:34.6776312+02:00",
     "performance_export_at": "2026-08-11T21:43:19.1351416+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-11T19:43:59.227013+00:00",
-        "age_seconds": 21.8,
+        "age_seconds": 100.8,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-08-11T19:43:34.677631+00:00",
-        "age_seconds": 46.3,
+        "age_seconds": 125.3,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-08-11T19:43:19.135141+00:00",
-        "age_seconds": 61.9,
+        "age_seconds": 140.9,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 97408.3,
+        "age_seconds": 97487.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2928,7 +2928,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-08-11T21:43:59.227013+02:00",
-    "last_successful_publication_at": "2026-08-11T19:43:20.787799+00:00",
+    "last_successful_publication_at": "2026-08-11T19:44:39.691627+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4711,6 +4711,10 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
