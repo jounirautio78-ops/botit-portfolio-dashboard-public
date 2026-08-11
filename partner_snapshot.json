@@ -30,21 +30,21 @@
     "sources": {
       "exposure": {
         "source_at": "2026-08-11T15:40:41.317210+00:00",
-        "age_seconds": 489.9,
+        "age_seconds": 657.5,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
         "source_at": "2026-08-11T15:40:36.468336+00:00",
-        "age_seconds": 494.8,
+        "age_seconds": 662.4,
         "sla_seconds": 120,
         "status": "stale"
       },
       "performance": {
         "source_at": "2026-08-11T15:39:46.374274+00:00",
-        "age_seconds": 544.9,
+        "age_seconds": 712.5,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "stale"
       }
     }
   },
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 83278.5,
+        "age_seconds": 83446.1,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2928,7 +2928,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-08-11T17:40:41.317210+02:00",
-    "last_successful_publication_at": "2026-08-11T15:40:03.534838+00:00",
+    "last_successful_publication_at": "2026-08-11T15:49:20.440182+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4719,6 +4719,10 @@
     {
       "severity": "warning",
       "message": "Prosessidata on vanhentunut."
+    },
+    {
+      "severity": "warning",
+      "message": "Tulosdata on vanhentunut."
     },
     {
       "severity": "info",
