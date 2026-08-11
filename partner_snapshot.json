@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-11T12:44:09.6965817+02:00",
+  "generated_at": "2026-08-11T12:45:28.803843+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -24,25 +24,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-08-11T12:43:33.387839+02:00",
-    "process_at": "2026-08-11T12:43:30.5893648+02:00",
+    "exposure_at": "2026-08-11T12:45:28.803843+02:00",
+    "process_at": "2026-08-11T12:45:26.5085122+02:00",
     "performance_export_at": "2026-08-11T12:44:09.6965817+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-11T10:43:33.387839+00:00",
-        "age_seconds": 67.1,
+        "source_at": "2026-08-11T10:45:28.803843+00:00",
+        "age_seconds": 33.9,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-08-11T10:43:30.589364+00:00",
-        "age_seconds": 69.9,
+        "source_at": "2026-08-11T10:45:26.508512+00:00",
+        "age_seconds": 36.2,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-08-11T10:44:09.696581+00:00",
-        "age_seconds": 30.8,
+        "age_seconds": 113.1,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -56,8 +56,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-11T12:40:12.5536140+02:00",
-      "latest_activity_age_seconds": 191.4,
+      "latest_activity_at": "2026-08-11T12:45:03.5992305+02:00",
+      "latest_activity_age_seconds": 16.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -101,8 +101,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-11T12:43:15.3271817+02:00",
-      "latest_activity_age_seconds": 9.9,
+      "latest_activity_at": "2026-08-11T12:45:18.5562991+02:00",
+      "latest_activity_age_seconds": 2.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -131,8 +131,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-11T12:40:01.8322541+02:00",
-      "latest_activity_age_seconds": 204.7,
+      "latest_activity_at": "2026-08-11T12:45:05.2190589+02:00",
+      "latest_activity_age_seconds": 17.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -176,8 +176,8 @@
       "status": "session_complete",
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-11T12:38:08.4231637+02:00",
-      "latest_activity_age_seconds": 319.2,
+      "latest_activity_at": "2026-08-11T12:44:07.4389823+02:00",
+      "latest_activity_age_seconds": 76.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 65027.8,
+        "age_seconds": 65110.0,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2935,7 +2935,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-22T18:35:55.368657+02:00",
+    "observed_from": "2026-07-22T18:37:18.8680297+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 9796.95,
@@ -2943,8 +2943,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-11T12:44:09.6965817+02:00",
-    "last_successful_publication_at": "2026-08-11T10:43:38.734966+00:00",
+    "last_successful_build_at": "2026-08-11T12:45:28.803843+02:00",
+    "last_successful_publication_at": "2026-08-11T10:45:02.537132+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -3276,13 +3276,13 @@
       "automatic_action": false
     },
     "adversarial_language": {
-      "status": "DATA_MISSING",
-      "case_count": null,
-      "pass_count": null,
-      "failure_count": null,
-      "false_action_count": null,
-      "category_count": null,
-      "matrix_verified": false,
+      "status": "completed_all_adversarial_cases_passed_no_trade",
+      "case_count": 19,
+      "pass_count": 19,
+      "failure_count": 0,
+      "false_action_count": 0,
+      "category_count": 12,
+      "matrix_verified": true,
       "no_trade": true,
       "executor_called": false,
       "automatic_promotion": false
@@ -3905,7 +3905,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-11T10:43:33.387839+00:00",
+      "source_at": "2026-08-11T10:45:28.803843+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 0,
       "other_ownership_mismatch_count": 0,
@@ -4317,23 +4317,23 @@
         "parameter_recommendation": false
       },
       "kultamania": {
-        "status": "DATA_MISSING",
-        "basket_count": null,
-        "basket_plan_count": null,
-        "outcome_relevant_basket_count": null,
-        "cancelled_unfilled_basket_count": null,
-        "lifecycle_reconciled_basket_count": null,
-        "fully_reconciled_basket_count": null,
-        "partial_or_missing_basket_count": null,
-        "reconciled_net_profit": null,
-        "losing_basket_count": null,
-        "largest_loss": null,
-        "top_three_loss_share_pct": null,
-        "runner_net_profit": null,
-        "complete_six_leg_basket_count": null,
-        "structural_anomaly_basket_count": null,
-        "fully_reconciled_basket_rate_pct": null,
-        "mixed_closed_cancelled_basket_count": null,
+        "status": "partial",
+        "basket_count": 370,
+        "basket_plan_count": 370,
+        "outcome_relevant_basket_count": 241,
+        "cancelled_unfilled_basket_count": 129,
+        "lifecycle_reconciled_basket_count": 348,
+        "fully_reconciled_basket_count": 219,
+        "partial_or_missing_basket_count": 22,
+        "reconciled_net_profit": 813.9,
+        "losing_basket_count": 61,
+        "largest_loss": 1015.08,
+        "top_three_loss_share_pct": 16.4,
+        "runner_net_profit": 1266.93,
+        "complete_six_leg_basket_count": 359,
+        "structural_anomaly_basket_count": 11,
+        "fully_reconciled_basket_rate_pct": 90.87,
+        "mixed_closed_cancelled_basket_count": 1,
         "basket_level_reconciled_basket_count": 228,
         "basket_level_coverage_pct": 94.61,
         "basket_level_remaining_count": 1,
@@ -4342,20 +4342,20 @@
         "priority_data_missing_count": 1,
         "priority_primary_reconciled_count": 0,
         "priority_supplemental_exact_basket_count": 4,
-        "matched_outcome_leg_rate_pct": null,
-        "max_consecutive_losing_baskets": null,
-        "max_consecutive_loss_abs": null,
-        "runner_share_of_reconciled_net_pct": null,
-        "breakeven_basket_count": null,
-        "trailing_stop_basket_count": null,
+        "matched_outcome_leg_rate_pct": 91.44,
+        "max_consecutive_losing_baskets": 4,
+        "max_consecutive_loss_abs": 494.7,
+        "runner_share_of_reconciled_net_pct": 153.73,
+        "breakeven_basket_count": 176,
+        "trailing_stop_basket_count": 49,
         "true_mae_mfe_status": "DATA_MISSING",
-        "reconciliation_backlog_count": null,
-        "all_outcomes_missing_basket_count": null,
-        "partial_outcome_basket_count": null,
-        "cancelled_unfilled_excluded_count": null,
-        "backlog_leg_count": null,
-        "matched_backlog_leg_count": null,
-        "missing_outcome_leg_count": null,
+        "reconciliation_backlog_count": 22,
+        "all_outcomes_missing_basket_count": 18,
+        "partial_outcome_basket_count": 4,
+        "cancelled_unfilled_excluded_count": 129,
+        "backlog_leg_count": 132,
+        "matched_backlog_leg_count": 14,
+        "missing_outcome_leg_count": 118,
         "reconciliation_priority_queue": [
           {
             "outcome_status": "basket_level_reconciled_leg_detail_partial",
@@ -4395,47 +4395,66 @@
         ],
         "target_gates": {
           "fully_reconciled_baskets": {
-            "observed_count": null,
-            "total_count": null,
-            "coverage_pct": null,
-            "target_pct": null,
-            "minimum_required_count": null,
-            "remaining_count": null,
+            "observed_count": 219,
+            "total_count": 241,
+            "coverage_pct": 90.87,
+            "target_pct": 95.0,
+            "minimum_required_count": 229,
+            "remaining_count": 10,
             "passed": false,
-            "status": "DATA_MISSING"
+            "status": "collecting"
           },
           "matched_outcome_legs": {
-            "observed_count": null,
-            "total_count": null,
-            "coverage_pct": null,
-            "target_pct": null,
-            "minimum_required_count": null,
-            "remaining_count": null,
+            "observed_count": 1324,
+            "total_count": 1448,
+            "coverage_pct": 91.44,
+            "target_pct": 95.0,
+            "minimum_required_count": 1376,
+            "remaining_count": 52,
             "passed": false,
-            "status": "DATA_MISSING"
+            "status": "collecting"
           },
           "exact_initial_money_risk": {
-            "observed_count": null,
-            "total_count": null,
-            "coverage_pct": null,
-            "target_pct": null,
-            "minimum_required_count": null,
-            "remaining_count": null,
+            "observed_count": 0,
+            "total_count": 241,
+            "coverage_pct": 0.0,
+            "target_pct": 90.0,
+            "minimum_required_count": 217,
+            "remaining_count": 217,
             "passed": false,
-            "status": "DATA_MISSING"
+            "status": "collecting"
           },
           "true_tick_path_mae_mfe": {
-            "observed_count": null,
-            "total_count": null,
-            "coverage_pct": null,
-            "target_pct": null,
-            "minimum_required_count": null,
-            "remaining_count": null,
+            "observed_count": 0,
+            "total_count": 241,
+            "coverage_pct": 0.0,
+            "target_pct": 80.0,
+            "minimum_required_count": 193,
+            "remaining_count": 193,
             "passed": false,
-            "status": "DATA_MISSING"
+            "status": "collecting"
           }
         },
-        "outcome_coverage_by_month": [],
+        "outcome_coverage_by_month": [
+          {
+            "month": "2026-05",
+            "total_count": 91,
+            "observed_count": 91,
+            "coverage_pct": 100.0
+          },
+          {
+            "month": "2026-06",
+            "total_count": 56,
+            "observed_count": 45,
+            "coverage_pct": 80.36
+          },
+          {
+            "month": "2026-07",
+            "total_count": 94,
+            "observed_count": 83,
+            "coverage_pct": 88.3
+          }
+        ],
         "one_basket_gate": {
           "status": "blocked_no_new_exact_basket_evidence",
           "target_pct": 95.0,
@@ -4660,14 +4679,14 @@
       },
       {
         "system": "kultamania_outcome_reconciliation",
-        "observed_count": null,
-        "total_count": null,
-        "coverage_pct": null,
-        "target_pct": null,
-        "minimum_required_count": null,
-        "remaining_count": null,
+        "observed_count": 219,
+        "total_count": 241,
+        "coverage_pct": 90.87,
+        "target_pct": 95.0,
+        "minimum_required_count": 229,
+        "remaining_count": 10,
         "passed": false,
-        "status": "DATA_MISSING",
+        "status": "collecting",
         "next_gap": "exact_money_risk_and_true_tick_path"
       },
       {
