@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-11T22:57:37.791529+02:00",
+  "generated_at": "2026-08-11T23:01:42.2744854+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -25,24 +25,24 @@
   "freshness": {
     "overall_status": "stale",
     "exposure_at": "2026-08-11T22:57:37.791529+02:00",
-    "process_at": "2026-08-11T22:56:57.3881070+02:00",
+    "process_at": "2026-08-11T23:01:42.2744854+02:00",
     "performance_export_at": "2026-08-11T22:45:48.1063118+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-11T20:57:37.791529+00:00",
-        "age_seconds": 145.2,
+        "age_seconds": 304.2,
         "sla_seconds": 120,
         "status": "stale"
       },
       "process": {
-        "source_at": "2026-08-11T20:56:57.388107+00:00",
-        "age_seconds": 185.6,
+        "source_at": "2026-08-11T21:01:42.274485+00:00",
+        "age_seconds": 59.8,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "performance": {
         "source_at": "2026-08-11T20:45:48.106311+00:00",
-        "age_seconds": 854.9,
+        "age_seconds": 1013.9,
         "sla_seconds": 600,
         "status": "stale"
       }
@@ -57,7 +57,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-11T22:44:53.9449469+02:00",
-      "latest_activity_age_seconds": 712.1,
+      "latest_activity_age_seconds": 934.8,
       "exposure_net_volume": -0.14,
       "floating_pnl": 300.98,
       "latest_daily": {
@@ -101,8 +101,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-11T22:56:43.4656053+02:00",
-      "latest_activity_age_seconds": 4.0,
+      "latest_activity_at": "2026-08-11T23:00:29.8998089+02:00",
+      "latest_activity_age_seconds": 0.3,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -132,7 +132,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-11T22:55:23.8571314+02:00",
-      "latest_activity_age_seconds": 85.1,
+      "latest_activity_age_seconds": 364.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -177,7 +177,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-11T22:45:45.6822052+02:00",
-      "latest_activity_age_seconds": 664.6,
+      "latest_activity_age_seconds": 947.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 101950.3,
+        "age_seconds": 102109.3,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2919,7 +2919,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-23T08:23:19.6897544+02:00",
+    "observed_from": "2026-07-23T08:24:54.883602+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 10228.05,
@@ -2927,8 +2927,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-11T22:57:37.791529+02:00",
-    "last_successful_publication_at": "2026-08-11T20:59:02.179191+00:00",
+    "last_successful_build_at": "2026-08-11T23:01:42.2744854+02:00",
+    "last_successful_publication_at": "2026-08-11T21:00:23.126830+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4715,10 +4715,6 @@
     {
       "severity": "warning",
       "message": "Altistusdata on vanhentunut."
-    },
-    {
-      "severity": "warning",
-      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "warning",
