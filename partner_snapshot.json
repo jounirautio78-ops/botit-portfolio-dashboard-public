@@ -23,26 +23,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-08-11T10:30:37.417180+02:00",
     "process_at": "2026-08-11T10:30:32.5772670+02:00",
     "performance_export_at": "2026-08-11T10:31:19.5413486+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-11T08:30:37.417180+00:00",
-        "age_seconds": 50.0,
+        "age_seconds": 116.9,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-08-11T08:30:32.577267+00:00",
-        "age_seconds": 54.9,
+        "age_seconds": 121.8,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
         "source_at": "2026-08-11T08:31:19.541348+00:00",
-        "age_seconds": 7.9,
+        "age_seconds": 74.8,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -287,7 +287,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 57034.7,
+        "age_seconds": 57101.6,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -310,7 +310,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 4986598.8,
+        "age_seconds": 4986665.7,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -4110,7 +4110,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-08-11T10:31:19.5413486+02:00",
-    "last_successful_publication_at": "2026-08-11T08:30:27.147105+00:00",
+    "last_successful_publication_at": "2026-08-11T08:31:33.944835+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -6388,6 +6388,10 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
