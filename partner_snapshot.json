@@ -1,13 +1,13 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-12T11:40:40.7154465+02:00",
+  "generated_at": "2026-08-12T11:41:41.075569+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
     "currency": "CAD",
     "balance": 98767.96,
-    "equity": 99029.12,
-    "floating_pnl": 261.16,
+    "equity": 99023.7,
+    "floating_pnl": 255.74,
     "open_positions": 1,
     "open_orders": 6,
     "unmapped_positions": 0,
@@ -23,26 +23,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "stale",
-    "exposure_at": "2026-08-12T11:38:00.592854+02:00",
-    "process_at": "2026-08-12T11:40:40.7154465+02:00",
+    "overall_status": "fresh",
+    "exposure_at": "2026-08-12T11:41:41.075569+02:00",
+    "process_at": "2026-08-12T11:41:35.5595160+02:00",
     "performance_export_at": "2026-08-12T11:39:27.9543497+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-12T09:38:00.592854+00:00",
-        "age_seconds": 169.9,
+        "source_at": "2026-08-12T09:41:41.075569+00:00",
+        "age_seconds": 29.5,
         "sla_seconds": 120,
-        "status": "stale"
+        "status": "fresh"
       },
       "process": {
-        "source_at": "2026-08-12T09:40:40.715446+00:00",
-        "age_seconds": 9.8,
+        "source_at": "2026-08-12T09:41:35.559516+00:00",
+        "age_seconds": 35.1,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-08-12T09:39:27.954349+00:00",
-        "age_seconds": 82.6,
+        "age_seconds": 162.7,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -57,9 +57,9 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-12T11:40:06.4891391+02:00",
-      "latest_activity_age_seconds": 26.6,
+      "latest_activity_age_seconds": 81.4,
       "exposure_net_volume": 0.07,
-      "floating_pnl": 261.16,
+      "floating_pnl": 255.74,
       "latest_daily": {
         "bot_id": "paul",
         "period": "2026-08-12",
@@ -101,8 +101,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-12T11:40:32.6555949+02:00",
-      "latest_activity_age_seconds": 1.4,
+      "latest_activity_at": "2026-08-12T11:41:24.0010951+02:00",
+      "latest_activity_age_seconds": 5.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -132,7 +132,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-12T11:40:16.3703146+02:00",
-      "latest_activity_age_seconds": 19.5,
+      "latest_activity_age_seconds": 73.7,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -177,7 +177,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-12T11:39:25.4496113+02:00",
-      "latest_activity_age_seconds": 71.7,
+      "latest_activity_age_seconds": 126.2,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 147597.8,
+        "age_seconds": 147677.9,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2935,16 +2935,16 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-23T18:08:55.0349988+02:00",
+    "observed_from": "2026-07-23T18:09:57.055815+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
-    "current_equity_drawdown": 9469.04,
-    "current_equity_drawdown_pct": 8.727374
+    "current_equity_drawdown": 9474.46,
+    "current_equity_drawdown_pct": 8.732369
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-12T11:40:40.7154465+02:00",
-    "last_successful_publication_at": "2026-08-12T09:39:49.601578+00:00",
+    "last_successful_build_at": "2026-08-12T11:41:41.075569+02:00",
+    "last_successful_publication_at": "2026-08-12T09:41:09.945780+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -3890,14 +3890,14 @@
       "automatic_promotion": false
     },
     "transition_gate": {
-      "status": "DATA_MISSING",
+      "status": "blocked_open_exposure",
       "technical_flat_gate_open": false,
-      "position_count": null,
-      "order_count": null,
-      "protected_position_count": null,
-      "protected_order_count": null,
-      "unmapped_position_count": null,
-      "unmapped_order_count": null,
+      "position_count": 1,
+      "order_count": 6,
+      "protected_position_count": 1,
+      "protected_order_count": 6,
+      "unmapped_position_count": 0,
+      "unmapped_order_count": 0,
       "prepared_action_count": 6,
       "prepared_actions": [
         "pause_xauusd_intraday_regime_momentum",
@@ -3914,11 +3914,11 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-12T09:38:00.592854+00:00",
-      "source_status": "stale",
-      "known_paul_ger40_symbol_metadata_gap_count": null,
-      "other_ownership_mismatch_count": null,
-      "supervisor_symbol_contract_status": "DATA_MISSING"
+      "source_at": "2026-08-12T09:41:41.075569+00:00",
+      "source_status": "fresh",
+      "known_paul_ger40_symbol_metadata_gap_count": 0,
+      "other_ownership_mismatch_count": 0,
+      "supervisor_symbol_contract_status": "ok"
     },
     "strategies": {
       "gold": {
@@ -4736,10 +4736,6 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
-    },
-    {
-      "severity": "warning",
-      "message": "Altistusdata on vanhentunut."
     },
     {
       "severity": "info",
