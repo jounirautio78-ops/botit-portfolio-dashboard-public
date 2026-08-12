@@ -30,19 +30,19 @@
     "sources": {
       "exposure": {
         "source_at": "2026-08-12T07:09:48.598926+00:00",
-        "age_seconds": 17.3,
+        "age_seconds": 95.9,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-08-12T07:09:39.148337+00:00",
-        "age_seconds": 26.8,
+        "age_seconds": 105.3,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-08-12T07:07:43.531700+00:00",
-        "age_seconds": 142.4,
+        "age_seconds": 221.0,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -229,14 +229,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "running",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-08-12T07:09:39.664868Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-08-12T07:09:39.664868+00:00",
-        "age_seconds": 26.2,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 138553.2,
+        "age_seconds": 138631.8,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2944,7 +2944,7 @@
   "publisher_health": {
     "status": "healthy",
     "last_successful_build_at": "2026-08-12T09:09:48.598926+02:00",
-    "last_successful_publication_at": "2026-08-12T07:09:05.631527+00:00",
+    "last_successful_publication_at": "2026-08-12T07:10:24.147350+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4735,6 +4735,10 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1: tila on tuntematon."
+    },
+    {
+      "severity": "warning",
+      "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
