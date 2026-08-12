@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-12T04:08:55.7521161+02:00",
+  "generated_at": "2026-08-12T04:09:12.7205114+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -26,23 +26,23 @@
     "overall_status": "fresh",
     "exposure_at": "2026-08-12T04:08:35.305771+02:00",
     "process_at": "2026-08-12T04:08:31.6714822+02:00",
-    "performance_export_at": "2026-08-12T04:08:55.7521161+02:00",
+    "performance_export_at": "2026-08-12T04:09:12.7205114+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-12T02:08:35.305771+00:00",
-        "age_seconds": 30.1,
+        "age_seconds": 114.8,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-08-12T02:08:31.671482+00:00",
-        "age_seconds": 33.7,
+        "age_seconds": 118.4,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
-        "source_at": "2026-08-12T02:08:55.752116+00:00",
-        "age_seconds": 9.6,
+        "source_at": "2026-08-12T02:09:12.720511+00:00",
+        "age_seconds": 77.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -229,14 +229,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "safety_validation_failed",
+      "status": "running",
       "mode": "demo_execution",
-      "latest_activity_at": null,
+      "latest_activity_at": "2026-08-12T02:10:24.940790Z",
       "freshness": {
-        "source_at": null,
-        "age_seconds": null,
+        "source_at": "2026-08-12T02:10:24.940790+00:00",
+        "age_seconds": 5.2,
         "sla_seconds": 600,
-        "status": "DATA_MISSING"
+        "status": "fresh"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 120492.7,
+        "age_seconds": 120577.4,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2935,7 +2935,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-23T11:58:55.144715+02:00",
+    "observed_from": "2026-07-23T12:04:53.841147+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 10503.15,
@@ -2943,8 +2943,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-12T04:08:55.7521161+02:00",
-    "last_successful_publication_at": "2026-08-12T02:08:05.061979+00:00",
+    "last_successful_build_at": "2026-08-12T04:09:12.7205114+02:00",
+    "last_successful_publication_at": "2026-08-12T02:09:29.456708+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4735,10 +4735,6 @@
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1: tila on tuntematon."
-    },
-    {
-      "severity": "warning",
-      "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
