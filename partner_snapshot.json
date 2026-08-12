@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-12T10:14:09.5702894+02:00",
+  "generated_at": "2026-08-12T10:14:59.8848748+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,26 +23,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-08-12T10:13:38.969651+02:00",
     "process_at": "2026-08-12T10:13:33.5646637+02:00",
-    "performance_export_at": "2026-08-12T10:14:09.5702894+02:00",
+    "performance_export_at": "2026-08-12T10:14:59.8848748+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-12T08:13:38.969651+00:00",
-        "age_seconds": 42.6,
+        "age_seconds": 118.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-08-12T08:13:33.564663+00:00",
-        "age_seconds": 48.0,
+        "age_seconds": 124.0,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
-        "source_at": "2026-08-12T08:14:09.570289+00:00",
-        "age_seconds": 12.0,
+        "source_at": "2026-08-12T08:14:59.884874+00:00",
+        "age_seconds": 37.7,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -229,14 +229,14 @@
       "name": "Paul Telegram Demo Copier",
       "category": "demo_execution",
       "symbol": "MULTI-ASSET",
-      "status": "running",
+      "status": "safety_validation_failed",
       "mode": "demo_execution",
-      "latest_activity_at": "2026-08-12T08:14:13.985769Z",
+      "latest_activity_at": null,
       "freshness": {
-        "source_at": "2026-08-12T08:14:13.985769+00:00",
-        "age_seconds": 7.6,
+        "source_at": null,
+        "age_seconds": null,
         "sla_seconds": 600,
-        "status": "fresh"
+        "status": "DATA_MISSING"
       },
       "latest_daily": null,
       "latest_weekly": null,
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 142408.9,
+        "age_seconds": 142484.9,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2935,7 +2935,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-23T17:42:56.011200+02:00",
+    "observed_from": "2026-07-23T17:44:54.6609064+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 9599.5,
@@ -2943,8 +2943,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-12T10:14:09.5702894+02:00",
-    "last_successful_publication_at": "2026-08-12T08:13:21.232207+00:00",
+    "last_successful_build_at": "2026-08-12T10:14:59.8848748+02:00",
+    "last_successful_publication_at": "2026-08-12T08:14:37.282774+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4738,12 +4738,20 @@
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
     },
     {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
+    },
+    {
       "severity": "info",
       "message": "BTC:n rajattu jakso valmistui normaalisti; tulos pysyy historiallisena, kunnes uusi jakso hyv\u00e4ksyt\u00e4\u00e4n erikseen."
     },
     {
       "severity": "warning",
       "message": "Paul Telegram Shadow v1: tila on tuntematon."
+    },
+    {
+      "severity": "warning",
+      "message": "Paul Telegram Demo Copier: tila on turvavarmennus ep\u00e4onnistui."
     },
     {
       "severity": "warning",
