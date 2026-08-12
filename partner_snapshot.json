@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-12T10:23:02.833040+02:00",
+  "generated_at": "2026-08-12T10:23:45.4724996+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -23,26 +23,26 @@
     ]
   },
   "freshness": {
-    "overall_status": "fresh",
+    "overall_status": "stale",
     "exposure_at": "2026-08-12T10:23:02.833040+02:00",
     "process_at": "2026-08-12T10:22:24.1813868+02:00",
-    "performance_export_at": "2026-08-12T10:20:07.0729966+02:00",
+    "performance_export_at": "2026-08-12T10:23:45.4724996+02:00",
     "sources": {
       "exposure": {
         "source_at": "2026-08-12T08:23:02.833040+00:00",
-        "age_seconds": 22.4,
+        "age_seconds": 100.1,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
         "source_at": "2026-08-12T08:22:24.181386+00:00",
-        "age_seconds": 61.0,
+        "age_seconds": 138.7,
         "sla_seconds": 120,
-        "status": "fresh"
+        "status": "stale"
       },
       "performance": {
-        "source_at": "2026-08-12T08:20:07.072996+00:00",
-        "age_seconds": 198.1,
+        "source_at": "2026-08-12T08:23:45.472499+00:00",
+        "age_seconds": 57.4,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -257,7 +257,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 142952.5,
+        "age_seconds": 143030.2,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -2935,7 +2935,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-23T17:49:55.770079+02:00",
+    "observed_from": "2026-07-23T17:51:21.0223950+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 9591.94,
@@ -2943,8 +2943,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-12T10:23:02.833040+02:00",
-    "last_successful_publication_at": "2026-08-12T08:21:09.421384+00:00",
+    "last_successful_build_at": "2026-08-12T10:23:45.4724996+02:00",
+    "last_successful_publication_at": "2026-08-12T08:23:42.566943+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -4736,6 +4736,10 @@
     {
       "severity": "warning",
       "message": "Kuluvan viikon portfolio-PnL on osittainen, koska v\u00e4hint\u00e4\u00e4n yhdelt\u00e4 botilta puuttuu suljettujen kauppojen rivi."
+    },
+    {
+      "severity": "warning",
+      "message": "Prosessidata on vanhentunut."
     },
     {
       "severity": "info",
