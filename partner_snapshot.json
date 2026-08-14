@@ -1,6 +1,6 @@
 {
   "schema_version": "botit-partner-snapshot-v5",
-  "generated_at": "2026-08-14T11:21:25.430484+02:00",
+  "generated_at": "2026-08-14T11:23:25.621739+02:00",
   "browser_refresh_seconds": 30,
   "portfolio": {
     "account_type": "demo",
@@ -25,25 +25,25 @@
   },
   "freshness": {
     "overall_status": "fresh",
-    "exposure_at": "2026-08-14T11:21:25.430484+02:00",
-    "process_at": "2026-08-14T11:21:23.1107714+02:00",
+    "exposure_at": "2026-08-14T11:23:25.621739+02:00",
+    "process_at": "2026-08-14T11:23:23.7568986+02:00",
     "performance_export_at": "2026-08-14T11:21:00.3399370+02:00",
     "sources": {
       "exposure": {
-        "source_at": "2026-08-14T09:21:25.430484+00:00",
-        "age_seconds": 46.6,
+        "source_at": "2026-08-14T09:23:25.621739+00:00",
+        "age_seconds": 7.6,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "process": {
-        "source_at": "2026-08-14T09:21:23.110771+00:00",
-        "age_seconds": 48.9,
+        "source_at": "2026-08-14T09:23:23.756898+00:00",
+        "age_seconds": 9.5,
         "sla_seconds": 120,
         "status": "fresh"
       },
       "performance": {
         "source_at": "2026-08-14T09:21:00.339937+00:00",
-        "age_seconds": 71.7,
+        "age_seconds": 152.9,
         "sla_seconds": 600,
         "status": "fresh"
       }
@@ -58,7 +58,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-14T11:20:37.1863331+02:00",
-      "latest_activity_age_seconds": 41.4,
+      "latest_activity_age_seconds": 162.1,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": null,
@@ -72,8 +72,8 @@
       "status": "running",
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
-      "latest_activity_at": "2026-08-14T11:21:12.9205450+02:00",
-      "latest_activity_age_seconds": 6.5,
+      "latest_activity_at": "2026-08-14T11:23:14.7572359+02:00",
+      "latest_activity_age_seconds": 5.4,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -118,7 +118,7 @@
       "process_tree_status": "ok_single_tree_raw_count_unusual",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-14T11:20:49.8727183+02:00",
-      "latest_activity_age_seconds": 30.4,
+      "latest_activity_age_seconds": 151.0,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -163,7 +163,7 @@
       "process_tree_status": "stopped",
       "duplicate_independent_root_count": 0,
       "latest_activity_at": "2026-08-14T11:20:59.2758384+02:00",
-      "latest_activity_age_seconds": 21.9,
+      "latest_activity_age_seconds": 142.5,
       "exposure_net_volume": 0.0,
       "floating_pnl": 0.0,
       "latest_daily": {
@@ -243,7 +243,7 @@
       "latest_activity_at": "2026-08-10T16:40:52.707575Z",
       "freshness": {
         "source_at": "2026-08-10T16:40:52.707575+00:00",
-        "age_seconds": 319279.3,
+        "age_seconds": 319360.5,
         "sla_seconds": 600,
         "status": "stale"
       },
@@ -266,7 +266,7 @@
       "latest_activity_at": "2026-06-14T15:21:28.658331+00:00",
       "freshness": {
         "source_at": "2026-06-14T15:21:28.658331+00:00",
-        "age_seconds": 5248843.3,
+        "age_seconds": 5248924.6,
         "sla_seconds": 86400,
         "status": "stale"
       },
@@ -2617,7 +2617,7 @@
   },
   "equity_history": {
     "status": "observed",
-    "observed_from": "2026-07-23T19:31:56.815608+02:00",
+    "observed_from": "2026-07-23T19:32:56.069783+02:00",
     "sample_count": 10080,
     "observed_equity_high_water": 108498.16,
     "current_equity_drawdown": 6536.36,
@@ -2625,8 +2625,8 @@
   },
   "publisher_health": {
     "status": "healthy",
-    "last_successful_build_at": "2026-08-14T11:21:25.430484+02:00",
-    "last_successful_publication_at": "2026-08-14T09:21:11.718719+00:00",
+    "last_successful_build_at": "2026-08-14T11:23:25.621739+02:00",
+    "last_successful_publication_at": "2026-08-14T09:22:32.472454+00:00",
     "consecutive_failures": 0
   },
   "research": {
@@ -2866,7 +2866,7 @@
   },
   "paul_signal_intelligence": {
     "status": "active_staged_development",
-    "generated_at": "2026-08-14T08:40:35.817824Z",
+    "generated_at": "2026-08-14T09:22:13.471889Z",
     "title": "Paul Signal Intelligence",
     "goal": "Understand Paul's text, conversational context, images and audio as accurately as evidence allows while every uncertain case remains no-trade.",
     "truth_statement": "No architecture can guarantee 100 percent semantic understanding. The target is maximum measured coverage with deterministic fail-closed execution gates.",
@@ -3069,7 +3069,7 @@
         "mode": "observe_only",
         "enabled": true,
         "development_priority": "equal_parallel",
-        "latest_message_at": "2026-08-13T12:58:07Z",
+        "latest_message_at": "2026-08-14T09:22:09Z",
         "bounded_fixture_count": 1,
         "reviewed_candidate_count": 0,
         "consensus_label_count": 0,
@@ -3983,7 +3983,7 @@
       "all_actions_authorized": false,
       "automatic_action": false,
       "source": "current_canonical_v2_exposure",
-      "source_at": "2026-08-14T09:21:25.430484+00:00",
+      "source_at": "2026-08-14T09:23:25.621739+00:00",
       "source_status": "fresh",
       "known_paul_ger40_symbol_metadata_gap_count": 0,
       "other_ownership_mismatch_count": 0,
